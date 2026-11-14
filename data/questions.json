@@ -1,0 +1,4998 @@
+[
+  {
+    "id": "signalisation-danger-001",
+    "theme": "signalisation-danger",
+    "grave": false,
+    "image": null,
+    "fr": "Un panneau en forme de triangle, avec un bord rouge et la pointe en haut. Que m'annonce cette forme ?",
+    "ru": "Знак в форме треугольника с красной каймой, вершиной вверх. О чём предупреждает такая форма?",
+    "options": [
+      {
+        "fr": "Une interdiction.",
+        "ru": "О запрете.",
+        "correct": false
+      },
+      {
+        "fr": "Un danger.",
+        "ru": "Об опасности.",
+        "correct": true
+      },
+      {
+        "fr": "Une obligation.",
+        "ru": "Об обязанности.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Les panneaux triangulaires à bord rouge, pointe en haut, annoncent un danger. Je ralentis et je fais attention.",
+      "ru": "Треугольные знаки с красной каймой, вершиной вверх, предупреждают об опасности. Я снижаю скорость и еду внимательно."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-danger-002",
+    "theme": "signalisation-danger",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A1b",
+    "fr": "Je vois un triangle à bord rouge avec une flèche noire qui tourne à droite. Que dois-je faire ?",
+    "ru": "Я вижу треугольник с красной каймой и чёрной стрелкой, поворачивающей направо. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "J'accélère pour passer plus vite.",
+        "ru": "Я ускоряюсь, чтобы проехать быстрее.",
+        "correct": false
+      },
+      {
+        "fr": "Je roule au milieu de la route.",
+        "ru": "Я еду посередине дороги.",
+        "correct": false
+      },
+      {
+        "fr": "Je ralentis avant le virage.",
+        "ru": "Я снижаю скорость перед поворотом.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau annonce un virage dangereux à droite. Je ralentis avant le virage et je reste bien à droite.",
+      "ru": "Этот знак предупреждает об опасном повороте направо. Я снижаю скорость до поворота и держусь правее."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-danger-003",
+    "theme": "signalisation-danger",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A23",
+    "fr": "Un triangle à bord rouge avec deux enfants qui courent. Que m'annonce ce panneau ?",
+    "ru": "Треугольник с красной каймой и двумя бегущими детьми. О чём предупреждает этот знак?",
+    "options": [
+      {
+        "fr": "Un endroit où il y a souvent des enfants, par exemple une école.",
+        "ru": "Место, где часто бывают дети, например школа.",
+        "correct": true
+      },
+      {
+        "fr": "Une rue réservée aux piétons.",
+        "ru": "Улица только для пешеходов.",
+        "correct": false
+      },
+      {
+        "fr": "Une plaine de jeux interdite aux voitures.",
+        "ru": "Детская площадка, куда машинам въезд запрещён.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau annonce un endroit fréquenté par des enfants. Je ralentis et je me prépare à m'arrêter.",
+      "ru": "Этот знак предупреждает о месте, где часто бывают дети. Я снижаю скорость и готовлюсь остановиться."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-danger-004",
+    "theme": "signalisation-danger",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A27",
+    "fr": "Un triangle à bord rouge avec un cerf qui saute. Que m'annonce ce panneau ?",
+    "ru": "Треугольник с красной каймой и прыгающим оленем. О чём предупреждает этот знак?",
+    "options": [
+      {
+        "fr": "Un zoo se trouve à proximité.",
+        "ru": "Поблизости находится зоопарк.",
+        "correct": false
+      },
+      {
+        "fr": "Des animaux sauvages peuvent traverser la route.",
+        "ru": "Дорогу могут перебегать дикие животные.",
+        "correct": true
+      },
+      {
+        "fr": "La chasse est interdite ici.",
+        "ru": "Здесь запрещена охота.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau annonce un passage de gros gibier. Je ralentis, surtout le matin, le soir et la nuit.",
+      "ru": "Этот знак предупреждает о месте, где дорогу переходят крупные дикие животные. Я снижаю скорость, особенно утром, вечером и ночью."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-danger-005",
+    "theme": "signalisation-danger",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A15",
+    "fr": "Un triangle à bord rouge avec une voiture et des traces de roues qui se croisent derrière elle. Que m'annonce ce panneau ?",
+    "ru": "Треугольник с красной каймой: автомобиль, за которым пересекаются следы колёс. О чём предупреждает этот знак?",
+    "options": [
+      {
+        "fr": "La route a beaucoup de virages.",
+        "ru": "На дороге много поворотов.",
+        "correct": false
+      },
+      {
+        "fr": "Les voitures sont interdites.",
+        "ru": "Автомобилям въезд запрещён.",
+        "correct": false
+      },
+      {
+        "fr": "La chaussée peut être glissante.",
+        "ru": "Дорога может быть скользкой.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau annonce une chaussée glissante. Je ralentis et j'évite de freiner ou de tourner brusquement.",
+      "ru": "Этот знак предупреждает о скользкой дороге. Я снижаю скорость и не торможу и не поворачиваю резко."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-danger-006",
+    "theme": "signalisation-danger",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A31",
+    "fr": "Un triangle à bord rouge avec un homme qui travaille avec une pelle. Que m'annonce ce panneau ?",
+    "ru": "Треугольник с красной каймой и человеком, работающим лопатой. О чём предупреждает этот знак?",
+    "options": [
+      {
+        "fr": "Des travaux sur la route.",
+        "ru": "О дорожных работах.",
+        "correct": true
+      },
+      {
+        "fr": "Un passage pour piétons.",
+        "ru": "О пешеходном переходе.",
+        "correct": false
+      },
+      {
+        "fr": "Un chemin réservé aux ouvriers.",
+        "ru": "О дороге только для рабочих.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau annonce des travaux. Je ralentis et je fais attention aux ouvriers et aux machines.",
+      "ru": "Этот знак предупреждает о дорожных работах. Я снижаю скорость и слежу за рабочими и техникой."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-danger-007",
+    "theme": "signalisation-danger",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A33",
+    "fr": "Un triangle à bord rouge avec un feu à trois couleurs. Que m'annonce ce panneau ?",
+    "ru": "Треугольник с красной каймой и светофором. О чём предупреждает этот знак?",
+    "options": [
+      {
+        "fr": "Les feux sont en panne.",
+        "ru": "Светофор не работает.",
+        "correct": false
+      },
+      {
+        "fr": "J'approche de feux de signalisation.",
+        "ru": "Я приближаюсь к светофору.",
+        "correct": true
+      },
+      {
+        "fr": "Je dois m'arrêter tout de suite.",
+        "ru": "Нужно немедленно остановиться.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau annonce des feux de signalisation. Je me prépare à m'arrêter si le feu est rouge ou orange.",
+      "ru": "Этот знак предупреждает о светофоре. Я готовлюсь остановиться, если горит красный или жёлтый (оранжевый) свет."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-danger-008",
+    "theme": "signalisation-danger",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A21",
+    "fr": "Un triangle à bord rouge avec un piéton qui marche sur des bandes. Que m'annonce ce panneau ?",
+    "ru": "Треугольник с красной каймой и пешеходом, идущим по полосам. О чём предупреждает этот знак?",
+    "options": [
+      {
+        "fr": "La rue est interdite aux piétons.",
+        "ru": "Пешеходам вход на улицу запрещён.",
+        "correct": false
+      },
+      {
+        "fr": "Les piétons doivent me laisser passer.",
+        "ru": "Пешеходы должны меня пропустить.",
+        "correct": false
+      },
+      {
+        "fr": "J'approche d'un passage pour piétons.",
+        "ru": "Я приближаюсь к пешеходному переходу.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau annonce un passage pour piétons. Je ralentis et je regarde si quelqu'un veut traverser.",
+      "ru": "Этот знак предупреждает о пешеходном переходе. Я снижаю скорость и смотрю, не хочет ли кто-то перейти дорогу."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-danger-009",
+    "theme": "signalisation-danger",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A25",
+    "fr": "Un triangle à bord rouge avec un vélo. Que m'annonce ce panneau ?",
+    "ru": "Треугольник с красной каймой и велосипедом. О чём предупреждает этот знак?",
+    "options": [
+      {
+        "fr": "Des cyclistes peuvent traverser ou arriver sur la route.",
+        "ru": "Велосипедисты могут пересекать дорогу или выезжать на неё.",
+        "correct": true
+      },
+      {
+        "fr": "Les vélos sont interdits.",
+        "ru": "Велосипедам проезд запрещён.",
+        "correct": false
+      },
+      {
+        "fr": "C'est une piste cyclable obligatoire.",
+        "ru": "Это обязательная велодорожка.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau annonce un endroit où des cyclistes et des cyclomotoristes traversent ou débouchent. Je ralentis et je regarde bien.",
+      "ru": "Этот знак предупреждает о месте, где дорогу пересекают или на неё выезжают велосипедисты и водители мопедов. Я снижаю скорость и внимательно смотрю."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-danger-010",
+    "theme": "signalisation-danger",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A51",
+    "fr": "Un triangle à bord rouge avec un point d'exclamation. Que m'annonce ce panneau ?",
+    "ru": "Треугольник с красной каймой и восклицательным знаком. О чём предупреждает этот знак?",
+    "options": [
+      {
+        "fr": "Un arrêt obligatoire.",
+        "ru": "Об обязательной остановке.",
+        "correct": false
+      },
+      {
+        "fr": "Un danger qui n'a pas de panneau particulier.",
+        "ru": "Об опасности, для которой нет отдельного знака.",
+        "correct": true
+      },
+      {
+        "fr": "La fin d'une zone dangereuse.",
+        "ru": "О конце опасного участка.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau annonce un danger sans symbole particulier. Souvent, un petit panneau en dessous précise le danger.",
+      "ru": "Этот знак предупреждает об опасности, для которой нет своего символа. Часто табличка под знаком уточняет, какая это опасность."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-interdiction-001",
+    "theme": "signalisation-interdiction",
+    "grave": true,
+    "image": null,
+    "image_query": "Belgian road sign C1",
+    "fr": "Un panneau rond rouge avec une barre blanche horizontale est placé à l'entrée d'une rue. Puis-je entrer dans cette rue ?",
+    "ru": "У въезда на улицу стоит круглый красный знак с белой горизонтальной полосой. Можно ли мне въехать на эту улицу?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "C'est le panneau « sens interdit ». Je ne peux pas entrer dans cette rue dans ce sens.",
+      "ru": "Это знак «въезд запрещён». Въезжать на эту улицу в этом направлении нельзя."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-interdiction-002",
+    "theme": "signalisation-interdiction",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign C3",
+    "fr": "Un panneau rond blanc avec un bord rouge, sans dessin. Que signifie-t-il ?",
+    "ru": "Круглый белый знак с красной каймой, без рисунка. Что он означает?",
+    "options": [
+      {
+        "fr": "L'accès est interdit à tous les conducteurs, dans les deux sens.",
+        "ru": "Проезд запрещён всем водителям в обоих направлениях.",
+        "correct": true
+      },
+      {
+        "fr": "Toutes les interdictions sont terminées.",
+        "ru": "Все запреты закончились.",
+        "correct": false
+      },
+      {
+        "fr": "Le stationnement est interdit.",
+        "ru": "Стоянка запрещена.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau interdit l'accès dans les deux sens à tout conducteur. Un petit panneau en dessous peut prévoir des exceptions.",
+      "ru": "Этот знак запрещает движение в обоих направлениях всем водителям. Табличка под ним может разрешать исключения."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-interdiction-003",
+    "theme": "signalisation-interdiction",
+    "grave": true,
+    "image": null,
+    "image_query": "Belgian road sign C43",
+    "fr": "Je vois un panneau rond à bord rouge avec le nombre 50. Je roule à 60 km/h. Est-ce permis ?",
+    "ru": "Я вижу круглый знак с красной каймой и числом 50. Я еду со скоростью 60 км/ч. Разрешено ли это?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau interdit de rouler à plus de 50 km/h. À 60 km/h, je commets un excès de vitesse.",
+      "ru": "Этот знак запрещает ехать быстрее 50 км/ч. При 60 км/ч я превышаю скорость."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-interdiction-004",
+    "theme": "signalisation-interdiction",
+    "grave": true,
+    "image": null,
+    "image_query": "Belgian road sign C35",
+    "fr": "Je vois un panneau rond à bord rouge avec deux voitures : une rouge à gauche, une noire à droite. Puis-je dépasser la voiture qui roule devant moi ?",
+    "ru": "Я вижу круглый знак с красной каймой и двумя автомобилями: красный слева, чёрный справа. Можно ли мне обогнать автомобиль, который едет впереди?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau interdit de dépasser par la gauche un véhicule à plus de deux roues. Je reste derrière la voiture.",
+      "ru": "Этот знак запрещает обгонять слева транспортные средства, у которых больше двух колёс. Я остаюсь позади автомобиля."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-interdiction-005",
+    "theme": "signalisation-interdiction",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign C31a",
+    "fr": "Un panneau rond à bord rouge avec une flèche noire vers la gauche, barrée de rouge. Que signifie-t-il ?",
+    "ru": "Круглый знак с красной каймой и чёрной стрелкой налево, перечёркнутой красной линией. Что он означает?",
+    "options": [
+      {
+        "fr": "Je ne peux pas tourner à gauche au prochain carrefour.",
+        "ru": "На следующем перекрёстке нельзя поворачивать налево.",
+        "correct": true
+      },
+      {
+        "fr": "Je dois tourner à gauche.",
+        "ru": "Нужно повернуть налево.",
+        "correct": false
+      },
+      {
+        "fr": "La rue de gauche est à sens unique.",
+        "ru": "Улица слева — с односторонним движением.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau interdit de tourner à gauche au prochain carrefour. Je continue tout droit ou je tourne à droite.",
+      "ru": "Этот знак запрещает поворот налево на следующем перекрёстке. Я еду прямо или поворачиваю направо."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-interdiction-006",
+    "theme": "signalisation-interdiction",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign C7",
+    "fr": "Un panneau rond à bord rouge avec une moto noire. Je conduis une voiture. Puis-je passer ?",
+    "ru": "Круглый знак с красной каймой и чёрным мотоциклом. Я за рулём автомобиля. Можно ли мне проехать?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": true
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau interdit l'accès aux motos seulement. En voiture, je peux passer.",
+      "ru": "Этот знак запрещает проезд только мотоциклам. На автомобиле проехать можно."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-interdiction-007",
+    "theme": "signalisation-interdiction",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign C21",
+    "fr": "Un panneau rond à bord rouge avec l'inscription « 5,5 t ». Que signifie-t-il ?",
+    "ru": "Круглый знак с красной каймой и надписью «5,5 t». Что он означает?",
+    "options": [
+      {
+        "fr": "La vitesse est limitée à 5,5 km/h.",
+        "ru": "Скорость ограничена 5,5 км/ч.",
+        "correct": false
+      },
+      {
+        "fr": "Le pont mesure 5,5 mètres de large.",
+        "ru": "Ширина моста — 5,5 метра.",
+        "correct": false
+      },
+      {
+        "fr": "L'accès est interdit aux véhicules de plus de 5,5 tonnes, chargement compris.",
+        "ru": "Проезд запрещён транспортным средствам массой более 5,5 тонны вместе с грузом.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau interdit l'accès aux véhicules dont la masse en charge dépasse le nombre indiqué.",
+      "ru": "Этот знак запрещает проезд транспортным средствам, масса которых с грузом больше указанной."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-interdiction-008",
+    "theme": "signalisation-interdiction",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign C29",
+    "fr": "Un panneau rond à bord rouge avec « 3,5 m » entre deux flèches, l'une vers le haut et l'autre vers le bas. Que signifie-t-il ?",
+    "ru": "Круглый знак с красной каймой и надписью «3,5 m» между двумя стрелками — вверх и вниз. Что он означает?",
+    "options": [
+      {
+        "fr": "L'accès est interdit aux véhicules plus hauts que 3,5 mètres.",
+        "ru": "Проезд запрещён транспортным средствам выше 3,5 метра.",
+        "correct": true
+      },
+      {
+        "fr": "L'accès est interdit aux véhicules plus larges que 3,5 mètres.",
+        "ru": "Проезд запрещён транспортным средствам шире 3,5 метра.",
+        "correct": false
+      },
+      {
+        "fr": "Je dois garder 3,5 mètres de distance.",
+        "ru": "Нужно держать дистанцию 3,5 метра.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau interdit l'accès aux véhicules dont la hauteur, chargement compris, dépasse le nombre indiqué.",
+      "ru": "Этот знак запрещает проезд транспортным средствам, высота которых вместе с грузом больше указанной."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-interdiction-009",
+    "theme": "signalisation-interdiction",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign C45",
+    "fr": "Un panneau rond blanc avec le nombre 50 en gris, barré d'une ligne noire. Que signifie-t-il ?",
+    "ru": "Круглый белый знак с серым числом 50, перечёркнутым чёрной линией. Что он означает?",
+    "options": [
+      {
+        "fr": "Je dois rouler à 50 km/h au minimum.",
+        "ru": "Нужно ехать не медленнее 50 км/ч.",
+        "correct": false
+      },
+      {
+        "fr": "La limitation à 50 km/h est terminée.",
+        "ru": "Ограничение 50 км/ч закончилось.",
+        "correct": true
+      },
+      {
+        "fr": "Il est interdit de rouler à 50 km/h.",
+        "ru": "Ехать со скоростью 50 км/ч запрещено.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique la fin de la limitation de vitesse. Les limites générales s'appliquent de nouveau.",
+      "ru": "Этот знак означает конец ограничения скорости. Снова действуют общие ограничения."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-interdiction-010",
+    "theme": "signalisation-interdiction",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign C33",
+    "fr": "Un panneau rond à bord rouge avec une flèche noire qui fait demi-tour, barrée de rouge. Que signifie-t-il ?",
+    "ru": "Круглый знак с красной каймой и чёрной разворачивающейся стрелкой, перечёркнутой красной линией. Что он означает?",
+    "options": [
+      {
+        "fr": "Je dois faire demi-tour.",
+        "ru": "Нужно развернуться.",
+        "correct": false
+      },
+      {
+        "fr": "La route se termine.",
+        "ru": "Дорога заканчивается.",
+        "correct": false
+      },
+      {
+        "fr": "Je ne peux pas faire demi-tour.",
+        "ru": "Разворот запрещён.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau interdit de faire demi-tour.",
+      "ru": "Этот знак запрещает разворот."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-obligation-001",
+    "theme": "signalisation-obligation",
+    "grave": false,
+    "image": null,
+    "fr": "Un panneau rond à fond bleu avec un dessin blanc. Que m'annonce cette forme ?",
+    "ru": "Круглый знак с синим фоном и белым рисунком. Что означает такая форма?",
+    "options": [
+      {
+        "fr": "Une obligation.",
+        "ru": "Обязанность.",
+        "correct": true
+      },
+      {
+        "fr": "Une interdiction.",
+        "ru": "Запрет.",
+        "correct": false
+      },
+      {
+        "fr": "Un danger.",
+        "ru": "Опасность.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Les panneaux ronds bleus donnent une obligation : je dois faire ce que le panneau indique.",
+      "ru": "Круглые синие знаки предписывают: нужно делать то, что показывает знак."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-obligation-002",
+    "theme": "signalisation-obligation",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign D1",
+    "fr": "Un panneau rond bleu avec une flèche blanche vers le haut. Que dois-je faire au carrefour ?",
+    "ru": "Круглый синий знак с белой стрелкой вверх. Что мне нужно сделать на перекрёстке?",
+    "options": [
+      {
+        "fr": "Je peux choisir ma direction.",
+        "ru": "Можно выбрать любое направление.",
+        "correct": false
+      },
+      {
+        "fr": "Je dois aller tout droit.",
+        "ru": "Нужно ехать прямо.",
+        "correct": true
+      },
+      {
+        "fr": "Je dois m'arrêter.",
+        "ru": "Нужно остановиться.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau m'oblige à suivre la direction de la flèche : tout droit.",
+      "ru": "Этот знак обязывает ехать в направлении стрелки: прямо."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-obligation-003",
+    "theme": "signalisation-obligation",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign D3",
+    "fr": "Un panneau rond bleu avec deux flèches blanches : une tout droit et une vers la droite. Puis-je tourner à droite ?",
+    "ru": "Круглый синий знак с двумя белыми стрелками: прямо и направо. Можно ли мне повернуть направо?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": true
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je dois suivre une des directions indiquées par les flèches : tout droit ou à droite. Je ne peux pas tourner à gauche.",
+      "ru": "Нужно ехать в одном из направлений, указанных стрелками: прямо или направо. Налево поворачивать нельзя."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-obligation-004",
+    "theme": "signalisation-obligation",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign D5",
+    "fr": "Un panneau rond bleu avec trois flèches blanches qui tournent en rond. Que signifie-t-il ?",
+    "ru": "Круглый синий знак с тремя белыми стрелками, идущими по кругу. Что он означает?",
+    "options": [
+      {
+        "fr": "C'est un rond-point : je tourne autour de l'îlot central.",
+        "ru": "Это круговое движение: я объезжаю центральный островок.",
+        "correct": true
+      },
+      {
+        "fr": "Je dois faire demi-tour.",
+        "ru": "Нужно развернуться.",
+        "correct": false
+      },
+      {
+        "fr": "La route est fermée.",
+        "ru": "Дорога закрыта.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique un sens giratoire obligatoire. Je contourne l'îlot central en le laissant à ma gauche.",
+      "ru": "Этот знак означает обязательное круговое движение. Я объезжаю центральный островок, оставляя его слева."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-obligation-005",
+    "theme": "signalisation-obligation",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign D7",
+    "fr": "Un panneau rond bleu avec un vélo blanc. Je conduis une voiture. Puis-je rouler sur cette partie de la route ?",
+    "ru": "Круглый синий знак с белым велосипедом. Я за рулём автомобиля. Можно ли мне ехать по этой части дороги?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique une piste cyclable obligatoire. Elle est réservée aux cyclistes.",
+      "ru": "Этот знак обозначает обязательную велодорожку. Она предназначена для велосипедистов."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-obligation-006",
+    "theme": "signalisation-obligation",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign D11",
+    "fr": "Un panneau rond bleu avec un adulte qui tient un enfant par la main. Que signifie-t-il ?",
+    "ru": "Круглый синий знак со взрослым, который держит ребёнка за руку. Что он означает?",
+    "options": [
+      {
+        "fr": "C'est une école.",
+        "ru": "Это школа.",
+        "correct": false
+      },
+      {
+        "fr": "Les piétons sont interdits.",
+        "ru": "Пешеходам вход запрещён.",
+        "correct": false
+      },
+      {
+        "fr": "C'est un chemin réservé aux piétons.",
+        "ru": "Это дорожка только для пешеходов.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique une partie de la voie publique réservée aux piétons. Je n'y roule pas en voiture.",
+      "ru": "Этот знак обозначает часть дороги, предназначенную для пешеходов. На автомобиле туда не въезжают."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-obligation-007",
+    "theme": "signalisation-obligation",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign D1",
+    "fr": "Un panneau rond bleu avec une flèche blanche qui pointe en bas à droite est placé sur un îlot au milieu de la route. Que dois-je faire ?",
+    "ru": "На островке посреди дороги стоит круглый синий знак с белой стрелкой, направленной вниз направо. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je passe à droite de l'îlot.",
+        "ru": "Я объезжаю островок справа.",
+        "correct": true
+      },
+      {
+        "fr": "Je passe à gauche de l'îlot.",
+        "ru": "Я объезжаю островок слева.",
+        "correct": false
+      },
+      {
+        "fr": "Je m'arrête devant l'îlot.",
+        "ru": "Я останавливаюсь перед островком.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau m'oblige à passer du côté indiqué par la flèche : à droite de l'obstacle.",
+      "ru": "Этот знак обязывает объезжать препятствие с той стороны, куда показывает стрелка: справа."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-obligation-008",
+    "theme": "signalisation-obligation",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign D1",
+    "fr": "Au carrefour, je vois un panneau rond bleu avec une flèche blanche vers la gauche. Puis-je tourner à droite ?",
+    "ru": "На перекрёстке я вижу круглый синий знак с белой стрелкой налево. Можно ли мне повернуть направо?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Je dois suivre la direction de la flèche : je tourne à gauche.",
+      "ru": "Нужно ехать в направлении стрелки: я поворачиваю налево."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-obligation-009",
+    "theme": "signalisation-obligation",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign D9",
+    "fr": "Un panneau rond bleu divisé en deux par une ligne verticale : un vélo d'un côté, des piétons de l'autre. Que signifie-t-il ?",
+    "ru": "Круглый синий знак, разделённый вертикальной линией: с одной стороны велосипед, с другой — пешеходы. Что он означает?",
+    "options": [
+      {
+        "fr": "Les vélos et les piétons sont interdits.",
+        "ru": "Велосипедам и пешеходам вход запрещён.",
+        "correct": false
+      },
+      {
+        "fr": "Les cyclistes doivent descendre de leur vélo.",
+        "ru": "Велосипедисты должны сойти с велосипеда.",
+        "correct": false
+      },
+      {
+        "fr": "Une partie est pour les cyclistes, l'autre partie est pour les piétons.",
+        "ru": "Одна часть — для велосипедистов, другая — для пешеходов.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique une voie réservée aux piétons et aux cyclistes, avec une partie pour chacun.",
+      "ru": "Этот знак обозначает дорожку для пешеходов и велосипедистов, где у каждого своя часть."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-obligation-010",
+    "theme": "signalisation-obligation",
+    "grave": false,
+    "image": null,
+    "fr": "Un panneau rond bleu donne une obligation. Que donne un panneau rond blanc à bord rouge ?",
+    "ru": "Круглый синий знак предписывает. А что означает круглый белый знак с красной каймой?",
+    "options": [
+      {
+        "fr": "Une interdiction.",
+        "ru": "Запрет.",
+        "correct": true
+      },
+      {
+        "fr": "Un danger.",
+        "ru": "Опасность.",
+        "correct": false
+      },
+      {
+        "fr": "Une indication.",
+        "ru": "Указание.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Rond à bord rouge : interdiction. Rond bleu : obligation. Triangle à bord rouge : danger.",
+      "ru": "Круглый с красной каймой — запрет. Круглый синий — предписание. Треугольник с красной каймой — опасность."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-indication-001",
+    "theme": "signalisation-indication",
+    "grave": true,
+    "image": null,
+    "image_query": "Belgian road sign F1",
+    "fr": "Je passe un panneau rectangulaire blanc avec le nom d'une ville en noir. Quelle est maintenant la vitesse maximale, s'il n'y a pas d'autre panneau ?",
+    "ru": "Я проезжаю прямоугольный белый знак с названием города чёрными буквами. Какая теперь максимальная скорость, если других знаков нет?",
+    "options": [
+      {
+        "fr": "70 km/h",
+        "ru": "70 км/ч",
+        "correct": false
+      },
+      {
+        "fr": "50 km/h",
+        "ru": "50 км/ч",
+        "correct": true
+      },
+      {
+        "fr": "90 km/h",
+        "ru": "90 км/ч",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique le début d'une agglomération. La vitesse y est limitée à 50 km/h.",
+      "ru": "Этот знак означает начало населённого пункта. Скорость здесь ограничена 50 км/ч."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-indication-002",
+    "theme": "signalisation-indication",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign F3",
+    "fr": "Un panneau rectangulaire blanc avec le nom d'une ville, barré d'une ligne rouge. Que signifie-t-il ?",
+    "ru": "Прямоугольный белый знак с названием города, перечёркнутым красной линией. Что он означает?",
+    "options": [
+      {
+        "fr": "L'accès à la ville est interdit.",
+        "ru": "Въезд в город запрещён.",
+        "correct": false
+      },
+      {
+        "fr": "J'entre dans l'agglomération.",
+        "ru": "Я въезжаю в населённый пункт.",
+        "correct": false
+      },
+      {
+        "fr": "Je quitte l'agglomération.",
+        "ru": "Я выезжаю из населённого пункта.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique la fin de l'agglomération. La limite de 50 km/h ne s'applique plus.",
+      "ru": "Этот знак означает конец населённого пункта. Ограничение 50 км/ч больше не действует."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-indication-003",
+    "theme": "signalisation-indication",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign F5",
+    "fr": "Un panneau rectangulaire montre une route à deux bandes séparées, avec un pont au-dessus. Que signifie-t-il ?",
+    "ru": "На прямоугольном знаке изображена дорога с двумя разделёнными полосами и мост над ней. Что он означает?",
+    "options": [
+      {
+        "fr": "Le début d'une autoroute.",
+        "ru": "Начало автомагистрали.",
+        "correct": true
+      },
+      {
+        "fr": "Un pont étroit.",
+        "ru": "Узкий мост.",
+        "correct": false
+      },
+      {
+        "fr": "Un tunnel.",
+        "ru": "Туннель.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique le début d'une autoroute. Les règles de l'autoroute s'appliquent à partir d'ici.",
+      "ru": "Этот знак означает начало автомагистрали. С этого места действуют правила движения по автомагистрали."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-indication-004",
+    "theme": "signalisation-indication",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign F19",
+    "fr": "Un panneau rectangulaire bleu avec une grande flèche blanche vers le haut. Que signifie-t-il ?",
+    "ru": "Прямоугольный синий знак с большой белой стрелкой вверх. Что он означает?",
+    "options": [
+      {
+        "fr": "Je dois aller tout droit au carrefour.",
+        "ru": "На перекрёстке нужно ехать прямо.",
+        "correct": false
+      },
+      {
+        "fr": "Je roule dans une rue à sens unique.",
+        "ru": "Я еду по улице с односторонним движением.",
+        "correct": true
+      },
+      {
+        "fr": "J'ai la priorité.",
+        "ru": "У меня приоритет.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique une voie à sens unique. Attention : des cyclistes peuvent parfois venir en face si un panneau le permet.",
+      "ru": "Этот знак обозначает дорогу с односторонним движением. Внимание: иногда навстречу могут ехать велосипедисты, если это разрешает знак."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-indication-005",
+    "theme": "signalisation-indication",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign F45",
+    "fr": "Un panneau rectangulaire bleu avec un T blanc dont la barre du haut est rouge. Que signifie-t-il ?",
+    "ru": "Прямоугольный синий знак с белой буквой «Т», верхняя перекладина которой красная. Что он означает?",
+    "options": [
+      {
+        "fr": "Je dois tourner à gauche ou à droite.",
+        "ru": "Нужно повернуть налево или направо.",
+        "correct": false
+      },
+      {
+        "fr": "Il y a un hôpital.",
+        "ru": "Здесь больница.",
+        "correct": false
+      },
+      {
+        "fr": "La rue est sans issue.",
+        "ru": "Это тупик.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique une voie sans issue : je ne peux pas ressortir par l'autre bout en voiture.",
+      "ru": "Этот знак означает тупик: на автомобиле с другого конца улицы выехать нельзя."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-indication-006",
+    "theme": "signalisation-indication",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign F12a",
+    "fr": "Un panneau bleu montre une maison, un adulte, un enfant qui joue et une voiture. Que signifie-t-il ?",
+    "ru": "На синем знаке изображены дом, взрослый, играющий ребёнок и автомобиль. Что он означает?",
+    "options": [
+      {
+        "fr": "Une zone résidentielle ou de rencontre : je roule à 20 km/h maximum.",
+        "ru": "Жилая зона или зона совместного движения: я еду не быстрее 20 км/ч.",
+        "correct": true
+      },
+      {
+        "fr": "Une zone où la vitesse est limitée à 50 km/h.",
+        "ru": "Зона, где скорость ограничена 50 км/ч.",
+        "correct": false
+      },
+      {
+        "fr": "Une plaine de jeux interdite aux voitures.",
+        "ru": "Детская площадка, куда машинам въезд запрещён.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Dans une zone résidentielle ou de rencontre, les piétons peuvent utiliser toute la largeur de la rue. Je roule à 20 km/h maximum et je ne les mets pas en danger.",
+      "ru": "В жилой зоне или зоне совместного движения пешеходы могут идти по всей ширине улицы. Я еду не быстрее 20 км/ч и не подвергаю их опасности."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-indication-007",
+    "theme": "signalisation-indication",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign F4a",
+    "fr": "Un panneau rectangulaire blanc avec le mot « ZONE » et un rond rouge contenant le nombre 30. Que signifie-t-il ?",
+    "ru": "Прямоугольный белый знак со словом «ZONE» и красным кругом с числом 30. Что он означает?",
+    "options": [
+      {
+        "fr": "La limite de 30 km/h vaut seulement jusqu'au prochain carrefour.",
+        "ru": "Ограничение 30 км/ч действует только до следующего перекрёстка.",
+        "correct": false
+      },
+      {
+        "fr": "Je roule à 30 km/h maximum dans toute la zone.",
+        "ru": "Во всей зоне я еду не быстрее 30 км/ч.",
+        "correct": true
+      },
+      {
+        "fr": "Je dois rouler à 30 km/h au minimum.",
+        "ru": "Нужно ехать не медленнее 30 км/ч.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique le début d'une zone 30. La limite reste valable jusqu'au panneau de fin de zone.",
+      "ru": "Этот знак означает начало зоны 30. Ограничение действует до знака конца зоны."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-indication-008",
+    "theme": "signalisation-indication",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign F49",
+    "fr": "Un panneau carré bleu avec un triangle blanc et un piéton qui marche sur des bandes. Que signifie-t-il ?",
+    "ru": "Квадратный синий знак с белым треугольником и пешеходом, идущим по полосам. Что он означает?",
+    "options": [
+      {
+        "fr": "Il interdit le passage aux piétons.",
+        "ru": "Он запрещает проход пешеходам.",
+        "correct": false
+      },
+      {
+        "fr": "Il indique une école.",
+        "ru": "Он обозначает школу.",
+        "correct": false
+      },
+      {
+        "fr": "Il indique l'endroit d'un passage pour piétons.",
+        "ru": "Он обозначает место пешеходного перехода.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau est placé à hauteur du passage pour piétons. Je cède le passage aux piétons qui traversent ou vont traverser.",
+      "ru": "Этот знак стоит у самого пешеходного перехода. Я уступаю дорогу пешеходам, которые переходят или собираются переходить."
+    },
+    "verified": true
+  },
+  {
+    "id": "signalisation-indication-009",
+    "theme": "signalisation-indication",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign F9",
+    "fr": "Un panneau rectangulaire bleu avec une voiture blanche vue de face. Que signifie-t-il ?",
+    "ru": "Прямоугольный синий знак с белым автомобилем, вид спереди. Что он означает?",
+    "options": [
+      {
+        "fr": "Le début d'une route pour automobiles.",
+        "ru": "Начало дороги для автомобилей.",
+        "correct": true
+      },
+      {
+        "fr": "Un parking pour voitures.",
+        "ru": "Парковка для автомобилей.",
+        "correct": false
+      },
+      {
+        "fr": "Un garage.",
+        "ru": "Автосервис.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau indique une route pour automobiles. Les piétons, les cyclistes et les cyclomoteurs n'y sont pas admis.",
+      "ru": "Этот знак обозначает дорогу для автомобилей. Пешеходам, велосипедистам и мопедам движение по ней запрещено."
+    },
+    "verified": false
+  },
+  {
+    "id": "signalisation-indication-010",
+    "theme": "signalisation-indication",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign F41",
+    "fr": "Un panneau orange avec une flèche noire et le mot « Déviation ». Que dois-je faire ?",
+    "ru": "Оранжевый знак с чёрной стрелкой и словом «Déviation» (объезд). Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je fais demi-tour.",
+        "ru": "Я разворачиваюсь.",
+        "correct": false
+      },
+      {
+        "fr": "Je suis la flèche, car la route habituelle est fermée.",
+        "ru": "Я еду по стрелке, потому что обычная дорога закрыта.",
+        "correct": true
+      },
+      {
+        "fr": "Je m'arrête et j'attends.",
+        "ru": "Я останавливаюсь и жду.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Les panneaux de déviation indiquent l'itinéraire à suivre quand une route est fermée, par exemple pour des travaux.",
+      "ru": "Знаки объезда показывают, как ехать, когда дорога закрыта, например из-за ремонта."
+    },
+    "verified": false
+  },
+  {
+    "id": "marquages-001",
+    "theme": "marquages",
+    "grave": true,
+    "image": null,
+    "image_query": "ligne blanche continue route Belgique",
+    "fr": "Une ligne blanche continue sépare les deux sens de circulation. Puis-je la franchir pour dépasser ?",
+    "ru": "Сплошная белая линия разделяет встречные направления движения. Можно ли мне пересечь её для обгона?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Il est interdit de franchir une ligne blanche continue.",
+      "ru": "Пересекать сплошную белую линию запрещено."
+    },
+    "verified": true
+  },
+  {
+    "id": "marquages-002",
+    "theme": "marquages",
+    "grave": false,
+    "image": null,
+    "image_query": "ligne blanche discontinue route Belgique",
+    "fr": "Une ligne blanche discontinue sépare les deux sens de circulation. Puis-je la franchir pour dépasser ?",
+    "ru": "Прерывистая белая линия разделяет встречные направления движения. Можно ли мне пересечь её для обгона?",
+    "options": [
+      {
+        "fr": "Oui, s'il n'y a pas de danger.",
+        "ru": "Да, если это не опасно.",
+        "correct": true
+      },
+      {
+        "fr": "Non, jamais.",
+        "ru": "Нет, никогда.",
+        "correct": false
+      },
+      {
+        "fr": "Oui, mais seulement la nuit.",
+        "ru": "Да, но только ночью.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Une ligne discontinue peut être franchie pour dépasser, tourner à gauche, faire demi-tour ou changer de bande, si c'est sans danger.",
+      "ru": "Прерывистую линию можно пересекать для обгона, поворота налево, разворота или перестроения, если это безопасно."
+    },
+    "verified": true
+  },
+  {
+    "id": "marquages-003",
+    "theme": "marquages",
+    "grave": false,
+    "image": null,
+    "fr": "Une ligne continue et une ligne discontinue sont tracées côte à côte. La ligne discontinue est de mon côté. Puis-je franchir ces lignes ?",
+    "ru": "Сплошная и прерывистая линии нанесены рядом. Прерывистая линия — с моей стороны. Можно ли мне пересечь эти линии?",
+    "options": [
+      {
+        "fr": "Non, jamais.",
+        "ru": "Нет, никогда.",
+        "correct": false
+      },
+      {
+        "fr": "Oui, s'il n'y a pas de danger.",
+        "ru": "Да, если это не опасно.",
+        "correct": true
+      },
+      {
+        "fr": "Oui, mais seulement pour stationner.",
+        "ru": "Да, но только чтобы припарковаться.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je tiens compte de la ligne qui se trouve de mon côté. Si elle est discontinue, je peux franchir.",
+      "ru": "Я учитываю ту линию, которая находится с моей стороны. Если она прерывистая, пересекать можно."
+    },
+    "verified": true
+  },
+  {
+    "id": "marquages-004",
+    "theme": "marquages",
+    "grave": false,
+    "image": null,
+    "image_query": "ligne d'arrêt feu rouge",
+    "fr": "Devant un feu rouge, une large ligne blanche continue traverse ma bande. Où dois-je m'arrêter ?",
+    "ru": "Перед красным светофором мою полосу пересекает широкая сплошная белая линия. Где нужно остановиться?",
+    "options": [
+      {
+        "fr": "Sur cette ligne.",
+        "ru": "На этой линии.",
+        "correct": false
+      },
+      {
+        "fr": "Juste après cette ligne.",
+        "ru": "Сразу за этой линией.",
+        "correct": false
+      },
+      {
+        "fr": "Avant cette ligne.",
+        "ru": "Перед этой линией.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "C'est la ligne d'arrêt. Je m'arrête avant elle, sans la dépasser.",
+      "ru": "Это стоп-линия. Я останавливаюсь перед ней, не заезжая за неё."
+    },
+    "verified": true
+  },
+  {
+    "id": "marquages-005",
+    "theme": "marquages",
+    "grave": false,
+    "image": null,
+    "image_query": "marquage triangles céder le passage",
+    "fr": "Une ligne de triangles blancs est tracée en travers de ma bande, la pointe vers moi. Que dois-je faire ?",
+    "ru": "Поперёк моей полосы нанесена линия из белых треугольников, остриём ко мне. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je cède le passage.",
+        "ru": "Я уступаю дорогу.",
+        "correct": true
+      },
+      {
+        "fr": "Je m'arrête toujours, même si la route est libre.",
+        "ru": "Я всегда останавливаюсь, даже если дорога свободна.",
+        "correct": false
+      },
+      {
+        "fr": "J'ai la priorité.",
+        "ru": "У меня приоритет.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Cette ligne de triangles indique l'endroit où je dois, si nécessaire, m'arrêter pour céder le passage.",
+      "ru": "Эта линия из треугольников показывает место, где нужно при необходимости остановиться, чтобы уступить дорогу."
+    },
+    "verified": true
+  },
+  {
+    "id": "marquages-006",
+    "theme": "marquages",
+    "grave": false,
+    "image": null,
+    "image_query": "ligne jaune discontinue bordure trottoir",
+    "fr": "Une ligne jaune discontinue est tracée le long de la bordure du trottoir. Que signifie-t-elle ?",
+    "ru": "Вдоль бордюра тротуара нанесена прерывистая жёлтая линия. Что она означает?",
+    "options": [
+      {
+        "fr": "Le stationnement est réservé aux taxis.",
+        "ru": "Стоянка только для такси.",
+        "correct": false
+      },
+      {
+        "fr": "Le stationnement est interdit.",
+        "ru": "Стоянка запрещена.",
+        "correct": true
+      },
+      {
+        "fr": "Le stationnement est payant.",
+        "ru": "Стоянка платная.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Une ligne jaune discontinue sur la bordure interdit le stationnement le long de cette ligne.",
+      "ru": "Прерывистая жёлтая линия на бордюре запрещает стоянку вдоль этой линии."
+    },
+    "verified": true
+  },
+  {
+    "id": "marquages-007",
+    "theme": "marquages",
+    "grave": false,
+    "image": null,
+    "fr": "Des lignes blanches obliques parallèles sont tracées sur la chaussée et forment un îlot. Puis-je rouler ou m'arrêter sur cette zone ?",
+    "ru": "На проезжей части нанесены параллельные косые белые линии, образующие островок. Можно ли мне ехать или останавливаться на этой зоне?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ces marques délimitent un îlot directionnel. Il est interdit d'y circuler, de s'y arrêter et d'y stationner.",
+      "ru": "Эта разметка обозначает направляющий островок. По нему запрещено ездить, на нём запрещены остановка и стоянка."
+    },
+    "verified": true
+  },
+  {
+    "id": "marquages-008",
+    "theme": "marquages",
+    "grave": false,
+    "image": null,
+    "image_query": "flèches de sélection carrefour",
+    "fr": "Près d'un carrefour, je roule sur une bande marquée d'une flèche blanche vers la gauche. Que dois-je faire au carrefour ?",
+    "ru": "Перед перекрёстком я еду по полосе, на которой нанесена белая стрелка налево. Что мне нужно сделать на перекрёстке?",
+    "options": [
+      {
+        "fr": "Je dois tourner à gauche.",
+        "ru": "Нужно повернуть налево.",
+        "correct": true
+      },
+      {
+        "fr": "Je peux aller tout droit.",
+        "ru": "Можно ехать прямо.",
+        "correct": false
+      },
+      {
+        "fr": "Je peux choisir librement ma direction.",
+        "ru": "Можно свободно выбрать направление.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Près d'un carrefour, les flèches de sélection m'obligent à suivre la direction indiquée sur ma bande.",
+      "ru": "Перед перекрёстком стрелки на полосе обязывают ехать в направлении, указанном на моей полосе."
+    },
+    "verified": true
+  },
+  {
+    "id": "marquages-009",
+    "theme": "marquages",
+    "grave": false,
+    "image": null,
+    "image_query": "piste cyclable marquée Belgique",
+    "fr": "Sur le bord droit de la chaussée, deux lignes blanches discontinues parallèles délimitent une bande étroite. Qu'est-ce que c'est ?",
+    "ru": "У правого края проезжей части две параллельные прерывистые белые линии ограничивают узкую полосу. Что это?",
+    "options": [
+      {
+        "fr": "Une bande de stationnement.",
+        "ru": "Полоса для стоянки.",
+        "correct": false
+      },
+      {
+        "fr": "Une piste cyclable.",
+        "ru": "Велодорожка.",
+        "correct": true
+      },
+      {
+        "fr": "Une bande d'arrêt d'urgence.",
+        "ru": "Аварийная полоса.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Deux lignes blanches discontinues parallèles délimitent une piste cyclable. Je n'y roule pas et je n'y stationne pas en voiture.",
+      "ru": "Две параллельные прерывистые белые линии обозначают велодорожку. На автомобиле по ней не ездят и на ней не паркуются."
+    },
+    "verified": true
+  },
+  {
+    "id": "marquages-010",
+    "theme": "marquages",
+    "grave": false,
+    "image": null,
+    "fr": "Dans une zone de travaux, il y a des lignes blanches et des lignes orange sur la chaussée. Quelles lignes dois-je suivre ?",
+    "ru": "На участке дорожных работ на проезжей части нанесены белые и оранжевые линии. Каким линиям нужно следовать?",
+    "options": [
+      {
+        "fr": "Les lignes blanches.",
+        "ru": "Белым.",
+        "correct": false
+      },
+      {
+        "fr": "Celles que je préfère.",
+        "ru": "Тем, которые мне больше нравятся.",
+        "correct": false
+      },
+      {
+        "fr": "Les lignes orange.",
+        "ru": "Оранжевым.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Les marques temporaires orange, placées pour les travaux, remplacent les marques blanches habituelles.",
+      "ru": "Временная оранжевая разметка, нанесённая на время работ, заменяет обычную белую."
+    },
+    "verified": false
+  },
+  {
+    "id": "priorite-001",
+    "theme": "priorite",
+    "grave": false,
+    "image": null,
+    "image_query": "carrefour sans signalisation Belgique",
+    "fr": "J'arrive à un carrefour sans panneau et sans feu. Une voiture arrive à ma droite. Qui passe en premier ?",
+    "ru": "Я подъезжаю к перекрёстку без знаков и без светофора. Справа подъезжает автомобиль. Кто проезжает первым?",
+    "options": [
+      {
+        "fr": "La voiture qui vient de droite.",
+        "ru": "Автомобиль, который едет справа.",
+        "correct": true
+      },
+      {
+        "fr": "Moi.",
+        "ru": "Я.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Sans panneau ni feu, c'est la priorité de droite : je cède le passage au conducteur qui vient de ma droite.",
+      "ru": "Без знаков и светофора действует правило «помеха справа»: я уступаю дорогу водителю, который едет справа."
+    },
+    "verified": true
+  },
+  {
+    "id": "priorite-002",
+    "theme": "priorite",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign B1",
+    "fr": "J'arrive à un carrefour. Je vois un triangle blanc à bord rouge, la pointe en bas. Que dois-je faire ?",
+    "ru": "Я подъезжаю к перекрёстку. Я вижу белый треугольник с красной каймой, вершиной вниз. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "J'ai la priorité.",
+        "ru": "У меня приоритет.",
+        "correct": false
+      },
+      {
+        "fr": "Je cède le passage aux conducteurs de la route que je vais croiser.",
+        "ru": "Я уступаю дорогу водителям на дороге, которую пересекаю.",
+        "correct": true
+      },
+      {
+        "fr": "Je passe avant les autres si je viens de droite.",
+        "ru": "Я проезжаю раньше других, если еду справа.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau m'oblige à céder le passage. Je m'arrête seulement si c'est nécessaire.",
+      "ru": "Этот знак обязывает уступить дорогу. Я останавливаюсь, только если это необходимо."
+    },
+    "verified": true
+  },
+  {
+    "id": "priorite-003",
+    "theme": "priorite",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign B5",
+    "fr": "J'arrive à un carrefour avec un panneau rouge à huit côtés marqué « STOP ». Aucune voiture n'arrive. Dois-je m'arrêter ?",
+    "ru": "Я подъезжаю к перекрёстку с красным восьмиугольным знаком «STOP». Машин нет. Нужно ли мне остановиться?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": true
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Au panneau STOP, je dois toujours marquer l'arrêt, même si la route est libre. Ensuite, je cède le passage.",
+      "ru": "У знака «STOP» нужно всегда полностью остановиться, даже если дорога свободна. Затем я уступаю дорогу."
+    },
+    "verified": true
+  },
+  {
+    "id": "priorite-004",
+    "theme": "priorite",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign B9",
+    "fr": "Je vois un panneau en forme de losange, jaune-orange avec un bord blanc. Que signifie-t-il ?",
+    "ru": "Я вижу знак в форме ромба, жёлто-оранжевый с белой каймой. Что он означает?",
+    "options": [
+      {
+        "fr": "Je roule sur une route prioritaire.",
+        "ru": "Я еду по главной дороге.",
+        "correct": true
+      },
+      {
+        "fr": "Je dois céder le passage.",
+        "ru": "Нужно уступить дорогу.",
+        "correct": false
+      },
+      {
+        "fr": "La priorité de droite s'applique.",
+        "ru": "Действует правило «помеха справа».",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Sur une route prioritaire, j'ai la priorité aux carrefours suivants, jusqu'au panneau de fin de route prioritaire.",
+      "ru": "На главной дороге у меня приоритет на следующих перекрёстках — до знака конца главной дороги."
+    },
+    "verified": true
+  },
+  {
+    "id": "priorite-005",
+    "theme": "priorite",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign B15",
+    "fr": "Un triangle à bord rouge avec une grosse flèche noire vers le haut, traversée par un trait fin horizontal. Que signifie-t-il ?",
+    "ru": "Треугольник с красной каймой и толстой чёрной стрелкой вверх, которую пересекает тонкая горизонтальная черта. Что он означает?",
+    "options": [
+      {
+        "fr": "Je dois céder le passage au prochain carrefour.",
+        "ru": "На следующем перекрёстке нужно уступить дорогу.",
+        "correct": false
+      },
+      {
+        "fr": "J'ai la priorité au prochain carrefour.",
+        "ru": "На следующем перекрёстке у меня приоритет.",
+        "correct": true
+      },
+      {
+        "fr": "Le prochain carrefour est fermé.",
+        "ru": "Следующий перекрёсток закрыт.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau m'annonce que les conducteurs venant de gauche et de droite doivent me céder le passage au prochain carrefour. Je fais quand même attention.",
+      "ru": "Этот знак сообщает, что на следующем перекрёстке водители слева и справа должны уступить мне дорогу. Но я всё равно еду внимательно."
+    },
+    "verified": true
+  },
+  {
+    "id": "priorite-006",
+    "theme": "priorite",
+    "grave": false,
+    "image": null,
+    "image_query": "ambulance Belgique gyrophare",
+    "fr": "Une ambulance arrive derrière moi avec la sirène et les feux bleus allumés. Que dois-je faire ?",
+    "ru": "Сзади приближается скорая помощь с включённой сиреной и синими маячками. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je continue normalement, car je suis devant.",
+        "ru": "Я еду как обычно, потому что нахожусь впереди.",
+        "correct": false
+      },
+      {
+        "fr": "J'accélère pour rester devant elle.",
+        "ru": "Я ускоряюсь, чтобы оставаться впереди.",
+        "correct": false
+      },
+      {
+        "fr": "Je lui cède le passage et je me range dès que possible.",
+        "ru": "Я уступаю ей дорогу и при первой возможности освобождаю путь.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Je dois dégager et céder le passage à un véhicule prioritaire qui utilise sa sirène. Si nécessaire, je m'arrête.",
+      "ru": "Нужно освободить путь и уступить дорогу спецтранспорту с включённой сиреной. При необходимости я останавливаюсь."
+    },
+    "verified": true
+  },
+  {
+    "id": "priorite-007",
+    "theme": "priorite",
+    "grave": false,
+    "image": null,
+    "image_query": "tram carrefour Belgique",
+    "fr": "J'arrive à un carrefour sans panneau. Un tram arrive par ma gauche. Qui passe en premier ?",
+    "ru": "Я подъезжаю к перекрёстку без знаков. Слева приближается трамвай. Кто проезжает первым?",
+    "options": [
+      {
+        "fr": "Le tram.",
+        "ru": "Трамвай.",
+        "correct": true
+      },
+      {
+        "fr": "Moi, car je viens de droite.",
+        "ru": "Я, потому что еду справа.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je dois toujours céder le passage aux véhicules sur rails, comme les trams.",
+      "ru": "Нужно всегда уступать дорогу рельсовому транспорту, например трамваям."
+    },
+    "verified": true
+  },
+  {
+    "id": "priorite-008",
+    "theme": "priorite",
+    "grave": false,
+    "image": null,
+    "fr": "Ma voiture est stationnée le long du trottoir. Je veux repartir. Qui a la priorité ?",
+    "ru": "Мой автомобиль стоит у тротуара. Я хочу отъехать. У кого приоритет?",
+    "options": [
+      {
+        "fr": "Moi, si je mets mon clignotant.",
+        "ru": "У меня, если я включу указатель поворота.",
+        "correct": false
+      },
+      {
+        "fr": "Les conducteurs qui roulent déjà sur la chaussée.",
+        "ru": "У водителей, которые уже едут по дороге.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Quitter un stationnement est une manœuvre. Je cède le passage aux autres usagers avant de repartir.",
+      "ru": "Выезд с места стоянки — это манёвр. Прежде чем тронуться, я уступаю дорогу другим участникам движения."
+    },
+    "verified": true
+  },
+  {
+    "id": "priorite-009",
+    "theme": "priorite",
+    "grave": false,
+    "image": null,
+    "fr": "À un carrefour sans panneau, une voiture arrive à ma droite et s'arrête un instant. A-t-elle encore la priorité ?",
+    "ru": "На перекрёстке без знаков справа подъезжает автомобиль и на мгновение останавливается. Сохраняется ли у него приоритет?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": true
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Le conducteur qui vient de droite garde la priorité, même s'il s'est arrêté.",
+      "ru": "Водитель, едущий справа, сохраняет приоритет, даже если он остановился."
+    },
+    "verified": true
+  },
+  {
+    "id": "priorite-010",
+    "theme": "priorite",
+    "grave": false,
+    "image": null,
+    "fr": "Au carrefour, je veux tourner à gauche. Une voiture arrive en face et va tout droit. Que dois-je faire ?",
+    "ru": "На перекрёстке я хочу повернуть налево. Навстречу едет автомобиль, он движется прямо. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je la laisse passer, puis je tourne.",
+        "ru": "Я пропускаю его, затем поворачиваю.",
+        "correct": true
+      },
+      {
+        "fr": "Je tourne avant elle, car j'ai mis mon clignotant.",
+        "ru": "Я поворачиваю раньше него, потому что у меня включён указатель поворота.",
+        "correct": false
+      },
+      {
+        "fr": "Je klaxonne et je tourne.",
+        "ru": "Я сигналю и поворачиваю.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Quand je tourne à gauche, je cède le passage aux conducteurs qui viennent en sens inverse.",
+      "ru": "При повороте налево я уступаю дорогу встречным водителям."
+    },
+    "verified": true
+  },
+  {
+    "id": "ronds-points-001",
+    "theme": "ronds-points",
+    "grave": false,
+    "image": null,
+    "image_query": "rond-point Tournai",
+    "fr": "J'arrive à un rond-point. Avant l'entrée, il y a un triangle pointe en bas. Qui a la priorité ?",
+    "ru": "Я подъезжаю к круговому движению. Перед въездом стоит треугольник вершиной вниз. У кого приоритет?",
+    "options": [
+      {
+        "fr": "Moi, car je viens de droite.",
+        "ru": "У меня, потому что я еду справа.",
+        "correct": false
+      },
+      {
+        "fr": "Les conducteurs qui roulent déjà dans le rond-point.",
+        "ru": "У водителей, которые уже едут по кругу.",
+        "correct": true
+      },
+      {
+        "fr": "Le véhicule le plus rapide.",
+        "ru": "У самого быстрого автомобиля.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Le triangle pointe en bas m'oblige à céder le passage aux conducteurs qui circulent dans le rond-point.",
+      "ru": "Треугольник вершиной вниз обязывает уступить дорогу водителям, движущимся по кругу."
+    },
+    "verified": true
+  },
+  {
+    "id": "ronds-points-002",
+    "theme": "ronds-points",
+    "grave": false,
+    "image": null,
+    "fr": "J'entre dans un rond-point. Dois-je mettre mon clignotant à gauche ?",
+    "ru": "Я въезжаю на круговое движение. Нужно ли включать левый указатель поворота?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Il n'est pas obligatoire de mettre le clignotant en entrant dans un rond-point. Je le mets à droite pour en sortir.",
+      "ru": "Включать указатель поворота при въезде на круг не обязательно. Я включаю правый указатель, когда съезжаю с круга."
+    },
+    "verified": false
+  },
+  {
+    "id": "ronds-points-003",
+    "theme": "ronds-points",
+    "grave": false,
+    "image": null,
+    "fr": "Je vais quitter le rond-point à la prochaine sortie. Quel clignotant dois-je mettre ?",
+    "ru": "Я собираюсь съехать с круга на следующем съезде. Какой указатель поворота нужно включить?",
+    "options": [
+      {
+        "fr": "Le clignotant droit.",
+        "ru": "Правый.",
+        "correct": true
+      },
+      {
+        "fr": "Le clignotant gauche.",
+        "ru": "Левый.",
+        "correct": false
+      },
+      {
+        "fr": "Aucun clignotant.",
+        "ru": "Никакой.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je mets le clignotant droit avant de quitter le rond-point, pour prévenir les autres usagers.",
+      "ru": "Перед съездом с круга я включаю правый указатель поворота, чтобы предупредить других участников движения."
+    },
+    "verified": true
+  },
+  {
+    "id": "ronds-points-004",
+    "theme": "ronds-points",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign D5",
+    "fr": "Dans quel sens dois-je tourner dans un rond-point ?",
+    "ru": "В каком направлении нужно двигаться по кругу?",
+    "options": [
+      {
+        "fr": "Je tourne en laissant l'îlot central à ma droite.",
+        "ru": "Так, чтобы центральный островок оставался справа.",
+        "correct": false
+      },
+      {
+        "fr": "Je tourne en laissant l'îlot central à ma gauche.",
+        "ru": "Так, чтобы центральный островок оставался слева.",
+        "correct": true
+      },
+      {
+        "fr": "Je choisis le chemin le plus court.",
+        "ru": "Я выбираю самый короткий путь.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Dans un rond-point, je contourne l'îlot central en le gardant à ma gauche.",
+      "ru": "На круговом движении я объезжаю центральный островок, оставляя его слева."
+    },
+    "verified": true
+  },
+  {
+    "id": "ronds-points-005",
+    "theme": "ronds-points",
+    "grave": false,
+    "image": null,
+    "image_query": "rond-point piste cyclable Belgique",
+    "fr": "Je quitte un rond-point. Une piste cyclable fait le tour du rond-point et un cycliste y continue tout droit. Que dois-je faire ?",
+    "ru": "Я съезжаю с круга. Вокруг круга идёт велодорожка, и велосипедист продолжает движение по ней прямо. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je passe avant lui, car je roule sur la chaussée.",
+        "ru": "Я проезжаю раньше него, потому что еду по проезжей части.",
+        "correct": false
+      },
+      {
+        "fr": "Je klaxonne pour qu'il s'arrête.",
+        "ru": "Я сигналю, чтобы он остановился.",
+        "correct": false
+      },
+      {
+        "fr": "Je cède le passage au cycliste.",
+        "ru": "Я уступаю дорогу велосипедисту.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "En quittant le rond-point, je coupe la route du cycliste. Je dois lui céder le passage.",
+      "ru": "Съезжая с круга, я пересекаю путь велосипедиста. Нужно уступить ему дорогу."
+    },
+    "verified": true
+  },
+  {
+    "id": "ronds-points-006",
+    "theme": "ronds-points",
+    "grave": true,
+    "image": null,
+    "image_query": "rond-point passage pour piétons",
+    "fr": "À la sortie d'un rond-point, un piéton traverse sur le passage pour piétons. Que dois-je faire ?",
+    "ru": "На съезде с круга пешеход переходит дорогу по пешеходному переходу. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je m'arrête et je le laisse traverser.",
+        "ru": "Я останавливаюсь и пропускаю его.",
+        "correct": true
+      },
+      {
+        "fr": "Je continue, car on ne s'arrête pas à la sortie d'un rond-point.",
+        "ru": "Я еду дальше, потому что на съезде с круга не останавливаются.",
+        "correct": false
+      },
+      {
+        "fr": "Je passe vite devant lui.",
+        "ru": "Я быстро проезжаю перед ним.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je dois céder le passage au piéton qui traverse sur un passage pour piétons, aussi à la sortie d'un rond-point.",
+      "ru": "Нужно уступить дорогу пешеходу на пешеходном переходе — и на съезде с круга тоже."
+    },
+    "verified": true
+  },
+  {
+    "id": "ronds-points-007",
+    "theme": "ronds-points",
+    "grave": false,
+    "image": null,
+    "fr": "Je roule dans un rond-point à deux bandes et je veux changer de bande. Que dois-je faire ?",
+    "ru": "Я еду по кругу с двумя полосами и хочу перестроиться. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je change de bande sans regarder, car j'ai la priorité.",
+        "ru": "Я перестраиваюсь не глядя, потому что у меня приоритет.",
+        "correct": false
+      },
+      {
+        "fr": "Je mets mon clignotant et je cède le passage aux conducteurs de l'autre bande.",
+        "ru": "Я включаю указатель поворота и уступаю дорогу водителям на другой полосе.",
+        "correct": true
+      },
+      {
+        "fr": "Je m'arrête au milieu du rond-point.",
+        "ru": "Я останавливаюсь посреди круга.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Changer de bande est une manœuvre : je regarde, je mets mon clignotant et je cède le passage.",
+      "ru": "Перестроение — это манёвр: я смотрю, включаю указатель поворота и уступаю дорогу."
+    },
+    "verified": true
+  },
+  {
+    "id": "ronds-points-008",
+    "theme": "ronds-points",
+    "grave": false,
+    "image": null,
+    "fr": "Le rond-point est rempli de voitures à l'arrêt. Si j'y entre, ma voiture restera bloquée. Puis-je y entrer ?",
+    "ru": "Круг заполнен стоящими машинами. Если я въеду, мой автомобиль застрянет. Можно ли мне въезжать?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Je n'entre pas dans un carrefour ou un rond-point si ma voiture risque d'y rester immobilisée et de gêner les autres.",
+      "ru": "Нельзя въезжать на перекрёсток или круг, если там придётся остановиться и мешать другим."
+    },
+    "verified": true
+  },
+  {
+    "id": "ronds-points-009",
+    "theme": "ronds-points",
+    "grave": false,
+    "image": null,
+    "image_query": "camion rond-point",
+    "fr": "Dans un rond-point, un long camion roule à côté de moi. Que dois-je faire ?",
+    "ru": "На круговом движении рядом со мной едет длинный грузовик. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je ne reste pas à côté de lui, car il a besoin de plus de place pour tourner.",
+        "ru": "Я не держусь рядом с ним: ему нужно больше места для поворота.",
+        "correct": true
+      },
+      {
+        "fr": "Je reste tout près de lui pour gagner du temps.",
+        "ru": "Я держусь вплотную к нему, чтобы сэкономить время.",
+        "correct": false
+      },
+      {
+        "fr": "Je le dépasse par la droite.",
+        "ru": "Я обгоняю его справа.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Un long véhicule prend beaucoup de place dans un virage et son conducteur voit mal sur les côtés. Je garde mes distances.",
+      "ru": "Длинному транспортному средству нужно много места на повороте, а его водитель плохо видит по бокам. Я держу дистанцию."
+    },
+    "verified": true
+  },
+  {
+    "id": "ronds-points-010",
+    "theme": "ronds-points",
+    "grave": false,
+    "image": null,
+    "fr": "Dans un rond-point, j'ai raté ma sortie. Que dois-je faire ?",
+    "ru": "На круговом движении я пропускаю свой съезд. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je fais marche arrière.",
+        "ru": "Я еду задним ходом.",
+        "correct": false
+      },
+      {
+        "fr": "Je fais un tour de plus.",
+        "ru": "Я проезжаю ещё один круг.",
+        "correct": true
+      },
+      {
+        "fr": "Je m'arrête et j'attends.",
+        "ru": "Я останавливаюсь и жду.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Il est dangereux de reculer ou de s'arrêter dans un rond-point. Je refais simplement un tour.",
+      "ru": "Ехать задним ходом или останавливаться на круге опасно. Я просто проезжаю ещё один круг."
+    },
+    "verified": true
+  },
+  {
+    "id": "vitesse-001",
+    "theme": "vitesse",
+    "grave": true,
+    "image": null,
+    "image_query": "route hors agglomération Wallonie",
+    "fr": "Je roule hors agglomération, en Wallonie. Il n'y a pas de panneau de vitesse. Quelle est la vitesse maximale ?",
+    "ru": "Я еду вне населённого пункта, в Валлонии. Знака ограничения скорости нет. Какая максимальная скорость?",
+    "options": [
+      {
+        "fr": "70 km/h",
+        "ru": "70 км/ч",
+        "correct": false
+      },
+      {
+        "fr": "120 km/h",
+        "ru": "120 км/ч",
+        "correct": false
+      },
+      {
+        "fr": "90 km/h",
+        "ru": "90 км/ч",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "En Wallonie, la vitesse maximale hors agglomération est de 90 km/h, sauf si un panneau indique autre chose.",
+      "ru": "В Валлонии максимальная скорость вне населённых пунктов — 90 км/ч, если знак не указывает иное."
+    },
+    "verified": true
+  },
+  {
+    "id": "vitesse-002",
+    "theme": "vitesse",
+    "grave": true,
+    "image": null,
+    "image_query": "rue en agglomération Tournai",
+    "fr": "Je roule en agglomération. Il n'y a pas de panneau de vitesse. Quelle est la vitesse maximale ?",
+    "ru": "Я еду в населённом пункте. Знака ограничения скорости нет. Какая максимальная скорость?",
+    "options": [
+      {
+        "fr": "50 km/h",
+        "ru": "50 км/ч",
+        "correct": true
+      },
+      {
+        "fr": "70 km/h",
+        "ru": "70 км/ч",
+        "correct": false
+      },
+      {
+        "fr": "90 km/h",
+        "ru": "90 км/ч",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "En agglomération, la vitesse est limitée à 50 km/h, sauf si un panneau indique autre chose.",
+      "ru": "В населённом пункте скорость ограничена 50 км/ч, если знак не указывает иное."
+    },
+    "verified": true
+  },
+  {
+    "id": "vitesse-003",
+    "theme": "vitesse",
+    "grave": true,
+    "image": null,
+    "image_query": "zone 30 école Belgique",
+    "fr": "J'entre dans une zone 30, près d'une école. Quelle est la vitesse maximale ?",
+    "ru": "Я въезжаю в зону 30 возле школы. Какая максимальная скорость?",
+    "options": [
+      {
+        "fr": "50 km/h",
+        "ru": "50 км/ч",
+        "correct": false
+      },
+      {
+        "fr": "30 km/h",
+        "ru": "30 км/ч",
+        "correct": true
+      },
+      {
+        "fr": "70 km/h",
+        "ru": "70 км/ч",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Dans une zone 30, je ne dépasse pas 30 km/h. Près d'une école, je fais très attention aux enfants.",
+      "ru": "В зоне 30 нельзя ехать быстрее 30 км/ч. Возле школы я особенно внимательно слежу за детьми."
+    },
+    "verified": true
+  },
+  {
+    "id": "vitesse-004",
+    "theme": "vitesse",
+    "grave": true,
+    "image": null,
+    "image_query": "Belgian road sign F12a",
+    "fr": "Je roule dans une zone de rencontre ou une zone résidentielle. Quelle est la vitesse maximale ?",
+    "ru": "Я еду в зоне совместного движения или в жилой зоне. Какая максимальная скорость?",
+    "options": [
+      {
+        "fr": "30 km/h",
+        "ru": "30 км/ч",
+        "correct": false
+      },
+      {
+        "fr": "50 km/h",
+        "ru": "50 км/ч",
+        "correct": false
+      },
+      {
+        "fr": "20 km/h",
+        "ru": "20 км/ч",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Dans une zone résidentielle ou de rencontre, la vitesse est limitée à 20 km/h.",
+      "ru": "В жилой зоне и зоне совместного движения скорость ограничена 20 км/ч."
+    },
+    "verified": true
+  },
+  {
+    "id": "vitesse-005",
+    "theme": "vitesse",
+    "grave": true,
+    "image": null,
+    "fr": "Hors agglomération, je roule sur une route à deux bandes dans chaque sens. Les deux sens sont séparés par une berme centrale. Il n'y a pas de panneau. Quelle est la vitesse maximale ?",
+    "ru": "Вне населённого пункта я еду по дороге с двумя полосами в каждом направлении. Направления разделены разделительной полосой. Знаков нет. Какая максимальная скорость?",
+    "options": [
+      {
+        "fr": "120 km/h",
+        "ru": "120 км/ч",
+        "correct": true
+      },
+      {
+        "fr": "90 km/h",
+        "ru": "90 км/ч",
+        "correct": false
+      },
+      {
+        "fr": "70 km/h",
+        "ru": "70 км/ч",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Sur une route à quatre bandes ou plus, avec les deux sens séparés autrement que par des marques au sol, la limite est de 120 km/h.",
+      "ru": "На дороге с четырьмя и более полосами, где встречные направления разделены не разметкой, а иначе, ограничение — 120 км/ч."
+    },
+    "verified": false
+  },
+  {
+    "id": "vitesse-006",
+    "theme": "vitesse",
+    "grave": false,
+    "image": null,
+    "image_query": "pluie route visibilité",
+    "fr": "La vitesse est limitée à 90 km/h. Il pleut très fort et je vois mal. À quelle vitesse dois-je rouler ?",
+    "ru": "Скорость ограничена 90 км/ч. Идёт очень сильный дождь, и видимость плохая. С какой скоростью нужно ехать?",
+    "options": [
+      {
+        "fr": "À 90 km/h exactement.",
+        "ru": "Ровно 90 км/ч.",
+        "correct": false
+      },
+      {
+        "fr": "Moins vite que 90 km/h : j'adapte ma vitesse.",
+        "ru": "Медленнее 90 км/ч: я выбираю скорость по условиям.",
+        "correct": true
+      },
+      {
+        "fr": "Plus vite, pour sortir de la pluie.",
+        "ru": "Быстрее, чтобы выехать из дождя.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "La limite est un maximum. Je dois adapter ma vitesse à la visibilité, à l'état de la route et à la circulation.",
+      "ru": "Ограничение — это максимум. Нужно выбирать скорость с учётом видимости, состояния дороги и движения."
+    },
+    "verified": true
+  },
+  {
+    "id": "vitesse-007",
+    "theme": "vitesse",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign C43",
+    "fr": "Je passe un panneau rond à bord rouge avec le nombre 70. Jusqu'où cette limite est-elle valable ?",
+    "ru": "Я проезжаю круглый знак с красной каймой и числом 70. До какого места действует это ограничение?",
+    "options": [
+      {
+        "fr": "Pendant un kilomètre.",
+        "ru": "В течение одного километра.",
+        "correct": false
+      },
+      {
+        "fr": "Jusqu'à la prochaine ville.",
+        "ru": "До следующего города.",
+        "correct": false
+      },
+      {
+        "fr": "Jusqu'au prochain carrefour, ou jusqu'à un panneau qui la termine.",
+        "ru": "До следующего перекрёстка или до знака, который его отменяет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Une limitation de vitesse par panneau vaut depuis le panneau jusqu'au prochain carrefour, sauf si un panneau y met fin avant.",
+      "ru": "Ограничение скорости, установленное знаком, действует от знака до следующего перекрёстка, если его раньше не отменит другой знак."
+    },
+    "verified": false
+  },
+  {
+    "id": "vitesse-008",
+    "theme": "vitesse",
+    "grave": false,
+    "image": null,
+    "fr": "La route est libre. Puis-je rouler très lentement sans raison et gêner les autres conducteurs ?",
+    "ru": "Дорога свободна. Можно ли мне без причины ехать очень медленно и мешать другим водителям?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Je ne peux pas gêner la circulation en roulant à une vitesse anormalement réduite sans raison valable.",
+      "ru": "Нельзя мешать движению, двигаясь без уважительной причины слишком медленно."
+    },
+    "verified": true
+  },
+  {
+    "id": "vitesse-009",
+    "theme": "vitesse",
+    "grave": false,
+    "image": null,
+    "fr": "Je roule deux fois plus vite. Que devient ma distance de freinage ?",
+    "ru": "Я еду в два раза быстрее. Как меняется мой тормозной путь?",
+    "options": [
+      {
+        "fr": "Elle est deux fois plus longue.",
+        "ru": "Он становится в два раза длиннее.",
+        "correct": false
+      },
+      {
+        "fr": "Elle est environ quatre fois plus longue.",
+        "ru": "Он становится примерно в четыре раза длиннее.",
+        "correct": true
+      },
+      {
+        "fr": "Elle reste la même.",
+        "ru": "Он не меняется.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "La distance de freinage augmente très vite avec la vitesse : vitesse doublée, distance multipliée par quatre environ.",
+      "ru": "Тормозной путь очень быстро растёт со скоростью: скорость вдвое больше — путь примерно в четыре раза длиннее."
+    },
+    "verified": true
+  },
+  {
+    "id": "vitesse-010",
+    "theme": "vitesse",
+    "grave": false,
+    "image": null,
+    "fr": "Quel est le temps de réaction moyen d'un conducteur attentif ?",
+    "ru": "Каково среднее время реакции внимательного водителя?",
+    "options": [
+      {
+        "fr": "Environ 5 secondes.",
+        "ru": "Около 5 секунд.",
+        "correct": false
+      },
+      {
+        "fr": "Aucun : la réaction est immédiate.",
+        "ru": "Его нет: реакция мгновенная.",
+        "correct": false
+      },
+      {
+        "fr": "Environ 1 seconde.",
+        "ru": "Около 1 секунды.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Il faut environ une seconde pour réagir. Pendant ce temps, la voiture continue d'avancer à la même vitesse.",
+      "ru": "На реакцию нужно около секунды. Всё это время автомобиль продолжает двигаться с той же скоростью."
+    },
+    "verified": true
+  },
+  {
+    "id": "depassement-001",
+    "theme": "depassement",
+    "grave": false,
+    "image": null,
+    "fr": "En règle générale, de quel côté dois-je dépasser une voiture ?",
+    "ru": "С какой стороны, как правило, нужно обгонять автомобиль?",
+    "options": [
+      {
+        "fr": "Par la gauche.",
+        "ru": "Слева.",
+        "correct": true
+      },
+      {
+        "fr": "Par la droite.",
+        "ru": "Справа.",
+        "correct": false
+      },
+      {
+        "fr": "Du côté où il y a le plus de place.",
+        "ru": "С той стороны, где больше места.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Le dépassement se fait par la gauche.",
+      "ru": "Обгон выполняется слева."
+    },
+    "verified": true
+  },
+  {
+    "id": "depassement-002",
+    "theme": "depassement",
+    "grave": false,
+    "image": null,
+    "fr": "Le conducteur devant moi a mis son clignotant gauche et s'est placé à gauche pour tourner. De quel côté puis-je le dépasser ?",
+    "ru": "Водитель впереди включил левый указатель поворота и занял левое положение для поворота. С какой стороны его можно объехать?",
+    "options": [
+      {
+        "fr": "Par la gauche.",
+        "ru": "Слева.",
+        "correct": false
+      },
+      {
+        "fr": "Par la droite.",
+        "ru": "Справа.",
+        "correct": true
+      },
+      {
+        "fr": "Je ne peux pas le dépasser.",
+        "ru": "Его нельзя объезжать.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je dépasse par la droite un conducteur qui a montré qu'il va tourner à gauche et qui s'est placé à gauche.",
+      "ru": "Водителя, который показал, что поворачивает налево, и занял левое положение, объезжают справа."
+    },
+    "verified": true
+  },
+  {
+    "id": "depassement-003",
+    "theme": "depassement",
+    "grave": true,
+    "image": null,
+    "image_query": "route sommet de côte visibilité",
+    "fr": "Je roule sur une route à deux sens avec une bande par sens. J'approche du sommet d'une côte et je ne vois pas ce qui arrive en face. Puis-je dépasser ?",
+    "ru": "Я еду по дороге с двусторонним движением, по одной полосе в каждом направлении. Я приближаюсь к вершине подъёма и не вижу встречного движения. Можно ли мне обгонять?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Je ne dépasse pas quand la visibilité est insuffisante, par exemple près du sommet d'une côte ou dans un virage.",
+      "ru": "Нельзя обгонять при недостаточной видимости, например у вершины подъёма или на повороте."
+    },
+    "verified": true
+  },
+  {
+    "id": "depassement-004",
+    "theme": "depassement",
+    "grave": true,
+    "image": null,
+    "image_query": "passage pour piétons voiture arrêtée",
+    "fr": "Une voiture s'arrête devant un passage pour piétons sans feux pour laisser traverser quelqu'un. Puis-je la dépasser ?",
+    "ru": "Автомобиль останавливается перед пешеходным переходом без светофора, чтобы пропустить пешехода. Можно ли мне его обогнать?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Il est interdit de dépasser un véhicule qui s'approche d'un passage pour piétons ou qui s'y arrête, quand il n'y a ni feux ni agent.",
+      "ru": "Запрещено обгонять транспортное средство, которое приближается к пешеходному переходу или останавливается перед ним, если нет ни светофора, ни регулировщика."
+    },
+    "verified": true
+  },
+  {
+    "id": "depassement-005",
+    "theme": "depassement",
+    "grave": false,
+    "image": null,
+    "image_query": "cycliste rue Belgique dépassement",
+    "fr": "En agglomération, je dépasse un cycliste. Quelle distance dois-je laisser entre ma voiture et lui ?",
+    "ru": "В населённом пункте я обгоняю велосипедиста. Какое расстояние нужно оставить между автомобилем и ним?",
+    "options": [
+      {
+        "fr": "Au moins 20 centimètres.",
+        "ru": "Не меньше 20 сантиметров.",
+        "correct": false
+      },
+      {
+        "fr": "Au moins 1 mètre.",
+        "ru": "Не меньше 1 метра.",
+        "correct": true
+      },
+      {
+        "fr": "Aucune distance n'est imposée.",
+        "ru": "Расстояние не установлено.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "En agglomération, je laisse au moins 1 mètre entre mon véhicule et le cycliste.",
+      "ru": "В населённом пункте я оставляю не меньше 1 метра между автомобилем и велосипедистом."
+    },
+    "verified": true
+  },
+  {
+    "id": "depassement-006",
+    "theme": "depassement",
+    "grave": false,
+    "image": null,
+    "image_query": "cycliste route campagne Belgique",
+    "fr": "Hors agglomération, je dépasse un cycliste. Quelle distance dois-je laisser entre ma voiture et lui ?",
+    "ru": "Вне населённого пункта я обгоняю велосипедиста. Какое расстояние нужно оставить между автомобилем и ним?",
+    "options": [
+      {
+        "fr": "Au moins 50 centimètres.",
+        "ru": "Не меньше 50 сантиметров.",
+        "correct": false
+      },
+      {
+        "fr": "Au moins 5 mètres.",
+        "ru": "Не меньше 5 метров.",
+        "correct": false
+      },
+      {
+        "fr": "Au moins 1,5 mètre.",
+        "ru": "Не меньше 1,5 метра.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Hors agglomération, je laisse au moins 1,5 mètre entre mon véhicule et le cycliste.",
+      "ru": "Вне населённого пункта я оставляю не меньше 1,5 метра между автомобилем и велосипедистом."
+    },
+    "verified": true
+  },
+  {
+    "id": "depassement-007",
+    "theme": "depassement",
+    "grave": false,
+    "image": null,
+    "fr": "Que dois-je faire avant de dépasser ?",
+    "ru": "Что нужно сделать перед обгоном?",
+    "options": [
+      {
+        "fr": "Je vérifie que la voie est libre devant et derrière, puis je mets mon clignotant.",
+        "ru": "Я убеждаюсь, что дорога свободна впереди и сзади, затем включаю указатель поворота.",
+        "correct": true
+      },
+      {
+        "fr": "Je klaxonne et je dépasse tout de suite.",
+        "ru": "Я сигналю и сразу обгоняю.",
+        "correct": false
+      },
+      {
+        "fr": "Je me rapproche le plus possible de la voiture devant moi.",
+        "ru": "Я подъезжаю как можно ближе к автомобилю впереди.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Avant de dépasser, je regarde devant, dans les rétroviseurs et dans l'angle mort. Je vérifie que personne ne me dépasse déjà.",
+      "ru": "Перед обгоном я смотрю вперёд, в зеркала и в «мёртвую зону». Я убеждаюсь, что меня никто не обгоняет."
+    },
+    "verified": true
+  },
+  {
+    "id": "depassement-008",
+    "theme": "depassement",
+    "grave": false,
+    "image": null,
+    "fr": "Je viens de dépasser une voiture. Que dois-je faire ?",
+    "ru": "Я только что завершаю обгон автомобиля. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je reste à gauche.",
+        "ru": "Я остаюсь слева.",
+        "correct": false
+      },
+      {
+        "fr": "Je reviens à droite dès que possible, sans gêner la voiture dépassée.",
+        "ru": "Я возвращаюсь вправо, как только это возможно, не мешая обогнанному автомобилю.",
+        "correct": true
+      },
+      {
+        "fr": "Je freine juste devant la voiture dépassée.",
+        "ru": "Я торможу прямо перед обогнанным автомобилем.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Après un dépassement, je reprends ma place à droite quand je peux le faire sans danger pour le conducteur dépassé.",
+      "ru": "После обгона я возвращаюсь на правую сторону, когда это безопасно для обогнанного водителя."
+    },
+    "verified": true
+  },
+  {
+    "id": "depassement-009",
+    "theme": "depassement",
+    "grave": false,
+    "image": null,
+    "fr": "Une voiture me dépasse. Que dois-je faire ?",
+    "ru": "Меня обгоняет автомобиль. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "J'accélère.",
+        "ru": "Я ускоряюсь.",
+        "correct": false
+      },
+      {
+        "fr": "Je me déplace vers la gauche.",
+        "ru": "Я смещаюсь влево.",
+        "correct": false
+      },
+      {
+        "fr": "Je serre à droite et je n'accélère pas.",
+        "ru": "Я держусь правее и не ускоряюсь.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Quand on me dépasse, je serre le plus possible à droite et je n'augmente pas ma vitesse.",
+      "ru": "Когда меня обгоняют, я держусь как можно правее и не увеличиваю скорость."
+    },
+    "verified": true
+  },
+  {
+    "id": "depassement-010",
+    "theme": "depassement",
+    "grave": false,
+    "image": null,
+    "image_query": "tram Belgique rue",
+    "fr": "En règle générale, de quel côté dépasse-t-on un tram en mouvement ?",
+    "ru": "С какой стороны, как правило, обгоняют движущийся трамвай?",
+    "options": [
+      {
+        "fr": "Par la droite.",
+        "ru": "Справа.",
+        "correct": true
+      },
+      {
+        "fr": "Par la gauche.",
+        "ru": "Слева.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Un tram se dépasse par la droite. Par la gauche, c'est permis seulement s'il n'y a pas assez de place à droite et si c'est sans danger.",
+      "ru": "Трамвай обгоняют справа. Слева — только если справа недостаточно места и это безопасно."
+    },
+    "verified": false
+  },
+  {
+    "id": "stationnement-001",
+    "theme": "stationnement",
+    "grave": false,
+    "image": null,
+    "fr": "Je m'arrête juste le temps de laisser descendre un passager. Comment appelle-t-on cela ?",
+    "ru": "Я останавливаюсь только на то время, которое нужно, чтобы высадить пассажира. Как это называется?",
+    "options": [
+      {
+        "fr": "Un stationnement.",
+        "ru": "Стоянка.",
+        "correct": false
+      },
+      {
+        "fr": "Un arrêt.",
+        "ru": "Остановка.",
+        "correct": true
+      },
+      {
+        "fr": "Une panne.",
+        "ru": "Поломка.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Un véhicule est à l'arrêt quand il reste immobile le temps nécessaire pour faire monter ou descendre des personnes, ou pour charger ou décharger des choses.",
+      "ru": "Остановка — это когда транспортное средство стоит ровно столько, сколько нужно для посадки или высадки людей либо погрузки или разгрузки вещей."
+    },
+    "verified": true
+  },
+  {
+    "id": "stationnement-002",
+    "theme": "stationnement",
+    "grave": false,
+    "image": null,
+    "image_query": "passage pour piétons Tournai",
+    "fr": "Puis-je m'arrêter ou stationner sur un passage pour piétons ?",
+    "ru": "Можно ли мне останавливаться или парковаться на пешеходном переходе?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "L'arrêt et le stationnement sont interdits sur les passages pour piétons.",
+      "ru": "Остановка и стоянка на пешеходных переходах запрещены."
+    },
+    "verified": true
+  },
+  {
+    "id": "stationnement-003",
+    "theme": "stationnement",
+    "grave": false,
+    "image": null,
+    "fr": "À quelle distance minimale avant un passage pour piétons puis-je stationner ?",
+    "ru": "На каком минимальном расстоянии перед пешеходным переходом можно парковаться?",
+    "options": [
+      {
+        "fr": "À 5 mètres au moins.",
+        "ru": "Не ближе 5 метров.",
+        "correct": true
+      },
+      {
+        "fr": "À 1 mètre au moins.",
+        "ru": "Не ближе 1 метра.",
+        "correct": false
+      },
+      {
+        "fr": "À 15 mètres au moins.",
+        "ru": "Не ближе 15 метров.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Il est interdit de s'arrêter et de stationner sur la chaussée à moins de 5 mètres avant un passage pour piétons.",
+      "ru": "Запрещены остановка и стоянка на проезжей части ближе 5 метров перед пешеходным переходом."
+    },
+    "verified": true
+  },
+  {
+    "id": "stationnement-004",
+    "theme": "stationnement",
+    "grave": false,
+    "image": null,
+    "image_query": "entrée de garage rue Belgique",
+    "fr": "Puis-je stationner devant l'entrée du garage d'une autre personne ?",
+    "ru": "Можно ли мне парковаться перед въездом в чужой гараж?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Il est interdit de stationner devant les accès carrossables des propriétés, comme une entrée de garage.",
+      "ru": "Запрещено парковаться перед въездами на участки, например перед въездом в гараж."
+    },
+    "verified": true
+  },
+  {
+    "id": "stationnement-005",
+    "theme": "stationnement",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign E1",
+    "fr": "Un panneau rond bleu à bord rouge, avec une seule barre rouge oblique. Que signifie-t-il ?",
+    "ru": "Круглый синий знак с красной каймой и одной косой красной полосой. Что он означает?",
+    "options": [
+      {
+        "fr": "L'arrêt et le stationnement sont interdits.",
+        "ru": "Остановка и стоянка запрещены.",
+        "correct": false
+      },
+      {
+        "fr": "Le stationnement est permis.",
+        "ru": "Стоянка разрешена.",
+        "correct": false
+      },
+      {
+        "fr": "Le stationnement est interdit, mais l'arrêt est permis.",
+        "ru": "Стоянка запрещена, но остановка разрешена.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Une seule barre : stationnement interdit. Je peux m'arrêter le temps de faire monter ou descendre quelqu'un.",
+      "ru": "Одна полоса: стоянка запрещена. Можно остановиться, чтобы посадить или высадить человека."
+    },
+    "verified": true
+  },
+  {
+    "id": "stationnement-006",
+    "theme": "stationnement",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign E3",
+    "fr": "Un panneau rond bleu à bord rouge, avec deux barres rouges en croix. Que signifie-t-il ?",
+    "ru": "Круглый синий знак с красной каймой и двумя перекрещенными красными полосами. Что он означает?",
+    "options": [
+      {
+        "fr": "L'arrêt et le stationnement sont interdits.",
+        "ru": "Остановка и стоянка запрещены.",
+        "correct": true
+      },
+      {
+        "fr": "Seul le stationnement est interdit.",
+        "ru": "Запрещена только стоянка.",
+        "correct": false
+      },
+      {
+        "fr": "Le stationnement est limité à 30 minutes.",
+        "ru": "Стоянка ограничена 30 минутами.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Deux barres en croix : je ne peux ni m'arrêter ni stationner.",
+      "ru": "Две перекрещенные полосы: нельзя ни останавливаться, ни парковаться."
+    },
+    "verified": true
+  },
+  {
+    "id": "stationnement-007",
+    "theme": "stationnement",
+    "grave": false,
+    "image": null,
+    "image_query": "disque de stationnement zone bleue",
+    "fr": "Je stationne dans une zone bleue. Que dois-je placer derrière le pare-brise ?",
+    "ru": "Я паркуюсь в синей зоне. Что нужно положить за лобовое стекло?",
+    "options": [
+      {
+        "fr": "Mon permis de conduire.",
+        "ru": "Водительское удостоверение.",
+        "correct": false
+      },
+      {
+        "fr": "Un disque de stationnement.",
+        "ru": "Парковочный диск.",
+        "correct": true
+      },
+      {
+        "fr": "Un triangle de danger.",
+        "ru": "Знак аварийной остановки.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Dans une zone bleue, je place le disque de stationnement et j'indique mon heure d'arrivée. La durée est limitée.",
+      "ru": "В синей зоне нужно положить парковочный диск и указать время прибытия. Время стоянки ограничено."
+    },
+    "verified": true
+  },
+  {
+    "id": "stationnement-008",
+    "theme": "stationnement",
+    "grave": false,
+    "image": null,
+    "fr": "Sur une route à double sens, de quel côté dois-je stationner ?",
+    "ru": "С какой стороны нужно парковаться на дороге с двусторонним движением?",
+    "options": [
+      {
+        "fr": "À gauche, face aux voitures qui arrivent.",
+        "ru": "Слева, навстречу движению.",
+        "correct": false
+      },
+      {
+        "fr": "Du côté que je préfère.",
+        "ru": "С той стороны, которая мне больше нравится.",
+        "correct": false
+      },
+      {
+        "fr": "À droite, dans le sens de la marche.",
+        "ru": "Справа, по направлению движения.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Je stationne à droite par rapport au sens de ma marche. Dans une rue à sens unique, je peux stationner des deux côtés.",
+      "ru": "Паркуются справа по направлению движения. На улице с односторонним движением можно парковаться с обеих сторон."
+    },
+    "verified": true
+  },
+  {
+    "id": "stationnement-009",
+    "theme": "stationnement",
+    "grave": false,
+    "image": null,
+    "image_query": "arrêt de bus TEC Tournai",
+    "fr": "À quelle distance d'un panneau d'arrêt de bus le stationnement est-il interdit ?",
+    "ru": "На каком расстоянии от знака автобусной остановки запрещена стоянка?",
+    "options": [
+      {
+        "fr": "À moins de 15 mètres de chaque côté du panneau.",
+        "ru": "Ближе 15 метров с каждой стороны от знака.",
+        "correct": true
+      },
+      {
+        "fr": "À moins de 2 mètres de chaque côté du panneau.",
+        "ru": "Ближе 2 метров с каждой стороны от знака.",
+        "correct": false
+      },
+      {
+        "fr": "À moins de 100 mètres de chaque côté du panneau.",
+        "ru": "Ближе 100 метров с каждой стороны от знака.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Il est interdit de stationner à moins de 15 mètres de part et d'autre d'un panneau indiquant un arrêt de bus ou de tram.",
+      "ru": "Запрещено парковаться ближе 15 метров по обе стороны от знака остановки автобуса или трамвая."
+    },
+    "verified": true
+  },
+  {
+    "id": "stationnement-010",
+    "theme": "stationnement",
+    "grave": false,
+    "image": null,
+    "image_query": "piste cyclable Tournai",
+    "fr": "Puis-je stationner ma voiture sur une piste cyclable ?",
+    "ru": "Можно ли мне припарковать автомобиль на велодорожке?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "L'arrêt et le stationnement sont interdits sur les pistes cyclables : les cyclistes seraient obligés de rouler sur la chaussée.",
+      "ru": "Остановка и стоянка на велодорожках запрещены: велосипедистам пришлось бы выезжать на проезжую часть."
+    },
+    "verified": true
+  },
+  {
+    "id": "autoroute-001",
+    "theme": "autoroute",
+    "grave": true,
+    "image": null,
+    "image_query": "autoroute Belgique E42",
+    "fr": "Je roule sur l'autoroute. Quelle est la vitesse maximale ?",
+    "ru": "Я еду по автомагистрали. Какая максимальная скорость?",
+    "options": [
+      {
+        "fr": "90 km/h",
+        "ru": "90 км/ч",
+        "correct": false
+      },
+      {
+        "fr": "130 km/h",
+        "ru": "130 км/ч",
+        "correct": false
+      },
+      {
+        "fr": "120 km/h",
+        "ru": "120 км/ч",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "En Belgique, la vitesse maximale sur autoroute est de 120 km/h.",
+      "ru": "В Бельгии максимальная скорость на автомагистрали — 120 км/ч."
+    },
+    "verified": true
+  },
+  {
+    "id": "autoroute-002",
+    "theme": "autoroute",
+    "grave": true,
+    "image": null,
+    "fr": "J'ai raté ma sortie sur l'autoroute. Puis-je faire demi-tour ou marche arrière ?",
+    "ru": "Я пропускаю свой съезд с автомагистрали. Можно ли мне развернуться или ехать задним ходом?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Sur autoroute, il est interdit de faire demi-tour et de faire marche arrière. Je continue jusqu'à la sortie suivante.",
+      "ru": "На автомагистрали запрещены разворот и движение задним ходом. Я еду до следующего съезда."
+    },
+    "verified": true
+  },
+  {
+    "id": "autoroute-003",
+    "theme": "autoroute",
+    "grave": false,
+    "image": null,
+    "image_query": "bande d'arrêt d'urgence autoroute Belgique",
+    "fr": "Ma voiture tombe en panne sur l'autoroute. Puis-je m'arrêter sur la bande d'arrêt d'urgence ?",
+    "ru": "Мой автомобиль ломается на автомагистрали. Можно ли мне остановиться на аварийной полосе?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": true
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "La bande d'arrêt d'urgence sert en cas de panne ou d'urgence. Je ne l'utilise jamais pour dépasser un bouchon.",
+      "ru": "Аварийная полоса предназначена для случаев поломки или чрезвычайной ситуации. Объезжать по ней затор нельзя."
+    },
+    "verified": true
+  },
+  {
+    "id": "autoroute-004",
+    "theme": "autoroute",
+    "grave": false,
+    "image": null,
+    "image_query": "triangle de danger panne autoroute",
+    "fr": "Ma voiture tombe en panne sur l'autoroute. À quelle distance derrière la voiture dois-je placer le triangle de danger ?",
+    "ru": "Мой автомобиль ломается на автомагистрали. На каком расстоянии позади автомобиля нужно поставить знак аварийной остановки?",
+    "options": [
+      {
+        "fr": "À 5 mètres au moins.",
+        "ru": "Не ближе 5 метров.",
+        "correct": false
+      },
+      {
+        "fr": "À 30 mètres au moins.",
+        "ru": "Не ближе 30 метров.",
+        "correct": false
+      },
+      {
+        "fr": "À 100 mètres au moins.",
+        "ru": "Не ближе 100 метров.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Sur autoroute, le triangle se place à 100 mètres au moins derrière le véhicule. Je mets mon gilet fluorescent et j'attends derrière la glissière de sécurité.",
+      "ru": "На автомагистрали знак аварийной остановки ставят не ближе 100 метров позади автомобиля. Я надеваю светоотражающий жилет и жду за ограждением."
+    },
+    "verified": true
+  },
+  {
+    "id": "autoroute-005",
+    "theme": "autoroute",
+    "grave": false,
+    "image": null,
+    "image_query": "bretelle d'accès autoroute Belgique",
+    "fr": "J'entre sur l'autoroute par la bande d'accélération. Qui a la priorité ?",
+    "ru": "Я въезжаю на автомагистраль по полосе разгона. У кого приоритет?",
+    "options": [
+      {
+        "fr": "Les conducteurs qui roulent déjà sur l'autoroute.",
+        "ru": "У водителей, которые уже едут по автомагистрали.",
+        "correct": true
+      },
+      {
+        "fr": "Moi, car je viens de droite.",
+        "ru": "У меня, потому что я еду справа.",
+        "correct": false
+      },
+      {
+        "fr": "Le véhicule le plus rapide.",
+        "ru": "У самого быстрого автомобиля.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Sur la bande d'accélération, j'adapte ma vitesse et je cède le passage aux conducteurs qui roulent sur l'autoroute.",
+      "ru": "На полосе разгона я набираю подходящую скорость и уступаю дорогу водителям на автомагистрали."
+    },
+    "verified": true
+  },
+  {
+    "id": "autoroute-006",
+    "theme": "autoroute",
+    "grave": false,
+    "image": null,
+    "image_query": "autoroute trois bandes Belgique",
+    "fr": "Je roule sur une autoroute à trois bandes. La circulation est fluide et je ne dépasse personne. Sur quelle bande dois-je rouler ?",
+    "ru": "Я еду по автомагистрали с тремя полосами. Движение свободное, я никого не обгоняю. По какой полосе нужно ехать?",
+    "options": [
+      {
+        "fr": "Sur la bande du milieu.",
+        "ru": "По средней полосе.",
+        "correct": false
+      },
+      {
+        "fr": "Sur la bande de droite.",
+        "ru": "По правой полосе.",
+        "correct": true
+      },
+      {
+        "fr": "Sur la bande de gauche.",
+        "ru": "По левой полосе.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je roule le plus à droite possible. Les autres bandes servent à dépasser.",
+      "ru": "Нужно ехать как можно правее. Остальные полосы служат для обгона."
+    },
+    "verified": true
+  },
+  {
+    "id": "autoroute-007",
+    "theme": "autoroute",
+    "grave": false,
+    "image": null,
+    "image_query": "couloir de secours autoroute",
+    "fr": "Il y a un bouchon sur une autoroute à deux bandes. Les secours doivent passer. Où les conducteurs laissent-ils un couloir de secours ?",
+    "ru": "На автомагистрали с двумя полосами затор. Нужно пропустить экстренные службы. Где водители оставляют коридор для них?",
+    "options": [
+      {
+        "fr": "Sur la bande d'arrêt d'urgence uniquement.",
+        "ru": "Только на аварийной полосе.",
+        "correct": false
+      },
+      {
+        "fr": "Tout à gauche, le long de la berme centrale.",
+        "ru": "У самого левого края, вдоль разделительной полосы.",
+        "correct": false
+      },
+      {
+        "fr": "Entre la bande de gauche et la bande de droite.",
+        "ru": "Между левой и правой полосами.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "En cas de file, les conducteurs de la bande de gauche serrent à gauche et les autres serrent à droite. Les secours passent au milieu.",
+      "ru": "В заторе водители левой полосы прижимаются влево, остальные — вправо. Экстренные службы проезжают посередине."
+    },
+    "verified": true
+  },
+  {
+    "id": "autoroute-008",
+    "theme": "autoroute",
+    "grave": false,
+    "image": null,
+    "fr": "Lequel de ces usagers ne peut pas circuler sur l'autoroute ?",
+    "ru": "Кому из этих участников движения запрещено ездить по автомагистрали?",
+    "options": [
+      {
+        "fr": "Un cyclomoteur.",
+        "ru": "Мопеду.",
+        "correct": true
+      },
+      {
+        "fr": "Une moto.",
+        "ru": "Мотоциклу.",
+        "correct": false
+      },
+      {
+        "fr": "Un camion.",
+        "ru": "Грузовику.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "L'autoroute est interdite aux piétons, aux cyclistes, aux cyclomoteurs et aux véhicules trop lents.",
+      "ru": "Движение по автомагистрали запрещено пешеходам, велосипедистам, мопедам и слишком медленным транспортным средствам."
+    },
+    "verified": true
+  },
+  {
+    "id": "autoroute-009",
+    "theme": "autoroute",
+    "grave": true,
+    "image": null,
+    "fr": "Sur l'autoroute, la circulation est fluide. Une voiture roule lentement sur la bande du milieu. Puis-je la dépasser par la droite ?",
+    "ru": "На автомагистрали движение свободное. По средней полосе медленно едет автомобиль. Можно ли мне обогнать его справа?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Sur autoroute, je dépasse par la gauche. Dépasser par la droite est interdit quand la circulation est fluide.",
+      "ru": "На автомагистрали обгоняют слева. Обгон справа при свободном движении запрещён."
+    },
+    "verified": true
+  },
+  {
+    "id": "autoroute-010",
+    "theme": "autoroute",
+    "grave": false,
+    "image": null,
+    "image_query": "travaux autoroute rétrécissement",
+    "fr": "Sur l'autoroute, une bande se termine à cause de travaux et la circulation est très lente. Comment les voitures doivent-elles se rabattre ?",
+    "ru": "На автомагистрали из-за дорожных работ заканчивается полоса, движение очень медленное. Как автомобили должны перестраиваться?",
+    "options": [
+      {
+        "fr": "Le plus tôt possible, loin avant la fin de la bande.",
+        "ru": "Как можно раньше, задолго до конца полосы.",
+        "correct": false
+      },
+      {
+        "fr": "Les voitures de la bande qui continue ne laissent passer personne.",
+        "ru": "Автомобили на остающейся полосе никого не пропускают.",
+        "correct": false
+      },
+      {
+        "fr": "Chacune à son tour, juste avant la fin de la bande : c'est la tirette.",
+        "ru": "По очереди, прямо перед концом полосы: это «молния».",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Quand la circulation est fortement ralentie, la tirette est obligatoire : on se rabat au bout de la bande, et chaque conducteur laisse passer une voiture.",
+      "ru": "При сильно замедленном движении обязательна «молния»: перестраиваются в конце полосы, и каждый водитель пропускает один автомобиль."
+    },
+    "verified": true
+  },
+  {
+    "id": "usagers-vulnerables-001",
+    "theme": "usagers-vulnerables",
+    "grave": true,
+    "image": null,
+    "image_query": "piéton passage pour piétons Tournai",
+    "fr": "Un piéton traverse sur le passage pour piétons. Que dois-je faire ?",
+    "ru": "Пешеход переходит дорогу по пешеходному переходу. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je m'arrête et je le laisse passer.",
+        "ru": "Я останавливаюсь и пропускаю его.",
+        "correct": true
+      },
+      {
+        "fr": "Je klaxonne pour qu'il se dépêche.",
+        "ru": "Я сигналю, чтобы он поторопился.",
+        "correct": false
+      },
+      {
+        "fr": "Je passe derrière lui sans ralentir.",
+        "ru": "Я проезжаю позади него, не снижая скорости.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je dois céder le passage au piéton qui traverse sur le passage pour piétons.",
+      "ru": "Нужно уступить дорогу пешеходу, который переходит по пешеходному переходу."
+    },
+    "verified": true
+  },
+  {
+    "id": "usagers-vulnerables-002",
+    "theme": "usagers-vulnerables",
+    "grave": true,
+    "image": null,
+    "image_query": "piéton attend passage pour piétons",
+    "fr": "Un piéton attend au bord du trottoir et veut traverser sur un passage pour piétons sans feux. Que dois-je faire ?",
+    "ru": "Пешеход стоит у края тротуара и хочет перейти дорогу по переходу без светофора. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je continue, car il n'est pas encore sur la chaussée.",
+        "ru": "Я еду дальше, потому что он ещё не на проезжей части.",
+        "correct": false
+      },
+      {
+        "fr": "Je ralentis et je m'arrête pour le laisser traverser.",
+        "ru": "Я снижаю скорость и останавливаюсь, чтобы пропустить его.",
+        "correct": true
+      },
+      {
+        "fr": "J'accélère pour passer avant lui.",
+        "ru": "Я ускоряюсь, чтобы проехать раньше него.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je dois céder le passage aux piétons qui traversent, mais aussi à ceux qui sont sur le point de traverser.",
+      "ru": "Нужно уступать дорогу не только тем пешеходам, которые переходят, но и тем, кто собирается перейти."
+    },
+    "verified": true
+  },
+  {
+    "id": "usagers-vulnerables-003",
+    "theme": "usagers-vulnerables",
+    "grave": false,
+    "image": null,
+    "image_query": "cycliste piste cyclable carrefour Belgique",
+    "fr": "Je veux tourner à droite. Un cycliste roule à ma droite sur la piste cyclable et continue tout droit. Que dois-je faire ?",
+    "ru": "Я хочу повернуть направо. Справа от меня по велодорожке едет велосипедист, он движется прямо. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je tourne devant lui, car je suis plus rapide.",
+        "ru": "Я поворачиваю перед ним, потому что еду быстрее.",
+        "correct": false
+      },
+      {
+        "fr": "Je klaxonne pour qu'il s'arrête.",
+        "ru": "Я сигналю, чтобы он остановился.",
+        "correct": false
+      },
+      {
+        "fr": "Je le laisse passer avant de tourner.",
+        "ru": "Я пропускаю его и только потом поворачиваю.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Quand je tourne, je cède le passage aux cyclistes qui continuent tout droit sur la piste cyclable. Je regarde aussi dans l'angle mort.",
+      "ru": "При повороте я уступаю дорогу велосипедистам, которые едут прямо по велодорожке. Я также проверяю «мёртвую зону»."
+    },
+    "verified": true
+  },
+  {
+    "id": "usagers-vulnerables-004",
+    "theme": "usagers-vulnerables",
+    "grave": false,
+    "image": null,
+    "fr": "Une personne avec une canne blanche attend au bord de la route. Que m'indique la canne blanche ?",
+    "ru": "У края дороги стоит человек с белой тростью. Что означает белая трость?",
+    "options": [
+      {
+        "fr": "Cette personne est aveugle ou malvoyante.",
+        "ru": "Этот человек слепой или слабовидящий.",
+        "correct": true
+      },
+      {
+        "fr": "Cette personne est âgée.",
+        "ru": "Этот человек пожилой.",
+        "correct": false
+      },
+      {
+        "fr": "Cette personne est sourde.",
+        "ru": "Этот человек глухой.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "La canne blanche signale une personne aveugle ou malvoyante. Je ralentis et je m'arrête si elle veut traverser.",
+      "ru": "Белая трость означает, что человек слепой или слабовидящий. Я снижаю скорость и останавливаюсь, если он хочет перейти дорогу."
+    },
+    "verified": true
+  },
+  {
+    "id": "usagers-vulnerables-005",
+    "theme": "usagers-vulnerables",
+    "grave": false,
+    "image": null,
+    "image_query": "bus scolaire Belgique",
+    "fr": "Un bus scolaire est à l'arrêt, feux de détresse allumés. Des enfants montent et descendent. Que dois-je faire ?",
+    "ru": "Школьный автобус стоит с включённой аварийной сигнализацией. Дети садятся и выходят. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je passe à vitesse normale.",
+        "ru": "Я проезжаю с обычной скоростью.",
+        "correct": false
+      },
+      {
+        "fr": "Je roule très lentement et je m'arrête si nécessaire.",
+        "ru": "Я еду очень медленно и при необходимости останавливаюсь.",
+        "correct": true
+      },
+      {
+        "fr": "Je klaxonne pour prévenir les enfants.",
+        "ru": "Я сигналю, чтобы предупредить детей.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Des enfants peuvent traverser soudainement devant ou derrière le bus. Je roule au pas et je me prépare à freiner.",
+      "ru": "Дети могут внезапно выбежать перед автобусом или из-за него. Я еду очень медленно и готовлюсь тормозить."
+    },
+    "verified": true
+  },
+  {
+    "id": "usagers-vulnerables-006",
+    "theme": "usagers-vulnerables",
+    "grave": false,
+    "image": null,
+    "fr": "Je viens de stationner le long du trottoir. Que dois-je faire avant d'ouvrir ma portière ?",
+    "ru": "Я паркуюсь у тротуара. Что нужно сделать перед тем, как открыть дверь?",
+    "options": [
+      {
+        "fr": "J'ouvre vite la portière.",
+        "ru": "Я быстро открываю дверь.",
+        "correct": false
+      },
+      {
+        "fr": "Je klaxonne.",
+        "ru": "Я сигналю.",
+        "correct": false
+      },
+      {
+        "fr": "Je vérifie qu'aucun cycliste ou véhicule n'arrive.",
+        "ru": "Я убеждаюсь, что не приближается велосипедист или автомобиль.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ouvrir une portière sans regarder peut faire tomber un cycliste. Je regarde dans le rétroviseur et par-dessus mon épaule.",
+      "ru": "Открытая не глядя дверь может сбить велосипедиста. Я смотрю в зеркало и через плечо."
+    },
+    "verified": true
+  },
+  {
+    "id": "usagers-vulnerables-007",
+    "theme": "usagers-vulnerables",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign F12a",
+    "fr": "Dans une zone résidentielle ou de rencontre, les piétons peuvent-ils marcher au milieu de la rue ?",
+    "ru": "Могут ли пешеходы в жилой зоне или зоне совместного движения идти посередине улицы?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": true
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Dans ces zones, les piétons peuvent utiliser toute la largeur de la rue et les jeux y sont autorisés. Je roule à 20 km/h maximum.",
+      "ru": "В этих зонах пешеходы могут идти по всей ширине улицы, там разрешены игры. Я еду не быстрее 20 км/ч."
+    },
+    "verified": true
+  },
+  {
+    "id": "usagers-vulnerables-008",
+    "theme": "usagers-vulnerables",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign F111",
+    "fr": "Je vois le panneau « rue cyclable ». Puis-je rouler dans cette rue en voiture ?",
+    "ru": "Я вижу знак «велосипедная улица». Можно ли мне ехать по этой улице на автомобиле?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": true
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je peux rouler dans une rue cyclable, mais je ne peux pas dépasser les cyclistes et je roule à 30 km/h maximum.",
+      "ru": "По велосипедной улице ехать можно, но обгонять велосипедистов нельзя, и скорость — не выше 30 км/ч."
+    },
+    "verified": true
+  },
+  {
+    "id": "usagers-vulnerables-009",
+    "theme": "usagers-vulnerables",
+    "grave": false,
+    "image": null,
+    "image_query": "sens unique limité vélo Belgique",
+    "fr": "Je roule dans une rue à sens unique. Sous le panneau, un petit panneau indique « excepté » avec un vélo. À quoi dois-je m'attendre ?",
+    "ru": "Я еду по улице с односторонним движением. Под знаком висит табличка «excepté» (кроме) с велосипедом. Чего мне следует ожидать?",
+    "options": [
+      {
+        "fr": "Les vélos sont interdits dans cette rue.",
+        "ru": "Велосипедам проезд по этой улице запрещён.",
+        "correct": false
+      },
+      {
+        "fr": "Je peux rouler dans les deux sens en voiture.",
+        "ru": "На автомобиле можно ехать в обе стороны.",
+        "correct": false
+      },
+      {
+        "fr": "Des cyclistes peuvent arriver en face.",
+        "ru": "Навстречу могут ехать велосипедисты.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Dans un sens unique limité, les cyclistes peuvent rouler dans les deux sens. Je serre à droite et je fais attention.",
+      "ru": "На улице с ограниченным односторонним движением велосипедисты могут ехать в обе стороны. Я держусь правее и еду внимательно."
+    },
+    "verified": true
+  },
+  {
+    "id": "usagers-vulnerables-010",
+    "theme": "usagers-vulnerables",
+    "grave": false,
+    "image": null,
+    "image_query": "enfants trottoir rue Belgique",
+    "fr": "Des enfants jouent sur le trottoir, tout près de la chaussée. Que dois-je faire ?",
+    "ru": "Дети играют на тротуаре, совсем рядом с проезжей частью. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je ralentis et je me prépare à freiner.",
+        "ru": "Я снижаю скорость и готовлюсь тормозить.",
+        "correct": true
+      },
+      {
+        "fr": "Je garde ma vitesse, car ils sont sur le trottoir.",
+        "ru": "Я не меняю скорость, ведь они на тротуаре.",
+        "correct": false
+      },
+      {
+        "fr": "Je klaxonne longuement.",
+        "ru": "Я долго сигналю.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Les enfants sont imprévisibles : ils peuvent courir sur la chaussée sans regarder. Je redouble de prudence.",
+      "ru": "Дети непредсказуемы: они могут выбежать на дорогу не глядя. Я еду особенно осторожно."
+    },
+    "verified": true
+  },
+  {
+    "id": "alcool-drogues-fatigue-001",
+    "theme": "alcool-drogues-fatigue",
+    "grave": false,
+    "image": null,
+    "fr": "Quelle est la limite d'alcool autorisée pour le conducteur d'une voiture ?",
+    "ru": "Каков допустимый предел алкоголя для водителя легкового автомобиля?",
+    "options": [
+      {
+        "fr": "Moins de 1 gramme d'alcool par litre de sang.",
+        "ru": "Меньше 1 грамма алкоголя на литр крови.",
+        "correct": false
+      },
+      {
+        "fr": "Moins de 0,5 gramme d'alcool par litre de sang.",
+        "ru": "Меньше 0,5 грамма алкоголя на литр крови.",
+        "correct": true
+      },
+      {
+        "fr": "Moins de 2 grammes d'alcool par litre de sang.",
+        "ru": "Меньше 2 граммов алкоголя на литр крови.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je suis en infraction à partir de 0,5 gramme par litre de sang (0,5 ‰). Le plus sûr est de ne pas boire du tout avant de conduire.",
+      "ru": "Нарушение начинается с 0,5 грамма на литр крови (0,5 ‰). Надёжнее всего вообще не пить перед поездкой."
+    },
+    "verified": true
+  },
+  {
+    "id": "alcool-drogues-fatigue-002",
+    "theme": "alcool-drogues-fatigue",
+    "grave": false,
+    "image": null,
+    "fr": "J'ai bu de l'alcool. Un café fort ou une douche froide fait-il baisser mon taux d'alcool ?",
+    "ru": "Я выпиваю алкоголь. Снижает ли крепкий кофе или холодный душ содержание алкоголя в крови?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Seul le temps élimine l'alcool. Le café, l'eau ou une douche ne changent rien au taux d'alcool.",
+      "ru": "Алкоголь выводит только время. Кофе, вода или душ не снижают содержание алкоголя в крови."
+    },
+    "verified": true
+  },
+  {
+    "id": "alcool-drogues-fatigue-003",
+    "theme": "alcool-drogues-fatigue",
+    "grave": false,
+    "image": null,
+    "fr": "Puis-je conduire après avoir consommé du cannabis ?",
+    "ru": "Можно ли мне садиться за руль после употребления каннабиса?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Conduire sous l'influence de drogues est interdit. La police peut faire un test salivaire.",
+      "ru": "Управлять автомобилем под действием наркотиков запрещено. Полиция может провести тест слюны."
+    },
+    "verified": true
+  },
+  {
+    "id": "alcool-drogues-fatigue-004",
+    "theme": "alcool-drogues-fatigue",
+    "grave": false,
+    "image": null,
+    "image_query": "aire de repos autoroute Belgique",
+    "fr": "Sur un long trajet, je bâille et mes yeux piquent. Que dois-je faire ?",
+    "ru": "В долгой поездке я зеваю, глаза слипаются. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "J'ouvre la fenêtre et je continue.",
+        "ru": "Я открываю окно и еду дальше.",
+        "correct": false
+      },
+      {
+        "fr": "Je m'arrête dès que possible pour me reposer.",
+        "ru": "Я останавливаюсь при первой возможности, чтобы отдохнуть.",
+        "correct": true
+      },
+      {
+        "fr": "Je roule plus vite pour arriver plus tôt.",
+        "ru": "Я еду быстрее, чтобы приехать раньше.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce sont des signes de fatigue. Le seul vrai remède est de s'arrêter et de dormir un peu.",
+      "ru": "Это признаки усталости. Единственное настоящее средство — остановиться и немного поспать."
+    },
+    "verified": true
+  },
+  {
+    "id": "alcool-drogues-fatigue-005",
+    "theme": "alcool-drogues-fatigue",
+    "grave": false,
+    "image": null,
+    "fr": "Sur un long trajet, à quelle fréquence est-il conseillé de faire une pause ?",
+    "ru": "Как часто рекомендуется делать перерыв в долгой поездке?",
+    "options": [
+      {
+        "fr": "Toutes les six heures environ.",
+        "ru": "Примерно каждые шесть часов.",
+        "correct": false
+      },
+      {
+        "fr": "Seulement à l'arrivée.",
+        "ru": "Только по прибытии.",
+        "correct": false
+      },
+      {
+        "fr": "Toutes les deux heures environ.",
+        "ru": "Примерно каждые два часа.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Une pause d'un quart d'heure toutes les deux heures aide à garder son attention.",
+      "ru": "Пятнадцатиминутный перерыв каждые два часа помогает сохранять внимание."
+    },
+    "verified": true
+  },
+  {
+    "id": "alcool-drogues-fatigue-006",
+    "theme": "alcool-drogues-fatigue",
+    "grave": false,
+    "image": null,
+    "fr": "Je prends un médicament. Sur la boîte, un avertissement dit qu'il peut provoquer de la somnolence. Que dois-je faire ?",
+    "ru": "Я принимаю лекарство. На упаковке есть предупреждение, что оно может вызывать сонливость. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je lis la notice et je demande conseil à mon médecin ou à mon pharmacien avant de conduire.",
+        "ru": "Я читаю инструкцию и советуюсь с врачом или фармацевтом, прежде чем садиться за руль.",
+        "correct": true
+      },
+      {
+        "fr": "Je conduis normalement : les médicaments ne sont pas dangereux.",
+        "ru": "Я езжу как обычно: лекарства не опасны.",
+        "correct": false
+      },
+      {
+        "fr": "Je bois un café pour annuler l'effet.",
+        "ru": "Я пью кофе, чтобы снять это действие.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Certains médicaments ralentissent les réflexes ou endorment. Je ne conduis pas si le médicament me donne sommeil.",
+      "ru": "Некоторые лекарства замедляют реакцию или вызывают сонливость. Я не сажусь за руль, если лекарство вызывает у меня сонливость."
+    },
+    "verified": true
+  },
+  {
+    "id": "alcool-drogues-fatigue-007",
+    "theme": "alcool-drogues-fatigue",
+    "grave": false,
+    "image": null,
+    "fr": "Quel est l'effet de l'alcool sur un conducteur ?",
+    "ru": "Как алкоголь действует на водителя?",
+    "options": [
+      {
+        "fr": "Il réagit plus vite.",
+        "ru": "Он реагирует быстрее.",
+        "correct": false
+      },
+      {
+        "fr": "Il réagit plus lentement et il évalue mal les distances.",
+        "ru": "Он реагирует медленнее и хуже оценивает расстояния.",
+        "correct": true
+      },
+      {
+        "fr": "Il voit mieux la nuit.",
+        "ru": "Он лучше видит ночью.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "L'alcool allonge le temps de réaction, réduit le champ de vision et donne une fausse impression de sécurité.",
+      "ru": "Алкоголь увеличивает время реакции, сужает поле зрения и создаёт ложное ощущение безопасности."
+    },
+    "verified": true
+  },
+  {
+    "id": "alcool-drogues-fatigue-008",
+    "theme": "alcool-drogues-fatigue",
+    "grave": false,
+    "image": null,
+    "fr": "La police me demande de souffler pour un test d'haleine. Puis-je refuser ?",
+    "ru": "Полиция просит меня подуть в прибор для проверки на алкоголь. Можно ли мне отказаться?",
+    "options": [
+      {
+        "fr": "Non, le refus est puni.",
+        "ru": "Нет, отказ наказывается.",
+        "correct": true
+      },
+      {
+        "fr": "Oui, le test est facultatif.",
+        "ru": "Да, проверка не обязательна.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Refuser le test d'haleine est une infraction sévèrement punie.",
+      "ru": "Отказ от проверки на алкоголь — это нарушение, которое строго наказывается."
+    },
+    "verified": true
+  },
+  {
+    "id": "alcool-drogues-fatigue-009",
+    "theme": "alcool-drogues-fatigue",
+    "grave": false,
+    "image": null,
+    "fr": "J'ai bu plusieurs verres d'alcool à une fête. Comment rentrer à la maison ?",
+    "ru": "На празднике я выпиваю несколько бокалов алкоголя. Как добраться домой?",
+    "options": [
+      {
+        "fr": "Je ne conduis pas : je rentre en taxi ou avec une personne qui n'a pas bu.",
+        "ru": "Я не сажусь за руль: еду на такси или с тем, кто не пил.",
+        "correct": true
+      },
+      {
+        "fr": "Je conduis lentement.",
+        "ru": "Я еду медленно.",
+        "correct": false
+      },
+      {
+        "fr": "J'attends dix minutes, puis je conduis.",
+        "ru": "Я жду десять минут, а потом еду.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Après avoir bu, je ne prends pas le volant. Je prévois à l'avance une personne qui ne boit pas pour conduire.",
+      "ru": "После алкоголя за руль не садятся. Нужно заранее договориться с тем, кто не будет пить и поведёт машину."
+    },
+    "verified": true
+  },
+  {
+    "id": "alcool-drogues-fatigue-010",
+    "theme": "alcool-drogues-fatigue",
+    "grave": false,
+    "image": null,
+    "fr": "Je ressens une grande fatigue au volant. Mettre la musique fort et ouvrir la fenêtre, est-ce suffisant pour continuer ?",
+    "ru": "За рулём я чувствую сильную усталость. Достаточно ли включить громкую музыку и открыть окно, чтобы ехать дальше?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ces astuces n'aident que quelques minutes. Contre la fatigue, il faut s'arrêter et se reposer.",
+      "ru": "Такие приёмы помогают лишь на несколько минут. От усталости помогает только остановка и отдых."
+    },
+    "verified": true
+  },
+  {
+    "id": "feux-agents-001",
+    "theme": "feux-agents",
+    "grave": true,
+    "image": null,
+    "image_query": "feu rouge carrefour Tournai",
+    "fr": "Le feu est rouge. Puis-je passer ?",
+    "ru": "Горит красный свет. Можно ли мне проехать?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Le feu rouge signifie : arrêt. Je m'arrête avant la ligne d'arrêt.",
+      "ru": "Красный свет означает «стоп». Я останавливаюсь перед стоп-линией."
+    },
+    "verified": true
+  },
+  {
+    "id": "feux-agents-002",
+    "theme": "feux-agents",
+    "grave": false,
+    "image": null,
+    "image_query": "feu orange carrefour Belgique",
+    "fr": "Le feu passe à l'orange fixe. Je suis encore loin et je peux m'arrêter sans danger. Que dois-je faire ?",
+    "ru": "Загорается жёлтый (оранжевый) сигнал светофора. Я ещё далеко и могу безопасно остановиться. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je m'arrête.",
+        "ru": "Я останавливаюсь.",
+        "correct": true
+      },
+      {
+        "fr": "J'accélère pour passer.",
+        "ru": "Я ускоряюсь, чтобы проехать.",
+        "correct": false
+      },
+      {
+        "fr": "Je passe en klaxonnant.",
+        "ru": "Я проезжаю, подавая сигнал.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Le feu orange fixe interdit de passer, sauf si je suis si près que je ne peux plus m'arrêter en sécurité.",
+      "ru": "Жёлтый (оранжевый) сигнал запрещает проезд, кроме случая, когда я уже так близко, что не могу безопасно остановиться."
+    },
+    "verified": true
+  },
+  {
+    "id": "feux-agents-003",
+    "theme": "feux-agents",
+    "grave": false,
+    "image": null,
+    "image_query": "carrefour encombré feu vert",
+    "fr": "Le feu est vert, mais le carrefour est encombré : si j'avance, ma voiture restera bloquée au milieu. Que dois-je faire ?",
+    "ru": "Горит зелёный, но перекрёсток занят: если я поеду, мой автомобиль застрянет посередине. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "J'avance, car le feu est vert.",
+        "ru": "Я еду, потому что горит зелёный.",
+        "correct": false
+      },
+      {
+        "fr": "J'attends avant le carrefour.",
+        "ru": "Я жду перед перекрёстком.",
+        "correct": true
+      },
+      {
+        "fr": "Je klaxonne pour faire avancer les autres.",
+        "ru": "Я сигналю, чтобы другие ехали.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Même au feu vert, je n'entre pas dans le carrefour si ma voiture risque d'y rester bloquée.",
+      "ru": "Даже на зелёный нельзя выезжать на перекрёсток, если придётся на нём остановиться."
+    },
+    "verified": true
+  },
+  {
+    "id": "feux-agents-004",
+    "theme": "feux-agents",
+    "grave": false,
+    "image": null,
+    "fr": "Le feu est orange clignotant. Que dois-je faire ?",
+    "ru": "Светофор мигает жёлтым (оранжевым). Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je dois m'arrêter et attendre le feu vert.",
+        "ru": "Нужно остановиться и ждать зелёного.",
+        "correct": false
+      },
+      {
+        "fr": "J'ai toujours la priorité.",
+        "ru": "У меня всегда приоритет.",
+        "correct": false
+      },
+      {
+        "fr": "Je peux passer, avec prudence, en respectant les règles de priorité.",
+        "ru": "Можно проехать — осторожно и соблюдая правила приоритета.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Le feu orange clignotant autorise le passage en redoublant de prudence. Les panneaux ou la priorité de droite s'appliquent.",
+      "ru": "Мигающий жёлтый (оранжевый) сигнал разрешает проезд с особой осторожностью. Действуют знаки или правило «помеха справа»."
+    },
+    "verified": true
+  },
+  {
+    "id": "feux-agents-005",
+    "theme": "feux-agents",
+    "grave": true,
+    "image": null,
+    "image_query": "agent de police circulation Belgique",
+    "fr": "Au carrefour, un agent de police lève le bras. Que dois-je faire ?",
+    "ru": "На перекрёстке полицейский-регулировщик поднимает руку. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je m'arrête.",
+        "ru": "Я останавливаюсь.",
+        "correct": true
+      },
+      {
+        "fr": "Je passe vite.",
+        "ru": "Я быстро проезжаю.",
+        "correct": false
+      },
+      {
+        "fr": "Je continue si mon feu est vert.",
+        "ru": "Я еду дальше, если мне горит зелёный.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Le bras levé d'un agent signifie « arrêt » pour tous les conducteurs, sauf ceux qui sont déjà dans le carrefour.",
+      "ru": "Поднятая рука регулировщика означает «стоп» для всех водителей, кроме тех, кто уже находится на перекрёстке."
+    },
+    "verified": true
+  },
+  {
+    "id": "feux-agents-006",
+    "theme": "feux-agents",
+    "grave": true,
+    "image": null,
+    "image_query": "agent de police circulation Belgique",
+    "fr": "Mon feu est vert, mais un agent de police me fait signe de m'arrêter. Que dois-je faire ?",
+    "ru": "Мне горит зелёный, но полицейский-регулировщик показывает мне остановиться. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je passe, car le feu est vert.",
+        "ru": "Я проезжаю, потому что горит зелёный.",
+        "correct": false
+      },
+      {
+        "fr": "Je m'arrête : j'obéis à l'agent.",
+        "ru": "Я останавливаюсь: я подчиняюсь регулировщику.",
+        "correct": true
+      },
+      {
+        "fr": "Je passe lentement.",
+        "ru": "Я медленно проезжаю.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Les ordres d'un agent passent avant les feux, les panneaux et les règles de priorité.",
+      "ru": "Указания регулировщика важнее светофоров, знаков и правил приоритета."
+    },
+    "verified": true
+  },
+  {
+    "id": "feux-agents-007",
+    "theme": "feux-agents",
+    "grave": false,
+    "image": null,
+    "fr": "Le feu est rouge, mais une flèche verte vers la droite est allumée à côté. Que puis-je faire ?",
+    "ru": "Горит красный, но рядом светится зелёная стрелка направо. Что мне можно сделать?",
+    "options": [
+      {
+        "fr": "Je dois attendre le feu vert.",
+        "ru": "Нужно ждать зелёного.",
+        "correct": false
+      },
+      {
+        "fr": "Je peux aller tout droit.",
+        "ru": "Можно ехать прямо.",
+        "correct": false
+      },
+      {
+        "fr": "Je peux tourner à droite, en cédant le passage aux autres usagers.",
+        "ru": "Можно повернуть направо, уступая дорогу другим участникам движения.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "La flèche verte autorise à continuer seulement dans la direction de la flèche. Je cède le passage aux piétons et aux conducteurs qui ont le feu vert.",
+      "ru": "Зелёная стрелка разрешает движение только в направлении стрелки. Я уступаю дорогу пешеходам и водителям, которым горит зелёный."
+    },
+    "verified": true
+  },
+  {
+    "id": "feux-agents-008",
+    "theme": "feux-agents",
+    "grave": false,
+    "image": null,
+    "fr": "Les feux du carrefour sont éteints. Sous le feu, il y a un triangle pointe en bas. Que dois-je faire ?",
+    "ru": "Светофор на перекрёстке не горит. Под светофором висит треугольник вершиной вниз. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je cède le passage, comme le panneau l'indique.",
+        "ru": "Я уступаю дорогу, как указывает знак.",
+        "correct": true
+      },
+      {
+        "fr": "J'ai la priorité, car les feux sont en panne.",
+        "ru": "У меня приоритет, потому что светофор не работает.",
+        "correct": false
+      },
+      {
+        "fr": "Je fais demi-tour.",
+        "ru": "Я разворачиваюсь.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Quand les feux ne fonctionnent pas, je respecte les panneaux de priorité. S'il n'y en a pas, la priorité de droite s'applique.",
+      "ru": "Когда светофор не работает, действуют знаки приоритета. Если их нет, действует правило «помеха справа»."
+    },
+    "verified": true
+  },
+  {
+    "id": "feux-agents-009",
+    "theme": "feux-agents",
+    "grave": true,
+    "image": null,
+    "image_query": "agent de police circulation Belgique",
+    "fr": "Un agent de police se tient au milieu du carrefour, face à moi, les deux bras tendus sur les côtés. Que dois-je faire ?",
+    "ru": "Полицейский-регулировщик стоит посреди перекрёстка лицом ко мне, вытянув обе руки в стороны. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je passe.",
+        "ru": "Я проезжаю.",
+        "correct": false
+      },
+      {
+        "fr": "Je m'arrête.",
+        "ru": "Я останавливаюсь.",
+        "correct": true
+      },
+      {
+        "fr": "Je tourne à droite sans m'arrêter.",
+        "ru": "Я поворачиваю направо без остановки.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Les bras tendus à l'horizontale signifient « arrêt » pour les conducteurs qui arrivent face à l'agent ou dans son dos.",
+      "ru": "Руки, вытянутые в стороны, означают «стоп» для водителей, подъезжающих к регулировщику спереди или сзади."
+    },
+    "verified": true
+  },
+  {
+    "id": "feux-agents-010",
+    "theme": "feux-agents",
+    "grave": false,
+    "image": null,
+    "fr": "Au-dessus de ma bande de circulation, un signal lumineux montre une croix rouge. Puis-je continuer sur cette bande ?",
+    "ru": "Над моей полосой световой сигнал показывает красный крест. Можно ли мне продолжать движение по этой полосе?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "La croix rouge interdit de rouler sur cette bande. Je change de bande dès que je peux le faire sans danger.",
+      "ru": "Красный крест запрещает движение по этой полосе. Я перестраиваюсь, как только это можно сделать безопасно."
+    },
+    "verified": true
+  },
+  {
+    "id": "passages-a-niveau-001",
+    "theme": "passages-a-niveau",
+    "grave": true,
+    "image": null,
+    "image_query": "passage à niveau Belgique feux rouges",
+    "fr": "J'arrive à un passage à niveau. Les feux rouges clignotent, mais les barrières sont encore ouvertes. Puis-je passer ?",
+    "ru": "Я подъезжаю к железнодорожному переезду. Красные огни мигают, но шлагбаум ещё открыт. Можно ли мне проехать?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Dès que les feux rouges clignotent, je dois m'arrêter. Un train arrive.",
+      "ru": "Как только начинают мигать красные огни, нужно остановиться. Приближается поезд."
+    },
+    "verified": true
+  },
+  {
+    "id": "passages-a-niveau-002",
+    "theme": "passages-a-niveau",
+    "grave": true,
+    "image": null,
+    "image_query": "passage à niveau Belgique barrières",
+    "fr": "Le train est passé et les barrières commencent à se lever, mais les feux rouges clignotent encore. Que dois-je faire ?",
+    "ru": "Поезд проходит, шлагбаум начинает подниматься, но красные огни ещё мигают. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je passe dès que les barrières sont assez hautes.",
+        "ru": "Я проезжаю, как только шлагбаум поднимется достаточно высоко.",
+        "correct": false
+      },
+      {
+        "fr": "J'attends que les feux rouges s'éteignent.",
+        "ru": "Я жду, пока красные огни погаснут.",
+        "correct": true
+      },
+      {
+        "fr": "Je passe en klaxonnant.",
+        "ru": "Я проезжаю, подавая сигнал.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je ne m'engage que lorsque les feux rouges sont éteints. Un autre train peut arriver.",
+      "ru": "Выезжать на переезд можно только после того, как погаснут красные огни. Может идти ещё один поезд."
+    },
+    "verified": true
+  },
+  {
+    "id": "passages-a-niveau-003",
+    "theme": "passages-a-niveau",
+    "grave": true,
+    "image": null,
+    "image_query": "passage à niveau Belgique barrières fermées",
+    "fr": "Les demi-barrières sont fermées, mais je ne vois aucun train. Puis-je les contourner ?",
+    "ru": "Полушлагбаумы закрыты, но поезда не видно. Можно ли мне их объехать?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Il est interdit de contourner des barrières fermées ou en mouvement. Un train peut arriver très vite.",
+      "ru": "Запрещено объезжать закрытые или движущиеся шлагбаумы. Поезд может появиться очень быстро."
+    },
+    "verified": true
+  },
+  {
+    "id": "passages-a-niveau-004",
+    "theme": "passages-a-niveau",
+    "grave": true,
+    "image": null,
+    "fr": "De l'autre côté du passage à niveau, les voitures sont à l'arrêt. Si j'avance, ma voiture restera sur les rails. Puis-je m'engager ?",
+    "ru": "За переездом стоят машины. Если я поеду, мой автомобиль останется на рельсах. Можно ли мне выезжать на переезд?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Je ne m'engage sur un passage à niveau que si je peux le quitter tout de suite.",
+      "ru": "Выезжать на переезд можно, только если я смогу сразу его покинуть."
+    },
+    "verified": true
+  },
+  {
+    "id": "passages-a-niveau-005",
+    "theme": "passages-a-niveau",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A41",
+    "fr": "Un triangle à bord rouge avec une barrière. Que m'annonce ce panneau ?",
+    "ru": "Треугольник с красной каймой и шлагбаумом. О чём предупреждает этот знак?",
+    "options": [
+      {
+        "fr": "Un passage à niveau sans barrières.",
+        "ru": "О железнодорожном переезде без шлагбаума.",
+        "correct": false
+      },
+      {
+        "fr": "Un passage à niveau avec barrières.",
+        "ru": "О железнодорожном переезде со шлагбаумом.",
+        "correct": true
+      },
+      {
+        "fr": "Une ferme.",
+        "ru": "О ферме.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau annonce un passage à niveau avec barrières. Je ralentis et je me prépare à m'arrêter.",
+      "ru": "Этот знак предупреждает о железнодорожном переезде со шлагбаумом. Я снижаю скорость и готовлюсь остановиться."
+    },
+    "verified": true
+  },
+  {
+    "id": "passages-a-niveau-006",
+    "theme": "passages-a-niveau",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A43",
+    "fr": "Un triangle à bord rouge avec une locomotive. Que m'annonce ce panneau ?",
+    "ru": "Треугольник с красной каймой и локомотивом. О чём предупреждает этот знак?",
+    "options": [
+      {
+        "fr": "Un passage à niveau avec barrières.",
+        "ru": "О железнодорожном переезде со шлагбаумом.",
+        "correct": false
+      },
+      {
+        "fr": "Une gare.",
+        "ru": "О вокзале.",
+        "correct": false
+      },
+      {
+        "fr": "Un passage à niveau sans barrières.",
+        "ru": "О железнодорожном переезде без шлагбаума.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Ce panneau annonce un passage à niveau sans barrières. Je ralentis, je regarde et j'écoute avant de traverser.",
+      "ru": "Этот знак предупреждает о железнодорожном переезде без шлагбаума. Я снижаю скорость, смотрю и слушаю, прежде чем переезжать."
+    },
+    "verified": true
+  },
+  {
+    "id": "passages-a-niveau-007",
+    "theme": "passages-a-niveau",
+    "grave": false,
+    "image": null,
+    "fr": "Au passage à niveau, un feu blanc clignote. Que signifie-t-il ?",
+    "ru": "На переезде мигает белый сигнал. Что он означает?",
+    "options": [
+      {
+        "fr": "Je peux passer : aucun train n'est annoncé.",
+        "ru": "Можно проезжать: поезд не приближается.",
+        "correct": true
+      },
+      {
+        "fr": "Je dois m'arrêter.",
+        "ru": "Нужно остановиться.",
+        "correct": false
+      },
+      {
+        "fr": "Le passage à niveau est en panne.",
+        "ru": "Переезд неисправен.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Le feu blanc clignotant indique que le passage à niveau fonctionne et que je peux le franchir. Je fais quand même attention.",
+      "ru": "Мигающий белый сигнал означает, что переезд работает и его можно проезжать. Но я всё равно еду внимательно."
+    },
+    "verified": false
+  },
+  {
+    "id": "passages-a-niveau-008",
+    "theme": "passages-a-niveau",
+    "grave": false,
+    "image": null,
+    "fr": "Ma voiture cale sur les rails d'un passage à niveau et ne redémarre pas. Que dois-je faire en premier ?",
+    "ru": "Мой автомобиль глохнет на рельсах переезда и не заводится. Что нужно сделать в первую очередь?",
+    "options": [
+      {
+        "fr": "Je reste dans la voiture et j'essaie longtemps de redémarrer.",
+        "ru": "Я остаюсь в машине и долго пытаюсь завести двигатель.",
+        "correct": false
+      },
+      {
+        "fr": "Je fais sortir tout le monde et nous nous éloignons des rails, puis j'appelle les secours.",
+        "ru": "Я вывожу всех из машины, мы отходим от путей, затем я вызываю экстренные службы.",
+        "correct": true
+      },
+      {
+        "fr": "Je reste dans la voiture et j'attends de l'aide.",
+        "ru": "Я остаюсь в машине и жду помощи.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "La vie passe avant la voiture. Tout le monde quitte le véhicule et s'éloigne des voies. J'appelle le numéro d'urgence indiqué sur le passage à niveau ou le 112.",
+      "ru": "Жизнь важнее машины. Все выходят и отходят от путей. Я звоню по номеру экстренной связи, указанному на переезде, или по номеру 112."
+    },
+    "verified": true
+  },
+  {
+    "id": "passages-a-niveau-009",
+    "theme": "passages-a-niveau",
+    "grave": true,
+    "image": null,
+    "fr": "Puis-je m'arrêter ou stationner sur un passage à niveau ?",
+    "ru": "Можно ли мне останавливаться или парковаться на железнодорожном переезде?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "L'arrêt et le stationnement sont interdits sur les passages à niveau.",
+      "ru": "Остановка и стоянка на железнодорожных переездах запрещены."
+    },
+    "verified": true
+  },
+  {
+    "id": "passages-a-niveau-010",
+    "theme": "passages-a-niveau",
+    "grave": false,
+    "image": null,
+    "image_query": "Belgian road sign A47",
+    "fr": "Juste avant les rails, je vois un panneau blanc et rouge en forme de croix, avec deux croix l'une au-dessus de l'autre. Que signifie la double croix ?",
+    "ru": "Прямо перед рельсами я вижу бело-красный знак в форме креста — два креста один над другим. Что означает двойной крест?",
+    "options": [
+      {
+        "fr": "Le passage à niveau a deux voies ferrées ou plus.",
+        "ru": "На переезде два железнодорожных пути или больше.",
+        "correct": true
+      },
+      {
+        "fr": "Le passage à niveau a deux barrières.",
+        "ru": "На переезде два шлагбаума.",
+        "correct": false
+      },
+      {
+        "fr": "Deux trains passent chaque heure.",
+        "ru": "Каждый час проходят два поезда.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "La croix de Saint-André double indique un passage à niveau à plusieurs voies. Après un train, un autre peut arriver sur une autre voie.",
+      "ru": "Двойной Андреевский крест обозначает переезд с несколькими путями. После одного поезда по другому пути может идти ещё один."
+    },
+    "verified": true
+  },
+  {
+    "id": "vehicule-technique-001",
+    "theme": "vehicule-technique",
+    "grave": false,
+    "image": null,
+    "image_query": "pneu usure rainures",
+    "fr": "Quelle est la profondeur minimale des rainures des pneus d'une voiture ?",
+    "ru": "Какова минимальная глубина протектора шин легкового автомобиля?",
+    "options": [
+      {
+        "fr": "0,5 millimètre.",
+        "ru": "0,5 миллиметра.",
+        "correct": false
+      },
+      {
+        "fr": "1,6 millimètre.",
+        "ru": "1,6 миллиметра.",
+        "correct": true
+      },
+      {
+        "fr": "5 millimètres.",
+        "ru": "5 миллиметров.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Les rainures principales doivent avoir au moins 1,6 mm de profondeur. Des pneus usés tiennent mal la route, surtout sous la pluie.",
+      "ru": "Глубина основных канавок протектора должна быть не меньше 1,6 мм. Изношенные шины плохо держат дорогу, особенно в дождь."
+    },
+    "verified": true
+  },
+  {
+    "id": "vehicule-technique-002",
+    "theme": "vehicule-technique",
+    "grave": false,
+    "image": null,
+    "image_query": "brouillard route Belgique",
+    "fr": "Il y a un brouillard épais : je vois à moins de 100 mètres. Dois-je allumer le feu antibrouillard arrière ?",
+    "ru": "Густой туман: видимость меньше 100 метров. Нужно ли включать задний противотуманный фонарь?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": true
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Le feu antibrouillard arrière est obligatoire quand le brouillard ou la neige limite la visibilité à moins de 100 mètres environ, et en cas de forte pluie.",
+      "ru": "Задний противотуманный фонарь обязателен, когда туман или снег ограничивают видимость примерно до 100 метров и меньше, а также при сильном дожде."
+    },
+    "verified": false
+  },
+  {
+    "id": "vehicule-technique-003",
+    "theme": "vehicule-technique",
+    "grave": false,
+    "image": null,
+    "fr": "La nuit, par temps clair, puis-je rouler avec le feu antibrouillard arrière allumé ?",
+    "ru": "Можно ли мне ночью в ясную погоду ехать с включённым задним противотуманным фонарём?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Le feu antibrouillard arrière éblouit les conducteurs qui me suivent. Il est interdit quand la visibilité est bonne.",
+      "ru": "Задний противотуманный фонарь слепит едущих сзади водителей. При хорошей видимости включать его запрещено."
+    },
+    "verified": true
+  },
+  {
+    "id": "vehicule-technique-004",
+    "theme": "vehicule-technique",
+    "grave": false,
+    "image": null,
+    "image_query": "route nuit phares voiture",
+    "fr": "La nuit, je roule avec les feux de route. Une voiture arrive en face. Que dois-je faire ?",
+    "ru": "Ночью я еду с дальним светом. Навстречу едет автомобиль. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je garde les feux de route.",
+        "ru": "Я оставляю дальний свет.",
+        "correct": false
+      },
+      {
+        "fr": "Je passe aux feux de croisement.",
+        "ru": "Я переключаюсь на ближний свет.",
+        "correct": true
+      },
+      {
+        "fr": "J'éteins tous mes feux.",
+        "ru": "Я выключаю все фары.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Les feux de route éblouissent. Je passe aux feux de croisement quand je croise ou quand je suis un autre véhicule de près.",
+      "ru": "Дальний свет слепит. Я переключаюсь на ближний, когда разъезжаюсь со встречным автомобилем или еду близко за другим."
+    },
+    "verified": true
+  },
+  {
+    "id": "vehicule-technique-005",
+    "theme": "vehicule-technique",
+    "grave": false,
+    "image": null,
+    "image_query": "triangle de danger voiture",
+    "fr": "Lequel de ces objets doit obligatoirement se trouver dans ma voiture ?",
+    "ru": "Какой из этих предметов обязательно должен быть в моём автомобиле?",
+    "options": [
+      {
+        "fr": "Une roue de secours.",
+        "ru": "Запасное колесо.",
+        "correct": false
+      },
+      {
+        "fr": "Une carte routière.",
+        "ru": "Дорожная карта.",
+        "correct": false
+      },
+      {
+        "fr": "Un triangle de danger.",
+        "ru": "Знак аварийной остановки.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Le triangle de danger, le gilet fluorescent, l'extincteur et la trousse de secours sont obligatoires dans une voiture immatriculée en Belgique.",
+      "ru": "В автомобиле, зарегистрированном в Бельгии, обязательны знак аварийной остановки, светоотражающий жилет, огнетушитель и аптечка."
+    },
+    "verified": false
+  },
+  {
+    "id": "vehicule-technique-006",
+    "theme": "vehicule-technique",
+    "grave": false,
+    "image": null,
+    "image_query": "voyant pression d'huile tableau de bord",
+    "fr": "En roulant, le voyant rouge de pression d'huile s'allume. Que dois-je faire ?",
+    "ru": "Во время движения загорается красный индикатор давления масла. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je m'arrête dès que possible dans un endroit sûr et je coupe le moteur.",
+        "ru": "Я останавливаюсь в безопасном месте при первой возможности и глушу двигатель.",
+        "correct": true
+      },
+      {
+        "fr": "Je continue jusqu'à la maison.",
+        "ru": "Я еду дальше до дома.",
+        "correct": false
+      },
+      {
+        "fr": "J'accélère pour refroidir le moteur.",
+        "ru": "Я ускоряюсь, чтобы охладить двигатель.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Un voyant rouge signale un problème grave. Sans pression d'huile, le moteur peut être détruit en quelques minutes.",
+      "ru": "Красный индикатор сообщает о серьёзной неисправности. Без давления масла двигатель может выйти из строя за несколько минут."
+    },
+    "verified": true
+  },
+  {
+    "id": "vehicule-technique-007",
+    "theme": "vehicule-technique",
+    "grave": false,
+    "image": null,
+    "fr": "Mes pneus ne sont pas assez gonflés. Quelle est la conséquence ?",
+    "ru": "Мои шины недостаточно накачаны. К чему это приводит?",
+    "options": [
+      {
+        "fr": "La voiture freine mieux.",
+        "ru": "Автомобиль лучше тормозит.",
+        "correct": false
+      },
+      {
+        "fr": "La voiture consomme plus et tient moins bien la route.",
+        "ru": "Автомобиль расходует больше топлива и хуже держит дорогу.",
+        "correct": true
+      },
+      {
+        "fr": "Il n'y a aucune conséquence.",
+        "ru": "Ни к чему.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Des pneus sous-gonflés s'usent plus vite, allongent le freinage et augmentent la consommation. Je contrôle la pression chaque mois.",
+      "ru": "Недостаточно накачанные шины быстрее изнашиваются, удлиняют тормозной путь и увеличивают расход топлива. Я проверяю давление каждый месяц."
+    },
+    "verified": true
+  },
+  {
+    "id": "vehicule-technique-008",
+    "theme": "vehicule-technique",
+    "grave": true,
+    "image": null,
+    "image_query": "ceinture de sécurité voiture",
+    "fr": "Qui doit porter la ceinture de sécurité dans une voiture ?",
+    "ru": "Кто должен пристёгиваться ремнём безопасности в автомобиле?",
+    "options": [
+      {
+        "fr": "Seulement le conducteur.",
+        "ru": "Только водитель.",
+        "correct": false
+      },
+      {
+        "fr": "Seulement les personnes assises à l'avant.",
+        "ru": "Только те, кто сидит спереди.",
+        "correct": false
+      },
+      {
+        "fr": "Le conducteur et tous les passagers, à l'avant et à l'arrière.",
+        "ru": "Водитель и все пассажиры — спереди и сзади.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "La ceinture est obligatoire à toutes les places qui en sont équipées, aussi pour les petits trajets.",
+      "ru": "Ремень безопасности обязателен на всех местах, где он есть, даже в коротких поездках."
+    },
+    "verified": true
+  },
+  {
+    "id": "vehicule-technique-009",
+    "theme": "vehicule-technique",
+    "grave": true,
+    "image": null,
+    "image_query": "siège enfant voiture",
+    "fr": "Je transporte un enfant qui mesure moins de 1,35 mètre. Comment doit-il voyager ?",
+    "ru": "Я везу ребёнка ростом ниже 1,35 метра. Как он должен ехать?",
+    "options": [
+      {
+        "fr": "Dans un siège pour enfant adapté à sa taille et à son poids.",
+        "ru": "В детском кресле, подходящем ему по росту и весу.",
+        "correct": true
+      },
+      {
+        "fr": "Sur les genoux d'un adulte.",
+        "ru": "На коленях у взрослого.",
+        "correct": false
+      },
+      {
+        "fr": "Avec la ceinture pour adulte, sans siège.",
+        "ru": "Со взрослым ремнём, без кресла.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Les enfants de moins de 1,35 m doivent être attachés dans un dispositif de retenue adapté.",
+      "ru": "Детей ростом ниже 1,35 м нужно перевозить в подходящем детском удерживающем устройстве."
+    },
+    "verified": true
+  },
+  {
+    "id": "vehicule-technique-010",
+    "theme": "vehicule-technique",
+    "grave": false,
+    "image": null,
+    "image_query": "route mouillée pluie voiture",
+    "fr": "La route est mouillée. Que devient ma distance de freinage ?",
+    "ru": "Дорога мокрая. Как меняется мой тормозной путь?",
+    "options": [
+      {
+        "fr": "Elle est plus courte.",
+        "ru": "Он становится короче.",
+        "correct": false
+      },
+      {
+        "fr": "Elle est plus longue.",
+        "ru": "Он становится длиннее.",
+        "correct": true
+      },
+      {
+        "fr": "Elle ne change pas.",
+        "ru": "Он не меняется.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Sur route mouillée, les pneus adhèrent moins bien. Je roule moins vite et je garde une plus grande distance.",
+      "ru": "На мокрой дороге сцепление шин хуже. Я еду медленнее и держу бо́льшую дистанцию."
+    },
+    "verified": true
+  },
+  {
+    "id": "permis-infractions-001",
+    "theme": "permis-infractions",
+    "grave": true,
+    "image": null,
+    "fr": "Puis-je tenir mon GSM en main pendant que je conduis ?",
+    "ru": "Можно ли держать мобильный телефон в руке во время вождения?",
+    "options": [
+      {
+        "fr": "Oui, si la route est vide.",
+        "ru": "Да, если дорога пустая.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Il est interdit de tenir un GSM en main en conduisant. Je peux téléphoner seulement avec un système mains libres.",
+      "ru": "Держать телефон в руке за рулём запрещено. Звонить можно только через систему громкой связи."
+    },
+    "verified": true
+  },
+  {
+    "id": "permis-infractions-002",
+    "theme": "permis-infractions",
+    "grave": false,
+    "image": null,
+    "image_query": "constat amiable accident",
+    "fr": "J'ai un petit accident avec une autre voiture. Il n'y a pas de blessé, seulement des dégâts aux voitures. Que faisons-nous ?",
+    "ru": "У меня небольшая авария с другим автомобилем. Пострадавших нет, повреждены только машины. Что мы делаем?",
+    "options": [
+      {
+        "fr": "Nous remplissons ensemble un constat d'accident et nous dégageons la chaussée si possible.",
+        "ru": "Мы вместе заполняем извещение о ДТП и по возможности освобождаем проезжую часть.",
+        "correct": true
+      },
+      {
+        "fr": "Chacun repart sans rien dire.",
+        "ru": "Каждый уезжает, ничего не сказав.",
+        "correct": false
+      },
+      {
+        "fr": "Nous laissons les voitures au milieu de la route pendant des heures.",
+        "ru": "Мы на несколько часов оставляем машины посреди дороги.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Sans blessé, les conducteurs remplissent un constat amiable et échangent leurs coordonnées. Chaque assureur en reçoit un exemplaire.",
+      "ru": "Если пострадавших нет, водители заполняют европротокол и обмениваются данными. Каждая страховая компания получает свой экземпляр."
+    },
+    "verified": true
+  },
+  {
+    "id": "permis-infractions-003",
+    "theme": "permis-infractions",
+    "grave": false,
+    "image": null,
+    "fr": "J'arrive sur les lieux d'un accident. Une personne est blessée. Que dois-je faire ?",
+    "ru": "Я подъезжаю к месту аварии. Один человек ранен. Что мне нужно сделать?",
+    "options": [
+      {
+        "fr": "Je continue ma route : ce n'est pas mon accident.",
+        "ru": "Я еду дальше: это не моя авария.",
+        "correct": false
+      },
+      {
+        "fr": "Je sécurise les lieux, j'appelle le 112 et je reste près de la personne blessée.",
+        "ru": "Я обеспечиваю безопасность на месте, звоню по номеру 112 и остаюсь рядом с пострадавшим.",
+        "correct": true
+      },
+      {
+        "fr": "Je déplace tout de suite la personne blessée dans ma voiture.",
+        "ru": "Я сразу переношу пострадавшего в свою машину.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je protège, j'alerte, puis je secours. Je ne déplace pas un blessé, sauf s'il court un danger immédiat.",
+      "ru": "Сначала обезопасить место, затем вызвать помощь, затем помогать. Пострадавшего не перемещают, если ему не грозит немедленная опасность."
+    },
+    "verified": true
+  },
+  {
+    "id": "permis-infractions-004",
+    "theme": "permis-infractions",
+    "grave": false,
+    "image": null,
+    "fr": "En manœuvrant, j'ai abîmé une voiture stationnée. Personne n'a rien vu. Puis-je partir sans laisser mes coordonnées ?",
+    "ru": "Во время манёвра я повреждаю припаркованный автомобиль. Никто ничего не видел. Можно ли мне уехать, не оставив своих данных?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "Quitter les lieux d'un accident pour échapper aux constatations est un délit de fuite. Je laisse mes coordonnées ou je préviens la police.",
+      "ru": "Покинуть место аварии, чтобы избежать ответственности, — это преступление (бегство с места ДТП). Я оставляю свои данные или сообщаю в полицию."
+    },
+    "verified": true
+  },
+  {
+    "id": "permis-infractions-005",
+    "theme": "permis-infractions",
+    "grave": false,
+    "image": null,
+    "fr": "Quel document dois-je avoir avec moi quand je conduis ?",
+    "ru": "Какой документ нужно иметь при себе за рулём?",
+    "options": [
+      {
+        "fr": "Mon permis de conduire.",
+        "ru": "Водительское удостоверение.",
+        "correct": true
+      },
+      {
+        "fr": "Mon contrat de travail.",
+        "ru": "Трудовой договор.",
+        "correct": false
+      },
+      {
+        "fr": "La facture d'achat de la voiture.",
+        "ru": "Счёт о покупке автомобиля.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Je dois pouvoir montrer mon permis de conduire, ma carte d'identité et les documents du véhicule, comme le certificat d'immatriculation et la preuve d'assurance.",
+      "ru": "Нужно иметь при себе водительское удостоверение, удостоверение личности и документы на автомобиль — свидетельство о регистрации и подтверждение страховки."
+    },
+    "verified": true
+  },
+  {
+    "id": "permis-infractions-006",
+    "theme": "permis-infractions",
+    "grave": false,
+    "image": null,
+    "fr": "Quelle assurance est obligatoire pour rouler en voiture ?",
+    "ru": "Какое страхование обязательно для езды на автомобиле?",
+    "options": [
+      {
+        "fr": "L'assurance contre le vol.",
+        "ru": "Страхование от угона.",
+        "correct": false
+      },
+      {
+        "fr": "L'assurance responsabilité civile (RC).",
+        "ru": "Страхование гражданской ответственности.",
+        "correct": true
+      },
+      {
+        "fr": "Aucune assurance n'est obligatoire.",
+        "ru": "Никакое страхование не обязательно.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "L'assurance responsabilité civile est obligatoire. Elle paie les dommages que je cause aux autres.",
+      "ru": "Страхование гражданской ответственности обязательно. Оно покрывает ущерб, который я причиняю другим."
+    },
+    "verified": true
+  },
+  {
+    "id": "permis-infractions-007",
+    "theme": "permis-infractions",
+    "grave": false,
+    "image": null,
+    "fr": "J'ai réussi l'examen théorique. Pendant combien de temps cette réussite est-elle valable ?",
+    "ru": "Я сдаю теоретический экзамен. Сколько времени действителен этот результат?",
+    "options": [
+      {
+        "fr": "6 mois.",
+        "ru": "6 месяцев.",
+        "correct": false
+      },
+      {
+        "fr": "Toute la vie.",
+        "ru": "Всю жизнь.",
+        "correct": false
+      },
+      {
+        "fr": "3 ans.",
+        "ru": "3 года.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "La réussite de l'examen théorique est valable trois ans. Je dois réussir l'examen pratique dans ce délai.",
+      "ru": "Результат теоретического экзамена действителен три года. За это время нужно сдать практический экзамен."
+    },
+    "verified": true
+  },
+  {
+    "id": "permis-infractions-008",
+    "theme": "permis-infractions",
+    "grave": false,
+    "image": null,
+    "fr": "J'ai mon permis depuis moins de deux ans et je commets une infraction grave. Qu'est-ce que je risque en plus de l'amende ?",
+    "ru": "У меня права меньше двух лет, и я совершаю грубое нарушение. Что мне грозит помимо штрафа?",
+    "options": [
+      {
+        "fr": "Un retrait du permis et l'obligation de repasser des examens.",
+        "ru": "Лишение прав и обязанность заново сдавать экзамены.",
+        "correct": true
+      },
+      {
+        "fr": "Rien de plus : les débutants sont excusés.",
+        "ru": "Ничего: новичкам прощают.",
+        "correct": false
+      },
+      {
+        "fr": "Seulement un avertissement oral.",
+        "ru": "Только устное предупреждение.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "Pour certaines infractions graves, le juge doit retirer le permis d'un conducteur qui l'a depuis moins de deux ans et l'obliger à repasser l'examen théorique ou pratique.",
+      "ru": "За некоторые грубые нарушения судья обязан лишить прав водителя со стажем менее двух лет и обязать его заново сдать теоретический или практический экзамен."
+    },
+    "verified": false
+  },
+  {
+    "id": "permis-infractions-009",
+    "theme": "permis-infractions",
+    "grave": false,
+    "image": null,
+    "fr": "En agglomération, quand puis-je utiliser le klaxon ?",
+    "ru": "Когда в населённом пункте можно подавать звуковой сигнал?",
+    "options": [
+      {
+        "fr": "Pour saluer un ami.",
+        "ru": "Чтобы поприветствовать друга.",
+        "correct": false
+      },
+      {
+        "fr": "Seulement pour éviter un accident.",
+        "ru": "Только чтобы избежать аварии.",
+        "correct": true
+      },
+      {
+        "fr": "Pour faire avancer la voiture devant moi au feu vert.",
+        "ru": "Чтобы поторопить автомобиль впереди на зелёном свете.",
+        "correct": false
+      }
+    ],
+    "explanation": {
+      "fr": "L'avertisseur sonore sert seulement à éviter un accident. Son usage doit être aussi bref que possible.",
+      "ru": "Звуковой сигнал подают только для предотвращения аварии. Он должен быть как можно короче."
+    },
+    "verified": true
+  },
+  {
+    "id": "permis-infractions-010",
+    "theme": "permis-infractions",
+    "grave": true,
+    "image": null,
+    "fr": "Ma voiture est à l'arrêt devant un feu rouge, moteur en marche. Puis-je prendre mon GSM en main pour lire un message ?",
+    "ru": "Мой автомобиль стоит на красном свете с работающим двигателем. Можно ли мне взять телефон в руку, чтобы прочитать сообщение?",
+    "options": [
+      {
+        "fr": "Oui.",
+        "ru": "Да.",
+        "correct": false
+      },
+      {
+        "fr": "Non.",
+        "ru": "Нет.",
+        "correct": true
+      }
+    ],
+    "explanation": {
+      "fr": "À l'arrêt au feu rouge, je participe toujours à la circulation. Je ne peux pas tenir mon GSM en main.",
+      "ru": "Стоя на красном свете, я по-прежнему участвую в движении. Держать телефон в руке нельзя."
+    },
+    "verified": true
+  }
+]

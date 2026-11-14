@@ -1,0 +1,19 @@
+[
+  { "id": "signalisation-danger", "fr": "Panneaux de danger", "ru": "Предупреждающие знаки" },
+  { "id": "signalisation-interdiction", "fr": "Panneaux d'interdiction", "ru": "Запрещающие знаки" },
+  { "id": "signalisation-obligation", "fr": "Panneaux d'obligation", "ru": "Предписывающие знаки" },
+  { "id": "signalisation-indication", "fr": "Panneaux d'indication", "ru": "Указательные знаки" },
+  { "id": "marquages", "fr": "Marquages au sol", "ru": "Дорожная разметка" },
+  { "id": "priorite", "fr": "Priorité", "ru": "Приоритет" },
+  { "id": "ronds-points", "fr": "Ronds-points", "ru": "Круговое движение" },
+  { "id": "vitesse", "fr": "Vitesse", "ru": "Скорость" },
+  { "id": "depassement", "fr": "Dépassement", "ru": "Обгон" },
+  { "id": "stationnement", "fr": "Arrêt et stationnement", "ru": "Остановка и стоянка" },
+  { "id": "autoroute", "fr": "Autoroute", "ru": "Автомагистраль" },
+  { "id": "usagers-vulnerables", "fr": "Usagers vulnérables", "ru": "Уязвимые участники движения" },
+  { "id": "alcool-drogues-fatigue", "fr": "Alcool, drogues, fatigue", "ru": "Алкоголь, наркотики, усталость" },
+  { "id": "feux-agents", "fr": "Feux et agents", "ru": "Светофоры и регулировщики" },
+  { "id": "passages-a-niveau", "fr": "Passages à niveau", "ru": "Железнодорожные переезды" },
+  { "id": "vehicule-technique", "fr": "Véhicule et technique", "ru": "Автомобиль и техника" },
+  { "id": "permis-infractions", "fr": "Permis et infractions", "ru": "Права и нарушения" }
+]

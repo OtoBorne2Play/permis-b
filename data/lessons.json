@@ -1,0 +1,201 @@
+[
+  {
+    "theme": "signalisation-danger",
+    "title": { "fr": "Les panneaux de danger", "ru": "Предупреждающие знаки" },
+    "blocks": [
+      { "fr": "Un panneau de danger est un triangle avec un bord rouge. La pointe est en haut.", "ru": "Предупреждающий знак — это треугольник с красной каймой. Вершина направлена вверх." },
+      { "fr": "Le dessin au milieu montre le danger : un virage, des enfants, des travaux, un animal.", "ru": "Рисунок в середине показывает опасность: поворот, детей, дорожные работы, животное." },
+      { "fr": "Le danger se trouve un peu plus loin sur la route, pas juste à côté du panneau.", "ru": "Опасность находится немного дальше по дороге, а не рядом со знаком." },
+      { "fr": "Quand je vois un panneau de danger, je ralentis et je regarde bien.", "ru": "Когда я вижу предупреждающий знак, я снижаю скорость и внимательно смотрю." },
+      { "fr": "Un triangle avec un point d'exclamation annonce un danger sans dessin particulier.", "ru": "Треугольник с восклицательным знаком предупреждает об опасности, для которой нет особого рисунка." }
+    ]
+  },
+  {
+    "theme": "signalisation-interdiction",
+    "title": { "fr": "Les panneaux d'interdiction", "ru": "Запрещающие знаки" },
+    "blocks": [
+      { "fr": "Un panneau d'interdiction est rond avec un bord rouge.", "ru": "Запрещающий знак — круглый, с красной каймой." },
+      { "fr": "Le dessin montre ce qui est interdit : dépasser, tourner, entrer avec une voiture.", "ru": "Рисунок показывает, что запрещено: обгонять, поворачивать, въезжать на автомобиле." },
+      { "fr": "Un rond rouge avec une barre blanche signifie « sens interdit ». Je n'entre pas dans cette rue.", "ru": "Красный круг с белой полосой означает «въезд запрещён». Я не въезжаю на эту улицу." },
+      { "fr": "Un nombre dans le rond indique la vitesse maximale. Je ne roule pas plus vite.", "ru": "Число в круге указывает максимальную скорость. Я не еду быстрее." },
+      { "fr": "Un panneau gris barré de noir indique la fin d'une interdiction.", "ru": "Серый знак, перечёркнутый чёрной линией, означает конец запрета." }
+    ]
+  },
+  {
+    "theme": "signalisation-obligation",
+    "title": { "fr": "Les panneaux d'obligation", "ru": "Предписывающие знаки" },
+    "blocks": [
+      { "fr": "Un panneau d'obligation est rond et bleu, avec un dessin blanc.", "ru": "Предписывающий знак — круглый и синий, с белым рисунком." },
+      { "fr": "Je dois faire ce que le panneau indique.", "ru": "Нужно делать то, что показывает знак." },
+      { "fr": "Une flèche blanche indique la direction que je dois suivre.", "ru": "Белая стрелка указывает направление, в котором нужно ехать." },
+      { "fr": "Trois flèches qui tournent indiquent un rond-point.", "ru": "Три стрелки по кругу обозначают круговое движение." },
+      { "fr": "Un vélo blanc indique une piste cyclable. Je n'y roule pas en voiture.", "ru": "Белый велосипед обозначает велодорожку. На автомобиле по ней не ездят." }
+    ]
+  },
+  {
+    "theme": "signalisation-indication",
+    "title": { "fr": "Les panneaux d'indication", "ru": "Указательные знаки" },
+    "blocks": [
+      { "fr": "Les panneaux d'indication donnent une information. Ils sont souvent rectangulaires ou carrés.", "ru": "Указательные знаки дают информацию. Они обычно прямоугольные или квадратные." },
+      { "fr": "Un panneau blanc avec le nom d'une ville indique le début de l'agglomération. Je roule à 50 km/h maximum.", "ru": "Белый знак с названием города означает начало населённого пункта. Я еду не быстрее 50 км/ч." },
+      { "fr": "Le même panneau barré de rouge indique la fin de l'agglomération.", "ru": "Тот же знак, перечёркнутый красной линией, означает конец населённого пункта." },
+      { "fr": "Un panneau « ZONE 30 » vaut pour toutes les rues de la zone, jusqu'au panneau de fin.", "ru": "Знак «ZONE 30» действует на всех улицах зоны — до знака её конца." },
+      { "fr": "Un panneau bleu avec une flèche blanche vers le haut indique une rue à sens unique.", "ru": "Синий знак с белой стрелкой вверх обозначает улицу с односторонним движением." }
+    ]
+  },
+  {
+    "theme": "marquages",
+    "title": { "fr": "Les marquages au sol", "ru": "Дорожная разметка" },
+    "blocks": [
+      { "fr": "Je ne franchis jamais une ligne blanche continue.", "ru": "Сплошную белую линию пересекать нельзя." },
+      { "fr": "Je peux franchir une ligne blanche discontinue s'il n'y a pas de danger.", "ru": "Прерывистую белую линию можно пересекать, если это не опасно." },
+      { "fr": "Devant un feu ou un panneau STOP, je m'arrête avant la ligne d'arrêt.", "ru": "Перед светофором или знаком «STOP» я останавливаюсь перед стоп-линией." },
+      { "fr": "Une ligne de triangles blancs signifie : je cède le passage.", "ru": "Линия из белых треугольников означает: я уступаю дорогу." },
+      { "fr": "Une ligne jaune discontinue sur la bordure du trottoir interdit le stationnement.", "ru": "Прерывистая жёлтая линия на бордюре тротуара запрещает стоянку." },
+      { "fr": "Près d'un carrefour, je suis la flèche tracée sur ma bande.", "ru": "Перед перекрёстком я еду по стрелке, нанесённой на моей полосе." }
+    ]
+  },
+  {
+    "theme": "priorite",
+    "title": { "fr": "La priorité", "ru": "Приоритет" },
+    "blocks": [
+      { "fr": "Sans panneau et sans feu, je cède le passage au conducteur qui vient de droite.", "ru": "Без знаков и светофора я уступаю дорогу водителю, который едет справа." },
+      { "fr": "Un triangle pointe en bas signifie : je cède le passage.", "ru": "Треугольник вершиной вниз означает: я уступаю дорогу." },
+      { "fr": "Au panneau STOP, je m'arrête toujours, puis je cède le passage.", "ru": "У знака «STOP» я всегда останавливаюсь, затем уступаю дорогу." },
+      { "fr": "Un losange jaune-orange indique une route prioritaire.", "ru": "Жёлто-оранжевый ромб обозначает главную дорогу." },
+      { "fr": "Je cède toujours le passage aux trams et aux véhicules prioritaires avec sirène.", "ru": "Я всегда уступаю дорогу трамваям и спецтранспорту с сиреной." },
+      { "fr": "Quand je tourne à gauche, je laisse passer les voitures qui viennent en face.", "ru": "При повороте налево я пропускаю встречные автомобили." }
+    ]
+  },
+  {
+    "theme": "ronds-points",
+    "title": { "fr": "Les ronds-points", "ru": "Круговое движение" },
+    "blocks": [
+      { "fr": "Avant d'entrer, je cède le passage aux conducteurs qui roulent déjà dans le rond-point.", "ru": "Перед въездом я уступаю дорогу водителям, которые уже едут по кругу." },
+      { "fr": "Je tourne autour de l'îlot central en le laissant à ma gauche.", "ru": "Я объезжаю центральный островок, оставляя его слева." },
+      { "fr": "Avant de sortir, je mets mon clignotant droit.", "ru": "Перед съездом я включаю правый указатель поворота." },
+      { "fr": "En sortant, je cède le passage aux piétons et aux cyclistes qui traversent.", "ru": "На съезде я уступаю дорогу пешеходам и велосипедистам, которые пересекают мой путь." },
+      { "fr": "Si je rate ma sortie, je fais un tour de plus. Je ne recule jamais.", "ru": "Если я пропускаю съезд, я проезжаю ещё один круг. Задним ходом ехать нельзя." }
+    ]
+  },
+  {
+    "theme": "vitesse",
+    "title": { "fr": "La vitesse", "ru": "Скорость" },
+    "blocks": [
+      { "fr": "En agglomération, je roule à 50 km/h maximum.", "ru": "В населённом пункте я еду не быстрее 50 км/ч." },
+      { "fr": "Dans une zone 30, je roule à 30 km/h maximum.", "ru": "В зоне 30 я еду не быстрее 30 км/ч." },
+      { "fr": "Dans une zone résidentielle ou de rencontre, je roule à 20 km/h maximum.", "ru": "В жилой зоне и зоне совместного движения я еду не быстрее 20 км/ч." },
+      { "fr": "Hors agglomération, en Wallonie, je roule à 90 km/h maximum.", "ru": "Вне населённого пункта, в Валлонии, я еду не быстрее 90 км/ч." },
+      { "fr": "Sur autoroute, je roule à 120 km/h maximum.", "ru": "На автомагистрали я еду не быстрее 120 км/ч." },
+      { "fr": "Un panneau peut indiquer une autre vitesse. Je respecte toujours le panneau.", "ru": "Знак может указывать другую скорость. Я всегда соблюдаю знак." },
+      { "fr": "Quand il pleut ou quand je vois mal, je roule moins vite que la limite.", "ru": "В дождь или при плохой видимости я еду медленнее разрешённого максимума." }
+    ]
+  },
+  {
+    "theme": "depassement",
+    "title": { "fr": "Le dépassement", "ru": "Обгон" },
+    "blocks": [
+      { "fr": "Je dépasse par la gauche.", "ru": "Я обгоняю слева." },
+      { "fr": "Avant de dépasser, je regarde devant, derrière et dans l'angle mort. Puis je mets mon clignotant.", "ru": "Перед обгоном я смотрю вперёд, назад и в «мёртвую зону». Затем включаю указатель поворота." },
+      { "fr": "Je ne dépasse pas si je ne vois pas assez loin : dans un virage ou près du sommet d'une côte.", "ru": "Я не обгоняю, если не вижу достаточно далеко: на повороте или у вершины подъёма." },
+      { "fr": "Je ne dépasse pas une voiture qui s'arrête devant un passage pour piétons.", "ru": "Я не обгоняю автомобиль, который останавливается перед пешеходным переходом." },
+      { "fr": "Je laisse au moins 1 mètre à côté d'un cycliste en agglomération, et 1,5 mètre hors agglomération.", "ru": "Я оставляю не меньше 1 метра сбоку от велосипедиста в населённом пункте и 1,5 метра вне его." },
+      { "fr": "Après le dépassement, je reviens à droite sans gêner l'autre conducteur.", "ru": "После обгона я возвращаюсь вправо, не мешая другому водителю." }
+    ]
+  },
+  {
+    "theme": "stationnement",
+    "title": { "fr": "L'arrêt et le stationnement", "ru": "Остановка и стоянка" },
+    "blocks": [
+      { "fr": "Un arrêt est court : le temps de faire monter ou descendre quelqu'un. Un stationnement dure plus longtemps.", "ru": "Остановка — короткая: на время посадки или высадки человека. Стоянка длится дольше." },
+      { "fr": "Je stationne à droite, dans le sens de la marche.", "ru": "Я паркуюсь справа, по направлению движения." },
+      { "fr": "Je ne stationne pas sur un trottoir, sur une piste cyclable ou sur un passage pour piétons.", "ru": "Я не паркуюсь на тротуаре, на велодорожке и на пешеходном переходе." },
+      { "fr": "Je ne stationne pas à moins de 5 mètres avant un passage pour piétons.", "ru": "Я не паркуюсь ближе 5 метров перед пешеходным переходом." },
+      { "fr": "Je ne stationne pas devant une entrée de garage.", "ru": "Я не паркуюсь перед въездом в гараж." },
+      { "fr": "Dans une zone bleue, je place mon disque de stationnement derrière le pare-brise.", "ru": "В синей зоне я кладу парковочный диск за лобовое стекло." }
+    ]
+  },
+  {
+    "theme": "autoroute",
+    "title": { "fr": "L'autoroute", "ru": "Автомагистраль" },
+    "blocks": [
+      { "fr": "Sur autoroute, je roule à 120 km/h maximum.", "ru": "На автомагистрали я еду не быстрее 120 км/ч." },
+      { "fr": "Pour entrer, j'accélère sur la bande d'accélération et je cède le passage.", "ru": "При въезде я разгоняюсь на полосе разгона и уступаю дорогу." },
+      { "fr": "Je roule sur la bande de droite. Les autres bandes servent à dépasser.", "ru": "Я еду по правой полосе. Остальные полосы служат для обгона." },
+      { "fr": "Je ne fais jamais demi-tour ni marche arrière sur autoroute.", "ru": "На автомагистрали нельзя разворачиваться и ехать задним ходом." },
+      { "fr": "La bande d'arrêt d'urgence sert seulement en cas de panne ou d'urgence.", "ru": "Аварийная полоса нужна только при поломке или чрезвычайной ситуации." },
+      { "fr": "En cas de panne, je mets mon gilet, je place le triangle à 100 mètres et j'attends derrière la glissière.", "ru": "При поломке я надеваю жилет, ставлю знак аварийной остановки за 100 метров и жду за ограждением." }
+    ]
+  },
+  {
+    "theme": "usagers-vulnerables",
+    "title": { "fr": "Les usagers vulnérables", "ru": "Уязвимые участники движения" },
+    "blocks": [
+      { "fr": "Les piétons, les cyclistes, les enfants et les personnes âgées sont des usagers vulnérables.", "ru": "Пешеходы, велосипедисты, дети и пожилые люди — уязвимые участники движения." },
+      { "fr": "Je cède le passage au piéton qui traverse ou qui va traverser sur un passage pour piétons.", "ru": "Я уступаю дорогу пешеходу, который переходит или собирается перейти по пешеходному переходу." },
+      { "fr": "Quand je tourne, je laisse passer les cyclistes qui continuent tout droit.", "ru": "При повороте я пропускаю велосипедистов, которые едут прямо." },
+      { "fr": "Près des enfants, je ralentis et je me prépare à freiner.", "ru": "Рядом с детьми я снижаю скорость и готовлюсь тормозить." },
+      { "fr": "Avant d'ouvrir ma portière, je regarde si un cycliste arrive.", "ru": "Перед тем как открыть дверь, я смотрю, не приближается ли велосипедист." }
+    ]
+  },
+  {
+    "theme": "alcool-drogues-fatigue",
+    "title": { "fr": "L'alcool, les drogues et la fatigue", "ru": "Алкоголь, наркотики и усталость" },
+    "blocks": [
+      { "fr": "La limite d'alcool est de 0,5 gramme par litre de sang. Le plus sûr est de ne pas boire avant de conduire.", "ru": "Предел алкоголя — 0,5 грамма на литр крови. Надёжнее всего не пить перед поездкой." },
+      { "fr": "Seul le temps élimine l'alcool. Le café ne sert à rien.", "ru": "Алкоголь выводит только время. Кофе не помогает." },
+      { "fr": "Conduire après avoir pris de la drogue est interdit.", "ru": "Садиться за руль после употребления наркотиков запрещено." },
+      { "fr": "Certains médicaments donnent sommeil. Je lis la notice avant de conduire.", "ru": "Некоторые лекарства вызывают сонливость. Я читаю инструкцию, прежде чем садиться за руль." },
+      { "fr": "Quand la fatigue arrive, je m'arrête et je me repose.", "ru": "Когда появляется усталость, я останавливаюсь и отдыхаю." },
+      { "fr": "Sur un long trajet, je fais une pause toutes les deux heures.", "ru": "В долгой поездке я делаю перерыв каждые два часа." }
+    ]
+  },
+  {
+    "theme": "feux-agents",
+    "title": { "fr": "Les feux et les agents", "ru": "Светофоры и регулировщики" },
+    "blocks": [
+      { "fr": "Feu rouge : je m'arrête avant la ligne d'arrêt.", "ru": "Красный свет: я останавливаюсь перед стоп-линией." },
+      { "fr": "Feu orange fixe : je m'arrête, sauf si je suis trop près pour m'arrêter en sécurité.", "ru": "Жёлтый (оранжевый) свет: я останавливаюсь, если только не нахожусь слишком близко, чтобы остановиться безопасно." },
+      { "fr": "Feu vert : je peux passer si le carrefour est libre.", "ru": "Зелёный свет: можно ехать, если перекрёсток свободен." },
+      { "fr": "Feu orange clignotant : je passe avec prudence et je respecte les règles de priorité.", "ru": "Мигающий жёлтый (оранжевый): я проезжаю осторожно и соблюдаю правила приоритета." },
+      { "fr": "Un agent de police passe avant les feux et les panneaux. Je lui obéis toujours.", "ru": "Регулировщик важнее светофоров и знаков. Я всегда ему подчиняюсь." },
+      { "fr": "Quand l'agent lève le bras, tous les conducteurs s'arrêtent.", "ru": "Когда регулировщик поднимает руку, все водители останавливаются." }
+    ]
+  },
+  {
+    "theme": "passages-a-niveau",
+    "title": { "fr": "Les passages à niveau", "ru": "Железнодорожные переезды" },
+    "blocks": [
+      { "fr": "Un passage à niveau est un endroit où la route croise une voie ferrée.", "ru": "Железнодорожный переезд — это место, где дорога пересекает железнодорожные пути." },
+      { "fr": "Quand les feux rouges clignotent, je m'arrête, même si les barrières sont encore ouvertes.", "ru": "Когда мигают красные огни, я останавливаюсь, даже если шлагбаум ещё открыт." },
+      { "fr": "Je ne contourne jamais une barrière fermée.", "ru": "Закрытый шлагбаум объезжать нельзя." },
+      { "fr": "J'attends que les feux rouges s'éteignent avant de repartir.", "ru": "Я жду, пока красные огни погаснут, и только потом еду." },
+      { "fr": "Je m'engage seulement si je peux quitter le passage à niveau tout de suite.", "ru": "Я выезжаю на переезд, только если могу сразу его покинуть." },
+      { "fr": "Si ma voiture reste bloquée sur les rails, tout le monde sort et s'éloigne. Puis j'appelle les secours.", "ru": "Если автомобиль застрял на рельсах, все выходят и отходят подальше. Затем я вызываю экстренные службы." }
+    ]
+  },
+  {
+    "theme": "vehicule-technique",
+    "title": { "fr": "Le véhicule et la technique", "ru": "Автомобиль и техника" },
+    "blocks": [
+      { "fr": "Le conducteur et tous les passagers portent la ceinture de sécurité.", "ru": "Водитель и все пассажиры пристёгиваются ремнём безопасности." },
+      { "fr": "Un enfant de moins de 1,35 mètre voyage dans un siège adapté.", "ru": "Ребёнок ростом ниже 1,35 метра едет в подходящем детском кресле." },
+      { "fr": "Les rainures des pneus ont au moins 1,6 millimètre de profondeur.", "ru": "Глубина протектора шин — не меньше 1,6 миллиметра." },
+      { "fr": "La nuit, je passe aux feux de croisement quand je croise une autre voiture.", "ru": "Ночью я переключаюсь на ближний свет, когда разъезжаюсь со встречным автомобилем." },
+      { "fr": "J'allume le feu antibrouillard arrière seulement quand je vois très mal.", "ru": "Я включаю задний противотуманный фонарь только при очень плохой видимости." },
+      { "fr": "Un voyant rouge qui s'allume signale un problème grave. Je m'arrête dès que possible.", "ru": "Загоревшийся красный индикатор сообщает о серьёзной неисправности. Я останавливаюсь при первой возможности." }
+    ]
+  },
+  {
+    "theme": "permis-infractions",
+    "title": { "fr": "Le permis et les infractions", "ru": "Права и нарушения" },
+    "blocks": [
+      { "fr": "Quand je conduis, j'ai avec moi mon permis de conduire, ma carte d'identité et les documents de la voiture.", "ru": "За рулём у меня при себе водительское удостоверение, удостоверение личности и документы на автомобиль." },
+      { "fr": "L'assurance responsabilité civile est obligatoire.", "ru": "Страхование гражданской ответственности обязательно." },
+      { "fr": "Je ne tiens jamais mon GSM en main quand je conduis, même à l'arrêt au feu rouge.", "ru": "За рулём нельзя держать телефон в руке, даже стоя на красном свете." },
+      { "fr": "Après un accident sans blessé, les conducteurs remplissent un constat d'accident.", "ru": "После аварии без пострадавших водители заполняют извещение о ДТП." },
+      { "fr": "S'il y a un blessé, j'appelle le 112 et je reste sur place.", "ru": "Если есть пострадавший, я звоню по номеру 112 и остаюсь на месте." },
+      { "fr": "Partir après un accident sans donner mes coordonnées est un délit de fuite.", "ru": "Уехать после аварии, не оставив своих данных, — это бегство с места ДТП." }
+    ]
+  }
+]
