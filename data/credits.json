@@ -376,6 +376,14 @@
     "url": "https://commons.wikimedia.org/wiki/File:Belgian_road_sign_F9.svg"
   },
   {
+    "image": "img/rue-1019742310852796.webp",
+    "source": "Mapillary",
+    "title": "Photo de rue, 2026",
+    "author": "rmic",
+    "license": "CC BY-SA 4.0",
+    "url": "https://www.mapillary.com/app/?pKey=1019742310852796"
+  },
+  {
     "image": "img/rue-1040653225519043.webp",
     "source": "Mapillary",
     "title": "Photo de rue, 2026",
@@ -392,12 +400,28 @@
     "url": "https://www.mapillary.com/app/?pKey=1042777631729434"
   },
   {
+    "image": "img/rue-1049839967769320.webp",
+    "source": "Mapillary",
+    "title": "Photo de rue, 2026",
+    "author": "rmic",
+    "license": "CC BY-SA 4.0",
+    "url": "https://www.mapillary.com/app/?pKey=1049839967769320"
+  },
+  {
     "image": "img/rue-1374592971016942.webp",
     "source": "Mapillary",
     "title": "Photo de rue, 2026",
     "author": "rmic",
     "license": "CC BY-SA 4.0",
     "url": "https://www.mapillary.com/app/?pKey=1374592971016942"
+  },
+  {
+    "image": "img/rue-1409019611149766.webp",
+    "source": "Mapillary",
+    "title": "Photo de rue, 2026",
+    "author": "rmic",
+    "license": "CC BY-SA 4.0",
+    "url": "https://www.mapillary.com/app/?pKey=1409019611149766"
   },
   {
     "image": "img/rue-1624307416154548.webp",
@@ -440,6 +464,14 @@
     "url": "https://www.mapillary.com/app/?pKey=374727680592430"
   },
   {
+    "image": "img/rue-4253873884671081.webp",
+    "source": "Mapillary",
+    "title": "Photo de rue, 2018",
+    "author": "filipc",
+    "license": "CC BY-SA 4.0",
+    "url": "https://www.mapillary.com/app/?pKey=4253873884671081"
+  },
+  {
     "image": "img/rue-4466126306992839.webp",
     "source": "Mapillary",
     "title": "Photo de rue, 2026",
@@ -454,5 +486,13 @@
     "author": "rmic",
     "license": "CC BY-SA 4.0",
     "url": "https://www.mapillary.com/app/?pKey=869255729320007"
+  },
+  {
+    "image": "img/rue-897414623071381.webp",
+    "source": "Mapillary",
+    "title": "Photo de rue, 2026",
+    "author": "rmic",
+    "license": "CC BY-SA 4.0",
+    "url": "https://www.mapillary.com/app/?pKey=897414623071381"
   }
 ]
