@@ -10,6 +10,20 @@ Valeurs utilisées dans l'app dont la source n'est pas officielle ou qui peuvent
   Une page d'un site de préparation affirme au contraire qu'aucune faute grave n'est permise. Pas de confirmation sur un site officiel.
   Si la règle est « une seule faute grave = échec », changer `GRAVE_ERRORS_TO_FAIL` de 2 à 1 dans `src/logic/scoring.ts`.
 
+## Photos à prendre soi-même
+
+Mapillary ne couvre pas la rue du centre d'examen (Rue du Serpolet, Marquain). Trois photos prises sur place
+seraient plus utiles que n'importe quelle image trouvée en ligne :
+
+- [ ] le **STOP** en quittant le centre d'examen ;
+- [ ] les **deux priorités** rencontrées en revenant au centre.
+
+Déposer les photos dans `public/img/`, indiquer leur nom dans le champ `image` de la question
+et ajouter une ligne dans `data/credits.json` (source « Photo personnelle »).
+
+Points de passage officiels des circuits d'examen pratique de Tournai (Autosécurité, centre 1011) :
+https://www.autosecurite.be/uploads/2025/07/2500611-Circuits-permis-de-conduire-1011.pdf
+
 ## Questions
 
 Questions marquées `verified: false` dans `data/questions.json`.

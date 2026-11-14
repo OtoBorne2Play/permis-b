@@ -6,8 +6,13 @@
 //                                                  progress file exported from the app
 //   --dry-run                                      show what would be done, change nothing
 //
-// For now it handles road signs: a query like "Belgian road sign C1" takes the
-// official drawing from Wikimedia Commons. Street scenes come in a later step.
+// Two kinds of "image_query" are handled:
+//   "Belgian road sign C1"            the official drawing from Wikimedia Commons
+//   "mapillary:<id>"                  one street photo from Mapillary, chosen by hand
+//   "mapillary:<id> crop=0.05-0.80"   same, keeping only that slice of the height
+//                                     (to cut off a dashboard or a black band)
+// Mapillary needs MAPILLARY_TOKEN in the .env file (never committed).
+// Other queries are notes for later and are skipped.
 // Each image is converted to WebP 1280x720 in public/img, written into
 // data/questions.json, and credited in data/credits.json.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
@@ -27,6 +32,8 @@ const WIDTH = 1280
 const HEIGHT = 720
 const BACKGROUND = '#f2f4f8'
 const SIGN_QUERY = /^Belgian road sign\s+(\S+)$/i
+const MAPILLARY_QUERY = /^mapillary:(\d+)(?:\s+crop=([\d.]+)-([\d.]+))?$/i
+const MAPILLARY_API = 'https://graph.mapillary.com'
 
 // ---------------------------------------------------------------- arguments
 
@@ -137,6 +144,44 @@ async function findSigns(codes) {
   return signs
 }
 
+// ---------------------------------------------------------------- Mapillary
+
+/** Reads MAPILLARY_TOKEN from .env. The value may contain "|", so it is not sourced by a shell. */
+function mapillaryToken() {
+  const envPath = join(root, '.env')
+  if (!existsSync(envPath)) return null
+  const match = /^MAPILLARY_TOKEN="?([^"\n]*)"?$/m.exec(readFileSync(envPath, 'utf8'))
+  return match?.[1] || null
+}
+
+/** Details of one Mapillary photo. The token travels in a header, never in the address. */
+async function mapillaryPhoto(id, token) {
+  await sleep(300)
+  const fields = 'id,thumb_2048_url,captured_at,creator'
+  const response = await fetch(`${MAPILLARY_API}/${id}?fields=${fields}`, {
+    headers: { Authorization: `OAuth ${token}` },
+  })
+  if (!response.ok) throw new Error(`Mapillary a répondu ${response.status}`)
+  const data = await response.json()
+  return {
+    downloadUrl: data.thumb_2048_url,
+    author: data.creator?.username ?? 'Inconnu',
+    year: new Date(data.captured_at).getFullYear(),
+    pageUrl: `https://www.mapillary.com/app/?pKey=${id}`,
+  }
+}
+
+/** Keeps the chosen slice of the height, then fills a 1280x720 picture. */
+async function savePhoto(jpeg, file, top = 0, bottom = 1) {
+  const { width, height } = await sharp(jpeg).metadata()
+  const y = Math.round(height * top)
+  await sharp(jpeg)
+    .extract({ left: 0, top: y, width, height: Math.round(height * bottom) - y })
+    .resize(WIDTH, HEIGHT, { fit: 'cover' })
+    .webp({ quality: 78 })
+    .toFile(file)
+}
+
 // ---------------------------------------------------------------- images
 
 /** Draws the sign in the middle of a light 1280x720 picture and saves it as WebP. */
@@ -169,8 +214,43 @@ const failed = []
 const signCode = (question) => SIGN_QUERY.exec(question.image_query)?.[1]
 const signs = await findSigns([...new Set(todo.map(signCode).filter(Boolean))])
 
+const token = mapillaryToken()
+
 for (const question of todo) {
   const code = signCode(question)
+  const photo = MAPILLARY_QUERY.exec(question.image_query)
+  if (photo) {
+    try {
+      if (!token) throw new Error('clé Mapillary absente : ajouter MAPILLARY_TOKEN dans le fichier .env')
+      const [, id, top, bottom] = photo
+      const image = `img/rue-${id}.webp`
+      console.log(`${question.id} ← Mapillary ${id}`)
+      if (dryRun) continue
+      const found = await mapillaryPhoto(id, token)
+      const file = join(root, 'public', image)
+      if (!existsSync(file) || onlyId) {
+        const response = await fetch(found.downloadUrl)
+        if (!response.ok) throw new Error(`téléchargement refusé (${response.status})`)
+        await savePhoto(Buffer.from(await response.arrayBuffer()), file, Number(top ?? 0), Number(bottom ?? 1))
+      }
+      question.image = image
+      delete question.image_flagged
+      credits = credits.filter((c) => c.image !== image)
+      credits.push({
+        image,
+        source: 'Mapillary',
+        title: `Photo de rue, ${found.year}`,
+        author: found.author,
+        license: 'CC BY-SA 4.0',
+        url: found.pageUrl,
+      })
+      done++
+      save()
+    } catch (error) {
+      failed.push(`${question.id} : ${error.message}`)
+    }
+    continue
+  }
   if (!code) {
     skipped++
     continue
@@ -213,7 +293,7 @@ for (const question of todo) {
 }
 
 
-console.log(`\n${done} image(s) ajoutée(s), ${skipped} question(s) de scène laissée(s) pour plus tard.`)
+console.log(`\n${done} image(s) ajoutée(s), ${skipped} question(s) sans image pour l'instant.`)
 if (failed.length > 0) {
   console.log(`${failed.length} échec(s) :`)
   for (const line of failed) console.log(`  ✗ ${line}`)

@@ -1292,8 +1292,8 @@
     "id": "marquages-004",
     "theme": "marquages",
     "grave": false,
-    "image": null,
-    "image_query": "ligne d'arrêt feu rouge",
+    "image": "img/rue-4466126306992839.webp",
+    "image_query": "mapillary:4466126306992839 crop=0.00-0.78",
     "fr": "Devant un feu rouge, une large ligne blanche continue traverse ma bande. Où dois-je m'arrêter ?",
     "ru": "Перед красным светофором мою полосу пересекает широкая сплошная белая линия. Где нужно остановиться?",
     "options": [
@@ -1784,8 +1784,8 @@
     "id": "ronds-points-001",
     "theme": "ronds-points",
     "grave": false,
-    "image": null,
-    "image_query": "rond-point Tournai",
+    "image": "img/rue-869255729320007.webp",
+    "image_query": "mapillary:869255729320007 crop=0.02-0.78",
     "fr": "J'arrive à un rond-point. Avant l'entrée, il y a un triangle pointe en bas. Qui a la priorité ?",
     "ru": "Я подъезжаю к круговому движению. Перед въездом стоит треугольник вершиной вниз. У кого приоритет?",
     "options": [
@@ -1840,7 +1840,7 @@
     "id": "ronds-points-003",
     "theme": "ronds-points",
     "grave": false,
-    "image": null,
+    "image": "img/rue-1042777631729434.webp",
     "fr": "Je vais quitter le rond-point à la prochaine sortie. Quel clignotant dois-je mettre ?",
     "ru": "Я собираюсь съехать с круга на следующем съезде. Какой указатель поворота нужно включить?",
     "options": [
@@ -1864,7 +1864,8 @@
       "fr": "Je mets le clignotant droit avant de quitter le rond-point, pour prévenir les autres usagers.",
       "ru": "Перед съездом с круга я включаю правый указатель поворота, чтобы предупредить других участников движения."
     },
-    "verified": true
+    "verified": true,
+    "image_query": "mapillary:1042777631729434 crop=0.00-0.80"
   },
   {
     "id": "ronds-points-004",
@@ -2079,8 +2080,8 @@
     "id": "vitesse-001",
     "theme": "vitesse",
     "grave": true,
-    "image": null,
-    "image_query": "route hors agglomération Wallonie",
+    "image": "img/rue-1624307416154548.webp",
+    "image_query": "mapillary:1624307416154548 crop=0.00-0.82",
     "fr": "Je roule hors agglomération, en Wallonie. Il n'y a pas de panneau de vitesse. Quelle est la vitesse maximale ?",
     "ru": "Я еду вне населённого пункта, в Валлонии. Знака ограничения скорости нет. Какая максимальная скорость?",
     "options": [
@@ -2110,8 +2111,8 @@
     "id": "vitesse-002",
     "theme": "vitesse",
     "grave": true,
-    "image": null,
-    "image_query": "rue en agglomération Tournai",
+    "image": "img/rue-1374592971016942.webp",
+    "image_query": "mapillary:1374592971016942 crop=0.00-0.86",
     "fr": "Je roule en agglomération. Il n'y a pas de panneau de vitesse. Quelle est la vitesse maximale ?",
     "ru": "Я еду в населённом пункте. Знака ограничения скорости нет. Какая максимальная скорость?",
     "options": [
@@ -2203,7 +2204,7 @@
     "id": "vitesse-005",
     "theme": "vitesse",
     "grave": true,
-    "image": null,
+    "image": "img/rue-3003794849795472.webp",
     "fr": "Hors agglomération, je roule sur une route à deux bandes dans chaque sens. Les deux sens sont séparés par une berme centrale. Il n'y a pas de panneau. Quelle est la vitesse maximale ?",
     "ru": "Вне населённого пункта я еду по дороге с двумя полосами в каждом направлении. Направления разделены разделительной полосой. Знаков нет. Какая максимальная скорость?",
     "options": [
@@ -2227,7 +2228,8 @@
       "fr": "Sur une route à quatre bandes ou plus, avec les deux sens séparés autrement que par des marques au sol, la limite est de 120 km/h.",
       "ru": "На дороге с четырьмя и более полосами, где встречные направления разделены не разметкой, а иначе, ограничение — 120 км/ч."
     },
-    "verified": false
+    "verified": false,
+    "image_query": "mapillary:3003794849795472 crop=0.00-0.85"
   },
   {
     "id": "vitesse-006",
@@ -2700,8 +2702,8 @@
     "id": "stationnement-002",
     "theme": "stationnement",
     "grave": false,
-    "image": null,
-    "image_query": "passage pour piétons Tournai",
+    "image": "img/rue-374727680592430.webp",
+    "image_query": "mapillary:374727680592430 crop=0.27-1.00",
     "fr": "Puis-je m'arrêter ou stationner sur un passage pour piétons ?",
     "ru": "Можно ли мне останавливаться или парковаться на пешеходном переходе?",
     "options": [
@@ -2962,8 +2964,8 @@
     "id": "autoroute-001",
     "theme": "autoroute",
     "grave": true,
-    "image": null,
-    "image_query": "autoroute Belgique E42",
+    "image": "img/rue-2450512268761307.webp",
+    "image_query": "mapillary:2450512268761307 crop=0.00-0.88",
     "fr": "Je roule sur l'autoroute. Quelle est la vitesse maximale ?",
     "ru": "Я еду по автомагистрали. Какая максимальная скорость?",
     "options": [
@@ -3018,8 +3020,8 @@
     "id": "autoroute-003",
     "theme": "autoroute",
     "grave": false,
-    "image": null,
-    "image_query": "bande d'arrêt d'urgence autoroute Belgique",
+    "image": "img/rue-2450512268761307.webp",
+    "image_query": "mapillary:2450512268761307 crop=0.00-0.88",
     "fr": "Ma voiture tombe en panne sur l'autoroute. Puis-je m'arrêter sur la bande d'arrêt d'urgence ?",
     "ru": "Мой автомобиль ломается на автомагистрали. Можно ли мне остановиться на аварийной полосе?",
     "options": [
@@ -3285,8 +3287,8 @@
     "id": "usagers-vulnerables-002",
     "theme": "usagers-vulnerables",
     "grave": true,
-    "image": null,
-    "image_query": "piéton attend passage pour piétons",
+    "image": "img/rue-239736304846417.webp",
+    "image_query": "mapillary:239736304846417 crop=0.20-0.96",
     "fr": "Un piéton attend au bord du trottoir et veut traverser sur un passage pour piétons sans feux. Que dois-je faire ?",
     "ru": "Пешеход стоит у края тротуара и хочет перейти дорогу по переходу без светофора. Что мне нужно сделать?",
     "options": [
@@ -3833,8 +3835,8 @@
     "id": "feux-agents-001",
     "theme": "feux-agents",
     "grave": true,
-    "image": null,
-    "image_query": "feu rouge carrefour Tournai",
+    "image": "img/rue-1040653225519043.webp",
+    "image_query": "mapillary:1040653225519043 crop=0.00-0.78",
     "fr": "Le feu est rouge. Puis-je passer ?",
     "ru": "Горит красный свет. Можно ли мне проехать?",
     "options": [
