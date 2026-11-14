@@ -15,8 +15,8 @@ Valeurs utilisées dans l'app dont la source n'est pas officielle ou qui peuvent
 Questions marquées `verified: false` dans `data/questions.json`.
 Une fois la règle confirmée, passer `verified` à `true` et cocher la ligne.
 
-- [ ] `signalisation-indication-009` — Description du panneau F9 (route pour automobiles) et usagers exclus : à confirmer.
-- [ ] `signalisation-indication-010` — Couleur et texte exacts des panneaux de déviation belges (F41) : à confirmer.
+- [ ] `signalisation-indication-009` — Usagers exclus d'une route pour automobiles (panneau F9) : à confirmer.
+- [ ] `signalisation-indication-010` — Signification des panneaux orange en forme de flèche (F41, déviation) : à confirmer.
 - [ ] `marquages-010` — Couleur des marques temporaires de chantier en Belgique (orange) : à confirmer.
 - [ ] `ronds-points-002` — Usage du clignotant à l'entrée d'un rond-point (non obligatoire) : à confirmer.
 - [ ] `vitesse-005` — Limite de 120 km/h sur une route à 2×2 bandes avec berme centrale, hors agglomération, en Wallonie : à confirmer.

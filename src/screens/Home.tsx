@@ -285,6 +285,9 @@ export function Home({ progress, onNavigate, onOpenTheme, onTranslationLevel, on
         <span lang="fr">
           {questions.length} questions · {glossary.length} mots de vocabulaire
         </span>
+        <button className="btn-quiet" onClick={() => onNavigate('credits')}>
+          <Label fr="Crédits des images" ru="Источники изображений" hideRu={hideRu} />
+        </button>
       </footer>
     </main>
   )

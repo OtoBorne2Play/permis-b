@@ -9,6 +9,7 @@ import {
   recordExam,
   recordPractice,
   recordVocab,
+  toggleImageFlag,
   todaySession,
   type ExamRecord,
 } from './progress'
@@ -175,6 +176,20 @@ describe('answerLevelUp', () => {
   it('never goes above level 3', () => {
     const p = answerLevelUp({ ...emptyProgress(), translationLevel: 3 }, true, day(14))
     expect(p.translationLevel).toBe(3)
+  })
+})
+
+describe('toggleImageFlag', () => {
+  it('reports an image, then withdraws the report', () => {
+    let p = toggleImageFlag(emptyProgress(), 'q3')
+    expect(p.flaggedImages).toEqual(['q3'])
+    p = toggleImageFlag(p, 'q3')
+    expect(p.flaggedImages).toEqual([])
+  })
+
+  it('travels in the exported file, where the image script reads it', () => {
+    const p = toggleImageFlag(emptyProgress(), 'q3')
+    expect(JSON.parse(exportProgress(p, day(14))).progress.flaggedImages).toEqual(['q3'])
   })
 })
 

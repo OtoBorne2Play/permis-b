@@ -10,6 +10,9 @@ interface ReviewProps {
   level: TranslationLevel
   /** Called once per card, for its first answer of the session. Retries do not count. */
   onAnswer: (questionId: string, correct: boolean) => void
+  /** Ids of the questions whose image is reported as unsuitable. */
+  flaggedImages: string[]
+  onFlagImage: (questionId: string) => void
   onExit: () => void
 }
 
@@ -31,7 +34,7 @@ function makeCard(question: Question, retry: boolean): Card {
  * A missed card comes back at the end of the session, only to correct the
  * mistake: it stays "to review tomorrow" whatever she answers then.
  */
-export function Review({ questions, level, onAnswer, onExit }: ReviewProps) {
+export function Review({ questions, level, onAnswer, flaggedImages, onFlagImage, onExit }: ReviewProps) {
   const [queue, setQueue] = useState<Card[]>(() => questions.map((q) => makeCard(q, false)))
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
@@ -180,7 +183,16 @@ export function Review({ questions, level, onAnswer, onExit }: ReviewProps) {
         </div>
       ) : (
         <div key={`back-${index}`} className="flip-in">
-          <QuestionView question={question} showRu={showRu} selected={chosen} revealed={answered} glossary onSelect={choose} />
+          <QuestionView
+            question={question}
+            showRu={showRu}
+            selected={chosen}
+            revealed={answered}
+            glossary
+            imageFlagged={flaggedImages.includes(question.id)}
+            onFlagImage={() => onFlagImage(question.id)}
+            onSelect={choose}
+          />
         </div>
       )}
 

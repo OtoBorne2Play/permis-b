@@ -13,16 +13,24 @@ interface QuestionViewProps {
   disabled?: boolean
   /** Make the glossary words of the question tappable (never in the mock exam). */
   glossary?: boolean
+  /** Shows a discreet button to report an unsuitable image (never in the mock exam). */
+  onFlagImage?: () => void
+  imageFlagged?: boolean
   onSelect: (index: number) => void
 }
 
 /** Official layout: image on top, question underneath, then the A/B/C buttons. */
-export function QuestionView({ question, showRu, selected, revealed = false, disabled = false, glossary = false, onSelect }: QuestionViewProps) {
+export function QuestionView({ question, showRu, selected, revealed = false, disabled = false, glossary = false, onFlagImage, imageFlagged = false, onSelect }: QuestionViewProps) {
   return (
     <div className="question">
       <div className="question-card">
         {question.image && (
           <img className="question-image" src={import.meta.env.BASE_URL + question.image} alt="" />
+        )}
+        {question.image && onFlagImage && (
+          <button className="flag-image" aria-pressed={imageFlagged} onClick={onFlagImage}>
+            {imageFlagged ? 'Image signalée ✓ · Отмечено' : 'Image inadaptée ? · Картинка не подходит?'}
+          </button>
         )}
         <p className="question-text">
           <Label fr={question.fr} ru={question.ru} hideRu={!showRu} glossary={glossary} />

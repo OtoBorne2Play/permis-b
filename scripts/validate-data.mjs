@@ -143,7 +143,24 @@ hazards.forEach((h, i) => {
 checkUnique('hazards.json', hazards.map((h) => h?.id))
 
 // ---------- credits ----------
-load('credits.json')
+const credits = load('credits.json')
+credits.forEach((c, i) => {
+  const where = `credits.json [${c?.image ?? i}]`
+  checkImage(where, c?.image)
+  for (const key of ['source', 'author', 'license', 'url']) {
+    if (!isText(c?.[key])) errors.push(`${where}: "${key}" manquant`)
+  }
+})
+checkUnique('credits.json', credits.map((c) => c?.image))
+const credited = new Set(credits.map((c) => c?.image))
+const usedImages = [
+  ...questions.map((q) => q?.image),
+  ...lessons.flatMap((l) => (l?.blocks ?? []).map((b) => b?.image)),
+  ...hazards.map((h) => h?.image),
+].filter(isText)
+for (const image of new Set(usedImages)) {
+  if (!credited.has(image)) errors.push(`credits.json: aucune ligne de crédit pour ${image}`)
+}
 
 // ---------- information (does not fail the check) ----------
 const perTheme = new Map([...themeIds].map((id) => [id, 0]))
@@ -159,7 +176,7 @@ if (noLesson > 0) warnings.push(`${noLesson} thème(s) sans fiche`)
 console.log(
   `Données : ${themes.length} thèmes, ${questions.length} questions ` +
     `(${questions.filter((q) => q?.grave).length} graves), ${lessons.length} fiches, ` +
-    `${glossary.length} mots de glossaire, ${hazards.length} situations de danger.`,
+    `${glossary.length} mots de glossaire, ${hazards.length} situations de danger, ${new Set(usedImages).size} images.`,
 )
 for (const w of warnings) console.log(`  À noter : ${w}`)
 

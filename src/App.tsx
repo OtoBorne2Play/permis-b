@@ -8,11 +8,13 @@ import {
   recordExam,
   recordPractice,
   recordVocab,
+  toggleImageFlag,
   saveProgress,
   todaySession,
   type ExamSeconds,
   type Progress,
 } from './progress'
+import { Credits } from './screens/Credits'
 import { Exam } from './screens/Exam'
 import { Home } from './screens/Home'
 import { Practice } from './screens/Practice'
@@ -22,7 +24,7 @@ import { Vocab } from './screens/Vocab'
 import type { GlossaryEntry, Question, TranslationLevel } from './types'
 
 /** Screens the home screen can open directly. */
-export type Screen = 'review' | 'exam' | 'themes' | 'vocab'
+export type Screen = 'review' | 'exam' | 'themes' | 'vocab' | 'credits'
 
 /** What is on screen. The lists are chosen once, when the screen opens. */
 type View =
@@ -34,6 +36,7 @@ type View =
   | { name: 'theme'; themeId: string }
   | { name: 'theme-questions'; themeId: string; questions: Question[] }
   | { name: 'vocab'; words: GlossaryEntry[] }
+  | { name: 'credits' }
 
 export function App() {
   const [view, setView] = useState<View>({ name: 'home' })
@@ -50,11 +53,13 @@ export function App() {
 
   const level = progress.translationLevel
   const goHome = () => setView({ name: 'home' })
+  const flagImage = (questionId: string) => setProgress((p) => toggleImageFlag(p, questionId))
 
   const open = (screen: Screen) => {
     if (screen === 'review') setView({ name: 'review', cards: todaySession(allQuestions, progress, new Date()) })
     else if (screen === 'vocab') setView({ name: 'vocab', words: pickVocab(glossary, progress.vocab) })
     else if (screen === 'exam') setView({ name: 'exam' })
+    else if (screen === 'credits') setView({ name: 'credits' })
     else setView({ name: 'themes' })
   }
 
@@ -77,6 +82,8 @@ export function App() {
           questions={view.cards}
           level={level}
           onAnswer={(questionId, correct) => setProgress((p) => recordAnswer(p, questionId, correct, new Date()))}
+          flaggedImages={progress.flaggedImages}
+          onFlagImage={flagImage}
           onExit={goHome}
         />
       )
@@ -96,7 +103,14 @@ export function App() {
     case 'exam-errors':
       // Free practice: the mistakes were already recorded when the exam ended.
       return (
-        <Practice title={{ fr: 'Mes erreurs', ru: 'Мои ошибки' }} questions={view.questions} level={level} onExit={goHome} />
+        <Practice
+          title={{ fr: 'Mes erreurs', ru: 'Мои ошибки' }}
+          questions={view.questions}
+          level={level}
+          flaggedImages={progress.flaggedImages}
+          onFlagImage={flagImage}
+          onExit={goHome}
+        />
       )
 
     case 'themes':
@@ -133,10 +147,15 @@ export function App() {
           level={level}
           onAnswer={(questionId, correct) => setProgress((p) => recordPractice(p, questionId, correct, new Date()))}
           exitLabel={{ fr: 'Retour aux thèmes', ru: 'Назад к темам' }}
+          flaggedImages={progress.flaggedImages}
+          onFlagImage={flagImage}
           onExit={() => setView({ name: 'themes' })}
         />
       )
     }
+
+    case 'credits':
+      return <Credits level={level} onExit={goHome} />
 
     case 'vocab':
       return (

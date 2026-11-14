@@ -52,6 +52,8 @@ export interface Hazard {
 export interface Credit {
   image: string
   source: string
+  /** Name of the original file or photo at the source. */
+  title?: string
   author: string
   license: string
   url: string

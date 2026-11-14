@@ -45,6 +45,8 @@ export interface Progress {
   levelUpAskedDay: string | null
   /** Self-assessed vocabulary cards, per French word. */
   vocab: Record<string, VocabScore>
+  /** Ids of the questions whose image she reported as unsuitable. Read by scripts/fetch-images.mjs. */
+  flaggedImages: string[]
 }
 
 export function emptyProgress(): Progress {
@@ -59,6 +61,7 @@ export function emptyProgress(): Progress {
     newIntroduced: { day: null, count: 0 },
     levelUpAskedDay: null,
     vocab: {},
+    flaggedImages: [],
   }
 }
 
@@ -169,6 +172,17 @@ export function recordVocab(progress: Progress, word: string, knew: boolean, tod
       [word]: { right: score.right + (knew ? 1 : 0), wrong: score.wrong + (knew ? 0 : 1) },
     },
     streak: touchStreak(progress.streak, dayKey(today)),
+  }
+}
+
+/** Reports the image of a question as unsuitable, or withdraws the report. */
+export function toggleImageFlag(progress: Progress, questionId: string): Progress {
+  const flagged = progress.flaggedImages.includes(questionId)
+  return {
+    ...progress,
+    flaggedImages: flagged
+      ? progress.flaggedImages.filter((id) => id !== questionId)
+      : [...progress.flaggedImages, questionId],
   }
 }
 

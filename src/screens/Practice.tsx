@@ -13,13 +13,25 @@ interface PracticeProps {
   onAnswer?: (questionId: string, correct: boolean) => void
   /** Where the final button leads. Default: home. */
   exitLabel?: Bilingual
+  /** Ids of the questions whose image is reported as unsuitable. */
+  flaggedImages: string[]
+  onFlagImage: (questionId: string) => void
   onExit: () => void
 }
 
 const HOME: Bilingual = { fr: 'Accueil', ru: 'На главную' }
 
 /** Untimed questions with the answer and explanation shown after each one. */
-export function Practice({ title, questions: source, level, onAnswer, exitLabel = HOME, onExit }: PracticeProps) {
+export function Practice({
+  title,
+  questions: source,
+  level,
+  onAnswer,
+  exitLabel = HOME,
+  flaggedImages,
+  onFlagImage,
+  onExit,
+}: PracticeProps) {
   // New random order of A/B/C each time, so she cannot just remember "it was B".
   const [questions] = useState(() => source.map((q) => ({ ...q, options: shuffle(q.options) })))
   const [index, setIndex] = useState(0)
@@ -103,6 +115,8 @@ export function Practice({ title, questions: source, level, onAnswer, exitLabel 
         selected={chosen}
         revealed={answered}
         glossary
+        imageFlagged={flaggedImages.includes(question.id)}
+        onFlagImage={() => onFlagImage(question.id)}
         onSelect={choose}
       />
 
